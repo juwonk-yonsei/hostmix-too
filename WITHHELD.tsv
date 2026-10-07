@@ -1,0 +1,24 @@
+path	sha256	bytes	reason
+config/pog570_eval_labels.tsv	5897cb0db827ca6f3d95504a6e44c84ed6f929ff5a2430c97d882a308dd6f4c2	33269	POG570 patient identifiers with tumour type and histology from the POG570 release; its SHA-256 is also in config/pog570_eval_labels.sha256
+config/prereg_A6.md	4b4c6ac1ab017077eb672d540f0f6446fe3e806722b3a6cb086c272b75c7c077	9960	internal plan (Korean) that lists POG570 patient identifiers with per-patient results; the English translation config/prereg_A6_en.md is included
+reports/A_methods_facts.md	1059fc27b7f1f308c37c6da7cb7d3351fe140ad29de27646806c4dfa76f8dbdf	10086	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_1.md	ed2a2ff4e64ac3a97b8b7227b86fd00eb1089a873d08b08a575a2f497dd810d4	61002	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_10.md	161c281e6286b8eab53dbb29b9a121d07f70dd8dad626242772748173a052c21	15914	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_11.md	18707423f791dc16ccd94336263a58e355a583a1a0c6daf9e29e9a20305f299f	20397	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_12.md	ca5558420fb1af7143bdfb64adb8d01744177319a36587f13aad62f0a9e56c29	22502	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_13.md	918c3906e71fa23d068daadff03a45d3e10ea94f51c1a107798857c1d682e1fc	18996	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_14.md	ea083dd740ac06e6317915c074727bc0ff2428de015ee684fc8ddc5dc71b2a9a	11545	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_15.md	ef496430af4bd502677d142d383f2b8750221886bcea4441918dec2e2ea66604	19833	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_16.md	e45c8cae352137845361bb9338bf96945db182043b84b9ca1043db31e0fca72c	47674	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_17.md	3d5ca714e38186ba66911d26ae8a85f518d3847c416e250ae546f596aa92d3f6	93698	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_18.md	1d50652a72f0cdda22195989a6e940cebb2b0a89fde884a1c612461a103616f5	27996	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_19.md	dbe1edbd28d46bc74c633f22a73bf3915fcc6b7dde292d0e41f3c7de3b1dee38	28447	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_2.md	8f8a0980d1ee8ecf08a93aec4710336ebb7696fade1f14e977c6414211607336	145400	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_3.md	fd0314f4086f14669809ebd8e91fdd232723f6f23c48f5c2acc3b380c1d31ce0	34520	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_4.md	a096fec17d4cae9c437bbf202e9dbc21417747d8fc57dd00e7dd2de3814cb28a	35658	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_5.md	63250f174342115489c25590a851b26808057651b8e45f65182ee27de7c5e686	309970	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_6.md	adadea79ba85a20d9fdd5746f3d94acf2de3f02dedda4524f05d58b18146e23d	39192	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_7.md	5faf87786fa0bcb8b180f759d41f7cc01944f3dd920521b7f960ccddbf2bb553	131950	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_8.md	a7328fc8913011535d135797b637098787b89efb99eaf48bb7feef4048c5cd90	40151	internal work reports (Korean); some list POG570 patient identifiers
+reports/A_보고서_9.md	ca7328ede2cdeb55b39a0dd3fa3d47bd8a0ab68004248913d5867a26422ab521	16751	internal work reports (Korean); some list POG570 patient identifiers
+release/history.bundle	28c4a1504b2d04027c18fbcfa7ec70e6fc685ee8a74a8380ed30ba399ac64fe2	9200229	git bundle of the full project history, which contains the files above

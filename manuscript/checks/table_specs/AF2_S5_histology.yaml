@@ -1,0 +1,8 @@
+id: AF2_S5_histology
+doc: af2
+sheet: S5_histology
+header_row: 2
+builder: copy
+params:
+  source: manuscript/bmc/figure_source/S5_histology.tsv
+origin: figure_source

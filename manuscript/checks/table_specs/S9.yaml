@@ -1,0 +1,93 @@
+id: S9
+doc: af1
+caption: Table S9.
+key_cols:
+- 0
+row_id: '{t}'
+maps:
+  0:
+    Baseline:
+      t: base
+      mm: BASE-Z
+    Standardized, pure (C = 0.03):
+      t: pure03
+      mm: PURE-Zs
+    Standardized, pure (C = 0.15):
+      t: pure15
+      mm: PURE-Zs-w
+    Unstandardized, mixtures (C = 0.1):
+      t: mix
+      mm: MIX-Z0
+    HostMix-TOO:
+      t: sa
+      mm: SA-Z
+header_cells:
+  1:
+    id: h_top1
+    t: Top-1 (n = {v})
+    f:
+      v:
+        fact: ma_layer_n_evaluation
+  2:
+    id: h_host
+    t: Host-attraction rate (n = {v})
+    f:
+      v:
+        fact: ma_layer_n_at_risk
+  3:
+    id: h_native
+    t: Native-truth top-1 (n = {v})
+    f:
+      v:
+        fact: ma_layer_n_native_truth
+columns:
+  0:
+    id: model
+    t: '{*}'
+    rows:
+      pure03:
+        t: Standardized, pure (C = {v})
+        f:
+          v:
+            const: c_pure03
+      pure15:
+        t: Standardized, pure (C = {v})
+        f:
+          v:
+            const: c_pure15
+      mix:
+        t: Unstandardized, mixtures (C = {v})
+        f:
+          v:
+            const: c_mix
+  1:
+    id: top1
+    t: '{v}'
+    f:
+      v:
+        fact: ma_layer_{t}_top1
+  2:
+    id: host
+    t: '{v}'
+    f:
+      v:
+        fact: ma_layer_{t}_host_rate
+  3:
+    id: native
+    t: '{v}'
+    f:
+      v:
+        fact: ma_layer_{t}_native_truth_top1
+  4:
+    id: esophagus
+    t: '{v}'
+    f:
+      v:
+        fact: ma_layer_{t}_n_esophagus
+  5:
+    id: random_loss
+    note: "keys: the Table S9 legend says 'the mean loss of top-1 accuracy in POG570 and MET500 when the classifier genes missing from each microarray platform were removed and when as many randomly chosen classifier genes were removed'"
+    t: '{v}'
+    f:
+      v:
+        fact: mg_{t}_random_mean_mean

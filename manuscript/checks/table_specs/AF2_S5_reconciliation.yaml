@@ -1,0 +1,8 @@
+id: AF2_S5_reconciliation
+doc: af2
+sheet: S5_reconciliation
+header_row: 2
+builder: copy
+params:
+  source: manuscript/bmc/figure_source/S5_reconciliation.tsv
+origin: figure_source

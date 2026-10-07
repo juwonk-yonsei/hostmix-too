@@ -1,0 +1,130 @@
+sample_id	patient_id	raw_site	standard_site	organ	organ_rule	library	gsm	disease	in_eval	in_native	in_risk	external_max	internal_max	flag_candidate
+AUR-AFEA-TTP1-A-1-0-R-A741-41	AUR-AFEA-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412478	Primary tumor	True	True	False	0.858585885438018	0.9420890667188069	False
+AUR-AFEA-TTM4-A-1-1-R-A742-41	AUR-AFEA-TTM4-A-1-1-R-A742-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412479	Metastatic tumor	True	False	True	0.8883187401756548	0.9559343258673197	False
+AUR-AFEA-TTM2-A-1-1-R-A742-41	AUR-AFEA-TTM2-A-1-1-R-A742-41	Brain	brain	Breast	cohort	raw_counts	GSM6412480	Metastatic tumor	True	False	True	0.8161709165380906	0.9028168849419064	False
+AUR-AFEA-TTM1-A-1-1-R-A742-41	AUR-AFEA-TTM1-A-1-1-R-A742-41	Brain	brain	Breast	cohort	raw_counts	GSM6412481	Metastatic tumor	True	False	True	0.8408816363298568	0.9028168849419064	False
+AUR-AFEA-TTM3-A-1-1-R-A742-41	AUR-AFEA-TTM3-A-1-1-R-A742-41	Lung	lung	Breast	cohort	raw_counts	GSM6412482	Metastatic tumor	True	False	True	0.8545531404670342	0.9559343258673197	False
+AUR-AFEA-TTM6-A-1-0-R-A741-41	AUR-AFEA-TTM6-A-1-0-R-A741-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412483	Metastatic tumor	True	False	True	0.8446151082457796	0.9460291853779724	False
+AUR-AFE7-TTP2-A-1-1-R-A742-41	AUR-AFE7-TTP2-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412484	Primary tumor	True	True	False	0.8649867465313488	0.968580776988154	False
+AUR-AFE7-TTM2-A-1-1-R-A742-41	AUR-AFE7-TTM2-A-1-1-R-A742-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412485	Metastatic tumor	True	False	True	0.8689420845404869	0.9825016974276518	False
+AUR-AFE7-TTM1-A-1-1-R-A742-41	AUR-AFE7-TTM1-A-1-1-R-A742-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412486	Metastatic tumor	True	False	True	0.8690918668083621	0.9825016974276518	False
+AUR-AFE7-TTM3-A-1-1-R-A742-41	AUR-AFE7-TTM3-A-1-1-R-A742-41	Lung	lung	Breast	cohort	raw_counts	GSM6412487	Metastatic tumor	True	False	True	0.8673009579824175	0.9772759980122064	False
+AUR-AD9G-TTP1-B-4-0-R-A584-39	AUR-AD9G-TTP1-B-4-0-R-A584-39	Breast	breast	Breast	cohort	raw_counts	GSM6412488	Primary tumor	True	True	False	0.8092050085310356	0.9170619946719609	False
+AUR-AD9G-TTM2-A-1-1-R-A542-39	AUR-AD9G-TTM2-A-1-1-R-A542-39	Liver	liver	Breast	cohort	raw_counts	GSM6412489	Metastatic tumor	True	False	True	0.8766902233374331	0.9169192811368257	False
+AUR-AD9G-TTM3-A-1-1-R-A542-39	AUR-AD9G-TTM3-A-1-1-R-A542-39	Adrenal	adrenal	Breast	cohort	raw_counts	GSM6412490	Metastatic tumor	True	False	True	0.8874436590681165	0.9081143533127998	False
+AUR-AFE5-TTP1-A-1-0-R-A741-41	AUR-AFE5-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412491	Primary tumor	True	True	False	0.8345571918218146	0.9272881645500093	False
+AUR-AFE5-TTM4-A-1-1-R-A742-41	AUR-AFE5-TTM4-A-1-1-R-A742-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412492	Metastatic tumor	True	False	True	0.8785380875176304	0.9580791617145135	False
+AUR-AFE5-TTM9-A-1-1-R-A742-41	AUR-AFE5-TTM9-A-1-1-R-A742-41	Spleen	other	Breast	cohort	raw_counts	GSM6412493	Metastatic tumor	True	False	False	0.8535509158418565	0.9580791617145135	False
+AUR-AG0N-TTP1-A-1-0-R-A741-41	AUR-AG0N-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412494	Primary tumor	True	True	False	0.8401950704118153	0.9396404325820433	False
+AUR-AG0N-TTM1-A-1-1-R-A743-41	AUR-AG0N-TTM1-A-1-1-R-A743-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412495	Metastatic tumor	True	False	True	0.8836090208217813	0.9323769945165741	False
+AUR-AG0M-TTP1-A-2-0-R-A741-41	AUR-AG0M-TTP1-A-2-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412496	Primary tumor	True	True	False	0.8531188308100385	0.9272881645500093	False
+AUR-AG0M-TTM1-A-2-1-R-A743-41	AUR-AG0M-TTM1-A-2-1-R-A743-41	Chest	other	Breast	cohort	raw_counts	GSM6412497	Metastatic tumor	True	False	False	0.8584471915567173	0.918478224605549	False
+AUR-AG0J-TTP1-A-1-0-R-A741-41	AUR-AG0J-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412498	Primary tumor	True	True	False	0.8706960773212908	0.9497221648434024	False
+AUR-AG0J-TTM1-A-1-0-R-A743-41	AUR-AG0J-TTM1-A-1-0-R-A743-41	Soft tissue	soft_tissue	Breast	cohort	raw_counts	GSM6412499	Metastatic tumor	True	False	True	0.8928736633660552	0.8953124486285335	False
+AUR-AFSP-TTP1-A-8-0-R-A741-41	AUR-AFSP-TTP1-A-8-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412500	Primary tumor	True	True	False	0.8436348465343236	0.9214999889263258	False
+AUR-AFSP-TTM1-A-8-0-R-A741-41	AUR-AFSP-TTM1-A-8-0-R-A741-41	Pleura	pleura	Breast	cohort	raw_counts	GSM6412501	Metastatic tumor	True	False	True	0.7985054162672259	0.8902225179663273	False
+AUR-AF9A-TTP1-A-1-0-R-A741-41	AUR-AF9A-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412502	Primary tumor	True	True	False	0.828605532467802	0.9334260142249878	False
+AUR-AF9A-TTM1-A-1-1-R-A742-41	AUR-AF9A-TTM1-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412503	Metastatic tumor	True	False	True	0.8598656849739204	0.9334260142249878	False
+AUR-AF98-TTP1-A-1-0-R-A741-41	AUR-AF98-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412504	Primary tumor	True	True	False	0.8518777722986587	0.9195586639229564	False
+AUR-AF98-TTM1-A-1-1-R-A742-41	AUR-AF98-TTM1-A-1-1-R-A742-41	Chest	other	Breast	cohort	raw_counts	GSM6412505	Metastatic tumor	True	False	False	0.887772269923038	0.9095690850293259	False
+AUR-AF95-TTP1-A-1-0-R-A741-41	AUR-AF95-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412506	Primary tumor	True	True	False	0.8799481758342135	0.9497221648434024	False
+AUR-AF95-TTM1-A-1-1-R-A742-41	AUR-AF95-TTM1-A-1-1-R-A742-41	Chest	other	Breast	cohort	raw_counts	GSM6412507	Metastatic tumor	True	False	False	0.879644234903933	0.8814132320057129	False
+AUR-AFSL-TTP1-A-8-0-R-A741-41	AUR-AFSL-TTP1-A-8-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412508	Primary tumor	True	True	False	0.8584933666717591	0.9494498059912322	False
+AUR-AFSL-TTM1-A-8-0-R-A741-41	AUR-AFSL-TTM1-A-8-0-R-A741-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412509	Metastatic tumor	True	False	True	0.8600917237110189	0.9494498059912322	False
+AUR-AFR5-TTP1-A-1-1-R-A743-41	AUR-AFR5-TTP1-A-1-1-R-A743-41	Breast	breast	Breast	cohort	raw_counts	GSM6412510	Primary tumor	True	True	False	0.8818399954224684	0.9053665295419715	False
+AUR-AFR5-TTM1-A-1-1-R-A743-41	AUR-AFR5-TTM1-A-1-1-R-A743-41	Brain	brain	Breast	cohort	raw_counts	GSM6412511	Metastatic tumor	True	False	True	0.8586573589965278	0.9053665295419715	False
+AUR-AE6Y-TTP1-A-1-0-R-A741-41	AUR-AE6Y-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412512	Primary tumor	True	True	False	0.8661726757076151	0.9513304482974956	False
+AUR-AE6Y-TTM1-A-1-1-R-A742-41	AUR-AE6Y-TTM1-A-1-1-R-A742-41	Lung	lung	Breast	cohort	raw_counts	GSM6412513	Metastatic tumor	True	False	True	0.8780090627718914	0.9513304482974956	False
+AUR-AE5H-TTP1-A-1-1-R-A742-41	AUR-AE5H-TTP1-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412514	Primary tumor	True	True	False	0.8683699718135071	0.9425529459478283	False
+AUR-AE5H-TTM1-A-1-1-R-A742-41	AUR-AE5H-TTM1-A-1-1-R-A742-41	Skin	skin	Breast	cohort	raw_counts	GSM6412515	Metastatic tumor	True	False	True	0.8594953834937563	0.9425529459478283	False
+AUR-AFUI-TTP1-A-1-0-R-A743-41	AUR-AFUI-TTP1-A-1-0-R-A743-41	Breast	breast	Breast	cohort	raw_counts	GSM6412516	Primary tumor	True	True	False	0.8873262864833081	0.9661770648020975	False
+AUR-AFUI-TTM1-A-1-0-R-A743-41	AUR-AFUI-TTM1-A-1-0-R-A743-41	Chest	other	Breast	cohort	raw_counts	GSM6412517	Metastatic tumor	True	False	False	0.8778903602802636	0.9661770648020975	False
+AUR-AER7-TTP1-A-1-0-R-A741-41	AUR-AER7-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412518	Primary tumor	True	True	False	0.8505350207377296	0.9406596110705725	False
+AUR-AER7-TTM4-A-1-1-R-A742-41	AUR-AER7-TTM4-A-1-1-R-A742-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412519	Metastatic tumor	True	False	True	0.8566116985189135	0.8938336279648794	False
+AUR-AER6-TTP1-A-1-0-R-A741-41	AUR-AER6-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412520	Primary tumor	True	True	False	0.841964479735916	0.9176117443817549	False
+AUR-AER6-TTM2-A-1-1-R-A742-41	AUR-AER6-TTM2-A-1-1-R-A742-41	Thyroid	other	Breast	cohort	raw_counts	GSM6412521	Metastatic tumor	True	False	False	0.8704918437610929	0.9360042057818904	False
+AUR-AER6-TTM3-A-1-1-R-A742-41	AUR-AER6-TTM3-A-1-1-R-A742-41	Diaphragm	other	Breast	cohort	raw_counts	GSM6412522	Metastatic tumor	True	False	False	0.869162778038875	0.9592652752417837	False
+AUR-AER6-TTM7-A-1-1-R-A742-41	AUR-AER6-TTM7-A-1-1-R-A742-41	Soft tissue	soft_tissue	Breast	cohort	raw_counts	GSM6412523	Metastatic tumor	True	False	True	0.8762970769698442	0.974706407484248	False
+AUR-AER6-TTM9-A-1-1-R-A742-41	AUR-AER6-TTM9-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412524	Metastatic tumor	True	False	True	0.8714509671660893	0.9479218019308967	False
+AUR-AER6-TTM6-A-1-1-R-A742-41	AUR-AER6-TTM6-A-1-1-R-A742-41	Rectum	other	Breast	cohort	raw_counts	GSM6412525	Metastatic tumor	True	False	False	0.8473205390999894	0.9439731718444151	False
+AUR-AER6-TTM5-A-1-1-R-A742-41	AUR-AER6-TTM5-A-1-1-R-A742-41	Stomach	other	Breast	cohort	raw_counts	GSM6412526	Metastatic tumor	True	False	False	0.8837697201865906	0.952638033965161	False
+AUR-AER6-TTM1-A-1-1-R-A742-41	AUR-AER6-TTM1-A-1-1-R-A742-41	Skin	skin	Breast	cohort	raw_counts	GSM6412527	Metastatic tumor	True	False	True	0.883312551607082	0.974706407484248	False
+AUR-AER6-TTM10-A-1-1-R-A742-41	AUR-AER6-TTM10-A-1-1-R-A742-41	Peritoneum	other	Breast	cohort	raw_counts	GSM6412528	Metastatic tumor	True	False	False	0.8788354732034243	0.952638033965161	False
+AUR-AFEC-TTP2-A-1-1-R-A742-41	AUR-AFEC-TTP2-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412529	Primary tumor	True	True	False	0.8509388585608827	0.956535758796693	False
+AUR-AFEC-TTM3-A-1-1-R-A742-41	AUR-AFEC-TTM3-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412530	Metastatic tumor	True	False	True	0.8461759351053451	0.9240155279732924	False
+AUR-AFEC-TTM4-A-1-1-R-A742-41	AUR-AFEC-TTM4-A-1-1-R-A742-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412531	Metastatic tumor	True	False	True	0.8972844728619259	0.902805516666932	False
+AUR-AFEC-TTM6-A-1-1-R-A742-41	AUR-AFEC-TTM6-A-1-1-R-A742-41	Pleura	pleura	Breast	cohort	raw_counts	GSM6412532	Metastatic tumor	True	False	True	0.8904751758435768	0.956535758796693	False
+AUR-AG12-TTP1-A-1-0-R-A741-41	AUR-AG12-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412533	Primary tumor	True	True	False	0.8546360767879079	0.9368598034074697	False
+AUR-AG12-TTM1-A-1-1-R-A743-41	AUR-AG12-TTM1-A-1-1-R-A743-41	Liver	liver	Breast	cohort	raw_counts	GSM6412534	Metastatic tumor	True	False	True	0.8882516181172034	0.919513394459212	False
+AUR-AERX-TTP1-A-1-0-R-A741-41	AUR-AERX-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412535	Primary tumor	True	True	False	0.8514953692789626	0.9478460848104164	False
+AUR-AERX-TTM1-A-1-1-R-A742-41	AUR-AERX-TTM1-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412536	Metastatic tumor	True	False	True	0.8727803955827877	0.9478460848104164	False
+AUR-AERW-TTP1-B-1-0-R-A741-41	AUR-AERW-TTP1-B-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412537	Primary tumor	True	True	False	0.8294178749726794	0.9147034034869415	False
+AUR-AERW-TTM1-A-1-1-R-A742-41	AUR-AERW-TTM1-A-1-1-R-A742-41	Skin	skin	Breast	cohort	raw_counts	GSM6412538	Metastatic tumor	True	False	True	0.861428879624529	0.9231172490007112	False
+AUR-AFSO-TTP1-A-8-0-R-A741-41	AUR-AFSO-TTP1-A-8-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412539	Primary tumor	True	True	False	0.8500646088995157	0.9480981033451874	False
+AUR-AFSO-TTM1-A-8-0-R-A741-41	AUR-AFSO-TTM1-A-8-0-R-A741-41	Brain	brain	Breast	cohort	raw_counts	GSM6412540	Metastatic tumor	True	False	True	0.8590499828627095	0.9480981033451874	False
+AUR-AFR3-TTP1-A-2-1-R-A743-41	AUR-AFR3-TTP1-A-2-1-R-A743-41	Breast	breast	Breast	cohort	raw_counts	GSM6412541	Primary tumor	True	True	False	0.8790601132281238	0.9261481603947951	False
+AUR-AFR3-TTM1-A-1-1-R-A743-41	AUR-AFR3-TTM1-A-1-1-R-A743-41	Brain	brain	Breast	cohort	raw_counts	GSM6412542	Metastatic tumor	True	False	True	0.8573875252216695	0.9211644126665582	False
+AUR-AE5G-TTP1-A-1-1-R-A742-41	AUR-AE5G-TTP1-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412543	Primary tumor	True	True	False	0.8911463725920906	0.9334176376608383	False
+AUR-AE5G-TTM1-A-1-1-R-A742-41	AUR-AE5G-TTM1-A-1-1-R-A742-41	Brain	brain	Breast	cohort	raw_counts	GSM6412544	Metastatic tumor	True	False	True	0.8834643296050997	0.9334176376608383	False
+AUR-AF94-TTP1-A-1-0-R-A741-41	AUR-AF94-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412545	Primary tumor	True	True	False	0.8425627319444344	0.930709742081239	False
+AUR-AF94-TTM1-A-1-1-R-A742-41	AUR-AF94-TTM1-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412546	Metastatic tumor	True	False	True	0.8927287455503977	0.9142207583748794	False
+AUR-AFE4-TTP1-A-1-0-R-A741-41	AUR-AFE4-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412547	Primary tumor	True	True	False	0.8291264942843507	0.948174399439636	False
+AUR-AFE4-TTM1-A-1-1-R-A742-41	AUR-AFE4-TTM1-A-1-1-R-A742-41	Lung	lung	Breast	cohort	raw_counts	GSM6412548	Metastatic tumor	True	False	True	0.8749037723610034	0.9529106715511417	False
+AUR-AFE4-TTM6-A-1-1-R-A742-41	AUR-AFE4-TTM6-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412549	Metastatic tumor	True	False	True	0.8780704791097659	0.9306713617397223	False
+AUR-AFE4-TTM5-A-1-1-R-A742-41	AUR-AFE4-TTM5-A-1-1-R-A742-41	Pericardium	other	Breast	cohort	raw_counts	GSM6412550	Metastatic tumor	True	False	False	0.8791171588933503	0.9529106715511417	False
+AUR-AFUN-TTP1-A-1-0-R-A741-41	AUR-AFUN-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412551	Primary tumor	True	True	False	0.8250108048465177	0.9398918884746783	False
+AUR-AFUN-TTM1-A-1-0-R-A743-41	AUR-AFUN-TTM1-A-1-0-R-A743-41	Uterus	other	Breast	cohort	raw_counts	GSM6412552	Metastatic tumor	True	False	False	0.8723417755294149	0.9177421511960815	False
+AUR-AFUL-TTP1-A-1-1-R-A743-41	AUR-AFUL-TTP1-A-1-1-R-A743-41	Breast	breast	Breast	cohort	raw_counts	GSM6412553	Primary tumor	True	True	False	0.8676525896699222	0.9374281839046367	False
+AUR-AFUL-TTM1-A-1-1-R-A743-41	AUR-AFUL-TTM1-A-1-1-R-A743-41	Ovary	ovary	Breast	cohort	raw_counts	GSM6412554	Metastatic tumor	True	False	True	0.8527782360943253	0.9339808956141281	False
+AUR-AFKB-TTP1-A-10-0-R-A741-41	AUR-AFKB-TTP1-A-10-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412555	Primary tumor	True	True	False	0.8322773014119886	0.9398918884746783	False
+AUR-AFKB-TTM1-A-1-1-R-A742-41	AUR-AFKB-TTM1-A-1-1-R-A742-41	Bone	bone	Breast	cohort	raw_counts	GSM6412556	Metastatic tumor	True	False	True	0.8795684702660151	0.9196132388484104	False
+AUR-AEPZ-TTP1-A-1-1-R-A742-41	AUR-AEPZ-TTP1-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412557	Primary tumor	True	True	False	0.9085882012067923	0.917956861523091	False
+AUR-AEPZ-TTM1-A-1-1-R-A742-41	AUR-AEPZ-TTM1-A-1-1-R-A742-41	Ovary	ovary	Breast	cohort	raw_counts	GSM6412558	Metastatic tumor	True	False	True	0.8667523901577014	0.9112521247178712	False
+AUR-AER8-TTP1-A-1-0-R-A741-41	AUR-AER8-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412559	Primary tumor	True	True	False	0.8113665170059654	0.9305644072158599	False
+AUR-AER8-TTM2-A-1-1-R-A742-41	AUR-AER8-TTM2-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412560	Metastatic tumor	True	False	True	0.8608185344283323	0.8920769973511106	False
+AUR-AFKF-TTP1-A-10-0-R-A741-41	AUR-AFKF-TTP1-A-10-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412561	Primary tumor	True	True	False	0.8252942065592634	0.9289709185417491	False
+AUR-AFKF-TTM1-A-1-1-R-A742-41	AUR-AFKF-TTM1-A-1-1-R-A742-41	Brain	brain	Breast	cohort	raw_counts	GSM6412562	Metastatic tumor	True	False	True	0.9000764079612847	0.9221401055248334	False
+AUR-AFUM-TTP1-A-1-0-R-A741-41	AUR-AFUM-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412563	Primary tumor	True	True	False	0.8096295039083224	0.948174399439636	False
+AUR-AFUM-TTM1-A-1-1-R-A743-41	AUR-AFUM-TTM1-A-1-1-R-A743-41	Bone	bone	Breast	cohort	raw_counts	GSM6412564	Metastatic tumor	True	False	True	0.8759440668905061	0.8885630587707423	False
+AUR-AFE9-TTP1-A-1-0-R-A741-41	AUR-AFE9-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412565	Primary tumor	True	True	False	0.802123551861422	0.9313947303712731	False
+AUR-AFE9-TTM1-A-1-1-R-A742-41	AUR-AFE9-TTM1-A-1-1-R-A742-41	Brain	brain	Breast	cohort	raw_counts	GSM6412566	Metastatic tumor	True	False	True	0.8102692344864615	0.9005173114082113	False
+AUR-AFE9-TTM4-A-1-1-R-A742-41	AUR-AFE9-TTM4-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412567	Metastatic tumor	True	False	True	0.9263740334969166	0.9719051751404894	False
+AUR-AFE9-TTM2-A-1-1-R-A742-41	AUR-AFE9-TTM2-A-1-1-R-A742-41	Lung	lung	Breast	cohort	raw_counts	GSM6412568	Metastatic tumor	True	False	True	0.8987274701540396	0.929990201887344	False
+AUR-AFE9-TTM3-A-1-1-R-A742-41	AUR-AFE9-TTM3-A-1-1-R-A742-41	Adrenal	adrenal	Breast	cohort	raw_counts	GSM6412569	Metastatic tumor	True	False	True	0.8154969396476097	0.8787506087761994	False
+AUR-AER2-TTP1-A-1-1-R-A742-41	AUR-AER2-TTP1-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412570	Primary tumor	True	True	False	0.8821732638784693	0.9372661140078664	False
+AUR-AER2-TTM3-A-1-1-R-A742-41	AUR-AER2-TTM3-A-1-1-R-A742-41	Soft tissue	soft_tissue	Breast	cohort	raw_counts	GSM6412571	Metastatic tumor	True	False	True	0.8832817708366495	0.9372661140078664	False
+AUR-AER2-TTM1-A-1-1-R-A742-41	AUR-AER2-TTM1-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412572	Metastatic tumor	True	False	True	0.8455926364523245	0.9284702853102009	False
+AUR-AFE6-TTP1-A-1-0-R-A741-41	AUR-AFE6-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412573	Primary tumor	True	True	False	0.8383653237810932	0.9212484572285419	False
+AUR-AFE6-TTM2-A-1-1-R-A742-41	AUR-AFE6-TTM2-A-1-1-R-A742-41	Lung	lung	Breast	cohort	raw_counts	GSM6412574	Metastatic tumor	True	False	True	0.8410122565624766	0.8686173624409116	False
+AUR-AFE6-TTM1-A-1-1-R-A742-41	AUR-AFE6-TTM1-A-1-1-R-A742-41	Chest	other	Breast	cohort	raw_counts	GSM6412575	Metastatic tumor	True	False	False	0.819760296426453	0.8702919049863544	False
+AUR-AFR4-TTP1-A-1-1-R-A743-41	AUR-AFR4-TTP1-A-1-1-R-A743-41	Breast	breast	Breast	cohort	raw_counts	GSM6412576	Primary tumor	True	True	False	0.8824786762706867	0.9368110143865894	False
+AUR-AFR4-TTM1-A-1-1-R-A743-41	AUR-AFR4-TTM1-A-1-1-R-A743-41	Brain	brain	Breast	cohort	raw_counts	GSM6412577	Metastatic tumor	True	False	True	0.8640811237764588	0.8932573114938552	False
+AUR-AE6X-TTP1-A-1-0-R-A741-41	AUR-AE6X-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412578	Primary tumor	True	True	False	0.8618888873549715	0.9388072630588239	False
+AUR-AE6X-TTM1-A-1-1-R-A742-41	AUR-AE6X-TTM1-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412579	Metastatic tumor	True	False	True	0.8911651885383312	0.9127999375815636	False
+AUR-AFKD-TTP1-A-1-1-R-A742-41	AUR-AFKD-TTP1-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412580	Primary tumor	True	True	False	0.8609995334752316	0.8964599020156854	False
+AUR-AER4-TTP1-A-1-0-R-A741-41	AUR-AER4-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412581	Primary tumor	True	True	False	0.82461625737941	0.9407471029869464	False
+AUR-AD9J-TTP1-B-4-0-R-A584-39	AUR-AD9J-TTP1-B-4-0-R-A584-39	Breast	breast	Breast	cohort	raw_counts	GSM6412582	Primary tumor	True	True	False	0.7967620590298067	0.9343616843626101	False
+AUR-AFUO-TTP1-A-1-0-R-A741-41	AUR-AFUO-TTP1-A-1-0-R-A741-41	Breast	breast	Breast	cohort	raw_counts	GSM6412583	Primary tumor	True	True	False	0.7855601295106457	0.9166315745497725	False
+AUR-AFR2-TTP1-A-1-1-R-A742-41	AUR-AFR2-TTP1-A-1-1-R-A742-41	Breast	breast	Breast	cohort	raw_counts	GSM6412584	Primary tumor	True	True	False	0.8805201988323843	0.9374281839046367	False
+AUR-AERY-TTM1-A-1-1-R-A742-41	AUR-AERY-TTM1-A-1-1-R-A742-41	Liver	liver	Breast	cohort	raw_counts	GSM6412585	Metastatic tumor	True	False	True	0.8913009347456087	0.9157670615273371	False
+AUR-ADCB-TTM1-A-1-1-R-A742-41	AUR-ADCB-TTM1-A-1-1-R-A742-41	Lung	lung	Breast	cohort	raw_counts	GSM6412586	Metastatic tumor	True	False	True	0.8811858042457338	0.9221401055248334	False
+AUR-AD9I-TTM3-A-1-1-R-A542-39	AUR-AD9I-TTM3-A-1-1-R-A542-39	Liver	liver	Breast	cohort	raw_counts	GSM6412587	Metastatic tumor	True	False	True	0.9100338606016677	0.9355269822081188	False
+AUR-AD9E-TTM1-A-1-1-R-A542-39	AUR-AD9E-TTM1-A-1-1-R-A542-39	Soft tissue	soft_tissue	Breast	cohort	raw_counts	GSM6412588	Metastatic tumor	True	False	True	0.870465065869152	0.943924103190433	False
+AUR-AFUP-TTM1-A-1-1-R-A743-41	AUR-AFUP-TTM1-A-1-1-R-A743-41	Ovary	ovary	Breast	cohort	raw_counts	GSM6412589	Metastatic tumor	True	False	True	0.8756493817302335	0.9292547260175132	False
+AUR-AFUK-TTM2-A-1-0-R-A743-41	AUR-AFUK-TTM2-A-1-0-R-A743-41	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412590	Metastatic tumor	True	False	True	0.8728801651595974	0.9496670051139545	False
+AUR-AD9H-TTM1-A-2-1-R-A542-39	AUR-AD9H-TTM1-A-2-1-R-A542-39	Pleura	pleura	Breast	cohort	raw_counts	GSM6412591	Metastatic tumor	True	False	True	0.8763851123871627	0.9083469265212953	False
+AUR-AD9E-TTM4-A-1-1-R-A542-39	AUR-AD9E-TTM4-A-1-1-R-A542-39	Liver	liver	Breast	cohort	raw_counts	GSM6412592	Metastatic tumor	True	False	True	0.8722316329908254	0.9333377100815103	False
+AUR-AD9E-TTM2-A-1-1-R-A542-39	AUR-AD9E-TTM2-A-1-1-R-A542-39	Lung	lung	Breast	cohort	raw_counts	GSM6412593	Metastatic tumor	True	False	True	0.8734353422823424	0.943924103190433	False
+AUR-AFUK-TTM1-A-1-0-R-A743-41	AUR-AFUK-TTM1-A-1-0-R-A743-41	Chest	other	Breast	cohort	raw_counts	GSM6412594	Metastatic tumor	True	False	False	0.8824608257706327	0.9496670051139545	False
+AUR-AD9H-TTM3-A-1-1-R-A542-39	AUR-AD9H-TTM3-A-1-1-R-A542-39	Liver	liver	Breast	cohort	raw_counts	GSM6412595	Metastatic tumor	True	False	True	0.8617562288631517	0.9737333644079761	False
+AUR-AD9H-TTM2-A-1-1-R-A542-39	AUR-AD9H-TTM2-A-1-1-R-A542-39	Liver	liver	Breast	cohort	raw_counts	GSM6412596	Metastatic tumor	True	False	True	0.8421324949863267	0.9737333644079761	False
+AUR-AD9F-TTM3-A-1-1-R-A542-39	AUR-AD9F-TTM3-A-1-1-R-A542-39	Adrenal	adrenal	Breast	cohort	raw_counts	GSM6412597	Metastatic tumor	True	False	True	0.8778801812016216	0.9050738021345706	False
+AUR-AD9F-TTM1-A-1-1-R-A542-39	AUR-AD9F-TTM1-A-1-1-R-A542-39	Liver	liver	Breast	cohort	raw_counts	GSM6412598	Metastatic tumor	True	False	True	0.8926610493434417	0.9355269822081188	False
+AUR-AD9F-TTM2-A-1-1-R-A542-39	AUR-AD9F-TTM2-A-1-1-R-A542-39	Lymph node	lymph_node	Breast	cohort	raw_counts	GSM6412599	Metastatic tumor	True	False	True	0.8884198401295943	0.9368110143865894	False
+AUR-AFUG-TTM1-A-1-1-R-A743-41	AUR-AFUG-TTM1-A-1-1-R-A743-41	Chest	other	Breast	cohort	raw_counts	GSM6412600	Metastatic tumor	True	False	False	0.8752042993979038	0.9274476065985868	False
+AUR-AFE5-NT1-A-1-1-R-A742-41	AUR-AFE5-NT1-A-1-1-R-A742-41	Brain		exclude	8	raw_counts	GSM6412601	Normal tissue	False	False	False	0.7755065776422747	0.810238525123654	False
+AUR-AFE9-NT1-A-1-1-R-A742-41	AUR-AFE9-NT1-A-1-1-R-A742-41	Brain		exclude	8	raw_counts	GSM6412602	Normal tissue	False	False	False	0.8361312494684926	0.9005173114082113	False
+AUR-AFE6-NT1-A-1-1-R-A742-41	AUR-AFE6-NT1-A-1-1-R-A742-41	Lung		exclude	8	raw_counts	GSM6412603	Normal tissue	False	False	False	0.8638402117352872	0.929990201887344	False
+AUR-AFE4-NT1-A-1-1-R-A742-41	AUR-AFE4-NT1-A-1-1-R-A742-41	Liver		exclude	8	raw_counts	GSM6412604	Normal tissue	False	False	False	0.9330502950260717	0.9719051751404894	False
+AUR-AE5G-NT1-A-1-1-R-A742-41	AUR-AE5G-NT1-A-1-1-R-A742-41	Breast		exclude	8	raw_counts	GSM6412605	Normal tissue	False	False	False	0.8674393504561833	0.9522514736141182	False
+AUR-AFEC-NT1-A-1-1-R-A742-41	AUR-AFEC-NT1-A-1-1-R-A742-41	Breast		exclude	8	raw_counts	GSM6412606	Normal tissue	False	False	False	0.8623779055755659	0.9522514736141181	False

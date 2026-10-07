@@ -1,0 +1,23 @@
+sheet	cell	before	after
+README	A8	Fig4_ablation	Fig5_ablation
+README	B8	Post hoc ablation. Values drawn in Figure 4: a host-attraction rate in the at-risk sets and b top-1 accuracy in the evaluation sets of MET500, POG570, the six auxiliary RNA-seq cohorts and the five microarray cohorts (one sample per patient across the microarray layer); c mean top-1 loss in MET500 and POG570 under random removal of as many classifier genes as each of four microarray platforms lacks (n = number of platforms, ten draws each). Shares are in S8_shares and S9_ablation_microarray.	Post hoc ablation. Values drawn in Figure 5: a host-attraction rate in the at-risk sets and b top-1 accuracy in the evaluation sets of MET500, POG570, the six auxiliary RNA-seq cohorts and the five microarray cohorts (one sample per patient across the microarray layer); c mean top-1 loss in MET500 and POG570 under random removal of as many classifier genes as each of four microarray platforms lacks (n = number of platforms, ten draws each). Shares are in S8_shares and S9_ablation_microarray.
+README	B9	Post hoc ablation. Shares of the baseline minus HostMix-TOO host-attraction gap attributable to the mixtures in the RNA-seq cohorts (Additional file 1: Table S8); reading rule: every share at least 0.5. Not drawn in Figure 4.	Post hoc ablation. Shares of the baseline minus HostMix-TOO host-attraction gap attributable to the mixtures in the RNA-seq cohorts (Additional file 1: Table S8); reading rule: every share at least 0.5. Not drawn in Figure 5.
+README	A10	Fig5_Table3_published	Fig6_Table3_published
+README	A11	Fig5_paired	Fig6_paired
+README	A12	Fig6a_cohorts	Fig4a_cohorts
+README	B12	Cohort host-attraction rates drawn in Figure 6a, with the group labels of the figure. Status is given per row in the column 'status'.	Cohort host-attraction rates drawn in Figure 4a, with the group labels of the figure. Status is given per row in the column 'status'.
+README	A13	Fig6b_POG570_strata	Fig4b_POG570_strata
+README	A14	Fig6b_tumor_content	Fig4b_tumor_content
+README	A15	Fig6c_aux_top1	Fig4c_aux_top1
+README	A16	Fig6d_removed_errors	Fig4d_removed_errors
+Fig5_ablation	A1	Post hoc ablation. Values drawn in Figure 4: a host-attraction rate in the at-risk sets and b top-1 accuracy in the evaluation sets of MET500, POG570, the six auxiliary RNA-seq cohorts and the five microarray cohorts (one sample per patient across the microarray layer); c mean top-1 loss in MET500 and POG570 under random removal of as many classifier genes as each of four microarray platforms lacks (n = number of platforms, ten draws each). Shares are in S8_shares and S9_ablation_microarray.	Post hoc ablation. Values drawn in Figure 5: a host-attraction rate in the at-risk sets and b top-1 accuracy in the evaluation sets of MET500, POG570, the six auxiliary RNA-seq cohorts and the five microarray cohorts (one sample per patient across the microarray layer); c mean top-1 loss in MET500 and POG570 under random removal of as many classifier genes as each of four microarray platforms lacks (n = number of platforms, ten draws each). Shares are in S8_shares and S9_ablation_microarray.
+Fig5_ablation	title	Fig4_ablation	Fig5_ablation
+S8_shares	A1	Post hoc ablation. Shares of the baseline minus HostMix-TOO host-attraction gap attributable to the mixtures in the RNA-seq cohorts (Additional file 1: Table S8); reading rule: every share at least 0.5. Not drawn in Figure 4.	Post hoc ablation. Shares of the baseline minus HostMix-TOO host-attraction gap attributable to the mixtures in the RNA-seq cohorts (Additional file 1: Table S8); reading rule: every share at least 0.5. Not drawn in Figure 5.
+Fig6_Table3_published	title	Fig5_Table3_published	Fig6_Table3_published
+Fig6_paired	title	Fig5_paired	Fig6_paired
+Fig4a_cohorts	A1	Cohort host-attraction rates drawn in Figure 6a, with the group labels of the figure. Status is given per row in the column 'status'.	Cohort host-attraction rates drawn in Figure 4a, with the group labels of the figure. Status is given per row in the column 'status'.
+Fig4a_cohorts	title	Fig6a_cohorts	Fig4a_cohorts
+Fig4b_POG570_strata	title	Fig6b_POG570_strata	Fig4b_POG570_strata
+Fig4b_tumor_content	title	Fig6b_tumor_content	Fig4b_tumor_content
+Fig4c_aux_top1	title	Fig6c_aux_top1	Fig4c_aux_top1
+Fig4d_removed_errors	title	Fig6d_removed_errors	Fig4d_removed_errors

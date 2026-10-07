@@ -1,0 +1,19 @@
+id: AF2_S4_contributions
+doc: af2
+sheet: S4_contributions
+header_row: 2
+builder: copy
+params:
+  source: manuscript/bmc/figure_source/S4_contributions.tsv
+  columns:
+  - display
+  - method
+  - n_samples
+  - side
+  - order
+  - rank
+  - gene
+  - mean_contribution
+  - input
+  keep_ids: true
+origin: figure_source

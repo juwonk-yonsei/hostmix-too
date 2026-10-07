@@ -1,0 +1,55 @@
+sample_id	patient_id	raw_site	standard_site	organ	organ_rule	library	in_eval	in_native	in_risk	external_max	internal_max	flag_candidate
+AMC_2.1_FPKM	AMC_2	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9338548582937622	0.9580323641644621	False
+AMC_3.1_FPKM	AMC_3	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9266180728971763	0.9580323641644621	False
+AMC_5.1_FPKM	AMC_5	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9182764536421918	0.984872876290823	False
+AMC_6.1_FPKM	AMC_6	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9372110239838235	0.9545234992532193	False
+AMC_7.1_FPKM	AMC_7	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9302232404377337	0.9671850194942224	False
+AMC_8.1_FPKM	AMC_8	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9202469907573204	0.9790613348706555	False
+AMC_9.1_FPKM	AMC_9	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9306412636393946	0.9247766127670484	False
+AMC_10.1_FPKM	AMC_10	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9373499104095725	0.9708546679794154	False
+AMC_12.1_FPKM	AMC_12	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9448063535638321	0.9697623013035912	False
+AMC_13.1_FPKM	AMC_13	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9253319233517681	0.9770466311424169	False
+AMC_17.1_FPKM	AMC_17	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9217070230764407	0.9756475055937097	False
+AMC_18.1_FPKM	AMC_18	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9407194006805624	0.9687921903912748	False
+AMC_19.1_FPKM	AMC_19	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9217201526930067	0.9873523099619075	False
+AMC_20.1_FPKM	AMC_20	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9334626834949129	0.9600544905431502	False
+AMC_21.1_FPKM	AMC_21	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9262677683489752	0.9555149593960708	False
+AMC_22.1_FPKM	AMC_22	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9318005441088533	0.9621612843618742	False
+AMC_23.1_FPKM	AMC_23	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9383429928204533	0.9710848938467551	False
+AMC_24.1_FPKM	AMC_24	primary colorectal cancer	colon_rectum	Colorectal	cohort	FPKM	True	True	False	0.9296723052157441	0.9671850194942224	False
+AMC_2.2_FPKM	AMC_2	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9178046483816806	0.991402731602902	False
+AMC_3.2_FPKM	AMC_3	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9179254175282732	0.9896805094066018	False
+AMC_5.2_FPKM	AMC_5	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9175707819807682	0.9858495135301801	False
+AMC_6.2_FPKM	AMC_6	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9191327758866552	0.9913570135355094	False
+AMC_7.2_FPKM	AMC_7	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9116172716905381	0.9881798701417588	False
+AMC_8.2_FPKM	AMC_8	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9173316258413302	0.9877313332861551	False
+AMC_9.2_FPKM	AMC_9	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9185526884001399	0.9914971224676394	False
+AMC_10.2_FPKM	AMC_10	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.915670217345833	0.9886906803010037	False
+AMC_12.2_FPKM	AMC_12	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9122923800045073	0.9881798701417588	False
+AMC_13.2_FPKM	AMC_13	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9047777295577162	0.9870956107927257	False
+AMC_17.2_FPKM	AMC_17	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.8710722336977295	0.9247766127670484	False
+AMC_18.2_FPKM	AMC_18	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9201356669988268	0.9770466311424169	False
+AMC_19.2_FPKM	AMC_19	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9152560475290974	0.9894218857630256	False
+AMC_20.2_FPKM	AMC_20	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9198074799605405	0.9881794086480938	False
+AMC_21.2_FPKM	AMC_21	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9196106465262663	0.9914971224676394	False
+AMC_22.2_FPKM	AMC_22	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9145214158699876	0.9881794086480938	False
+AMC_23.2_FPKM	AMC_23	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9177882723767405	0.9898154056415822	False
+AMC_24.2_FPKM	AMC_24	normal-looking surrounding colonic epithelium		exclude	8	FPKM	False	False	False	0.9206991715499493	0.9730297849618337	False
+AMC_2.3_FPKM	AMC_2	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9483738292134106	0.9659834261047163	False
+AMC_3.3_FPKM	AMC_3	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9219015502104093	0.991402731602902	False
+AMC_5.3_FPKM	AMC_5	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9363026869209984	0.9640180097150859	False
+AMC_6.3_FPKM	AMC_6	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9328411543363583	0.9578678764826908	False
+AMC_7.3_FPKM	AMC_7	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9432940251821151	0.9746997054428959	False
+AMC_8.3_FPKM	AMC_8	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9379193594397739	0.9600989681491977	False
+AMC_9.3_FPKM	AMC_9	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9472783522564646	0.9659543701744279	False
+AMC_10.3_FPKM	AMC_10	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9441952209485212	0.9379977009416215	False
+AMC_12.3_FPKM	AMC_12	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9429405007298282	0.969610369493906	False
+AMC_13.3_FPKM	AMC_13	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9470243560472114	0.9697623013035912	False
+AMC_17.3_FPKM	AMC_17	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9437972484534963	0.969610369493906	False
+AMC_18.3_FPKM	AMC_18	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9429134539693194	0.9657848197300856	False
+AMC_19.3_FPKM	AMC_19	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9340405106566376	0.9547051717550434	False
+AMC_20.3_FPKM	AMC_20	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9388825421605391	0.9667329490089224	False
+AMC_21.3_FPKM	AMC_21	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9445104901268756	0.9659834261047161	False
+AMC_22.3_FPKM	AMC_22	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9329167664434088	0.947183195360125	False
+AMC_23.3_FPKM	AMC_23	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9501134963984392	0.9746997054428959	False
+AMC_24.3_FPKM	AMC_24	metastatic colorectal cancer to the liver	liver	Colorectal	cohort	FPKM	True	False	True	0.9459414413160947	0.9680674148092742	False

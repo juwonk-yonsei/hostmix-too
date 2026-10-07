@@ -1,0 +1,273 @@
+doc	anchor	starts	ids	note
+main	p9|s1	**Results** We trained	F:n_labels C:host_pool_n	keys: 32 tumor types are the TCGA-train learning labels, the training set named in the same sentence
+main	p9|s2	In POG570, HostMix-TOO reduced	F:pog_base_host_pct F:pog_sa_host_pct F:H1_n F:H1_diff_pct F:H1_ci_low_pct F:H1_ci_high_pct F:pog_base_top1_pct F:pog_sa_top1_pct F:H2_n F:H2_diff_pct F:H2_ci_low_pct F:H2_ci_high_pct	keys: 'from X to Y' gives the baseline then HostMix-TOO (the sentence subject); arms of the comparison
+main	p9|s3	Non-inferiority of accuracy	F:pog_base_native_pct F:pog_sa_native_pct F:H3_n F:H3_bound_pct C:ni_margin_pts	keys: '86.8% versus 80.2%' gives the baseline then HostMix-TOO, continuing the POG570 sentence before
+main	p9|s4	In six auxiliary RNA-seq	C:aux_cohorts_plan C:aux_primary_n F:ext_aux_rnaseq_base_host_pct F:ext_aux_rnaseq_sa_host_pct F:AH1_n F:ext_aux_rnaseq_base_top1_pct F:ext_aux_rnaseq_sa_top1_pct F:AH2_n F:AH3_n	keys: 'from X to Y' gives the baseline then HostMix-TOO; n are the AH1-AH3 contrast sizes (both arms)
+main	p9|s5	Published classifiers SCOPE	F:pub_host_min_pct F:pub_host_max_pct F:sa_host_min_pct F:sa_host_max_pct	keys: ranges over MET500, POG570 and the auxiliary RNA-seq cohorts (Table 2), the cohorts of the abstract
+main	p9|s6	In five microarray cohorts	F:ma_cohorts_n F:ma_layer_base_top1_pct F:ma_layer_sa_top1_pct F:ma_layer_n_evaluation	keys: 'from X to Y' gives the baseline then HostMix-TOO (the sentence subject)
+main	p9|s7	A post hoc ablation attributed	F:ma_layer_base_host_rate_pct F:ma_layer_mix_host_rate_pct F:ma_layer_n_at_risk F:ma_layer_mix_top1_pct	keys: 'from X to Y' gives the baseline then the unstandardized mixture model ('without standardization, mixtures')
+main	p16|s5	Most directly, Vincent et al. modeled ti	C:vincent_err_base C:vincent_err_mix C:vincent_err_train	
+main	p17|s2	Here we define host attraction and its d	C:host_pool_n C:aux_cohorts_plan	
+main	p20|s1	The study had four stages (Fig. 1c).	C:study_stages_n	
+main	p20|s4	Third, HostMix-TOO was compared with the	C:aux_cohorts_plan	
+main	p21|s3	Before unlocking, the same code was run 	F:planted_compare_n	
+main	p23|s1	Three deviations from the plans occurred	C:deviations_n	
+main	p23|s3	Eighteen GSE50760 liver-metastasis sampl	F:gse50760_late_n	
+main	p26|s2	The matrix is distributed as log2(TPM + 	C:toil_pseudocount	
+main	p26|s3	We kept one primary tumor per patient (T	F:tcga_learning_n F:tcga_projects_n	
+main	p26|s4	Colon and rectal adenocarcinoma were mer	F:n_labels	keys: the labels are those of the TCGA tumors of the previous sentence; TCGA-train, where the labels are counted, is named in the next sentence (p26|s5)
+main	p26|s5	The tumors were split 80:20 into TCGA-tr	F:split_train_pct F:split_test_pct F:tcga_train_n F:tcga_test_n	
+main	p26|s6	TCGA metastatic samples (sample type 06)	F:tm_base_n	keys: the n is the TCGA metastatic sample count, the same for every model; the fact is read from the baseline row
+main	p26|s7	GTEx samples [17] from tissue donors (n 	F:gtex_n F:gtex_nondonor_n F:gtexref_n F:gtexsim_n	
+main	p27|s3	Specimens whose cancer type could not be	F:met500_unmapped_n F:dev_base_n	keys: MET500 is named in the first sentence of the paragraph ('*Development cohort.* MET500 [18] expression')
+main	p28|s1	*Confirmation cohort 1.* POG570 [20, 21]	F:pog570_profiles_n	
+main	p28|s4	Fifty-eight samples whose diagnosis coul	F:pog570_unmapped_n F:pog_base_n	
+main	p29|s2	Six RNA-seq cohorts formed the auxiliary	C:aux_cohorts_plan	
+main	p29|s3	A seventh RNA-seq cohort, AURORA US meta	C:aurora_prefix_n C:aurora_paper_n	
+main	p29|s4	Five microarray cohorts — colorectal can	F:ma_cohorts_n	
+main	p30|s7	To exclude samples that might duplicate 	C:dup_rho_high C:dup_rho_low	
+main	p30|s8	This rule removed 76 SU2C samples and no	F:su2c_dup_removed_n	
+main	p32|s1	Classifiers predicted the 32 tumor label	F:n_labels	keys: the 32 labels are the TCGA-train learning labels defined in Methods, Data (p26|s4-s5)
+main	p32|s2	Labels were mapped to 26 organ groups (f	F:n_organs F:kidney_projects_n	
+main	p35|s1	The gene universe G consisted of the 175	C:gene_universe_n	
+main	p35|s4	The classifiers used the 5000 genes with	C:classifier_genes_n	
+main	p35|s5	For microarray profiles, ranks were comp	C:microarray_fill	
+main	p37|s1	Both classifiers are multinomial logisti	C:max_iter	
+main	p37|s2	The baseline classifier was fitted to th	F:tcga_train_n	
+main	p37|s3	Its inverse regularization strength, C =	F:base_c C:base_cv_folds C:base_grid_1 C:base_grid_2 C:base_grid_3 C:base_grid_4	
+main	p37|s4	HostMix-TOO was fitted to the same tumor	C:mixes_per_tumor	
+main	p37|s5	Its C = 0.03 was chosen by three-fold cr	F:sa_c C:cv_folds_sa C:c_grid_sa_1 C:c_grid_sa_2 C:c_grid_sa_3 C:c_tie_tol	
+main	p39|s1	The host pool consisted of ten GTEx tiss	C:host_pool_n F:gtexref_pool_n	
+main	p39|s3	Each proxy was the candidate GTEx tissue	F:proxy_ln_spleen F:proxy_bm_blood	
+main	p40|s1	For each TCGA-train tumor, four mixtures	C:mixes_per_tumor	
+main	p40|s2	The tumor profile t and a host profile h	C:rho_mix_low C:rho_mix_high	
+main	p40|s3	The host profile was one GTEx-ref sample	C:host_pool_n	
+main	p40|s5	The training matrix thus had 37430 rows 	F:sa_train_rows F:tcga_train_n F:sa_mix_rows	keys: 'For each TCGA-train tumor, four mixtures were generated' opens the paragraph; the training matrix is that of HostMix-TOO (p37|s4)
+main	p42|s2	(i) Normal classes: the 1103 host-pool s	F:gtexref_pool_n C:host_pool_n	keys: the host-pool samples are the GTEx-ref samples of the host pool (p39|s1, 'together 1103 GTEx-ref samples')
+main	p42|s3	(ii) Site-specific mixtures: nine models	C:site_models_n	
+main	p42|s4	(iii) Linear deconvolution: the host com	F:n_labels	keys: the 32 tumor-label centroids are the TCGA-train learning labels (p26|s4-s5)
+main	p42|s6	(v) Removal of the 20% of genes whose sc	C:if_q20 C:if_q20 C:if_q40	
+main	p42|s7	(vi) Gene-set scores: Kolmogorov–Smirnov	C:gene_sets_n	
+main	p43|s1	Between the two confirmations we examine	F:var_m8_nmix C:rho_low_r30 C:rho_low_r50 F:var_c001 F:var_c01 C:pool3_n C:pool22_n C:host_pool_n F:pool22_outside_n F:var_loho_n	keys: each variant is named by its setting in the sentence (eight mixtures per tumor, C of 0.01 and 0.1, a host pool of 22 tissues with twelve outside the pool, ten leave-one-host-out pools); these are the Table S5 rows
+main	p43|s2	Two of these defined the secondary auxil	C:gate_tau	
+main	p45|s1	For each evaluation cohort we defined fo	C:analysis_sets_n	
+main	p47|s1	From TCGA-test, 1000 tumors were drawn, 	F:sim_tumors_n	
+main	p47|s2	Each tumor was mixed as described above 	F:sim_tissues_n C:sim_rho_1 C:sim_rho_2 C:sim_rho_3 C:sim_rho_4 C:sim_rho_5 C:host_pool_n F:sim_outside_n	
+main	p49|s1	*POG570 family* (one sample per patient;	C:alpha	
+main	p49|s4	H3, judged only if H2 was rejected: in t	C:ni_margin	
+main	p49|s6	H3 was met if the one-sided 95% lower bo	C:ni_bound	
+main	p49|s7	Differences are HostMix-TOO minus baseli	C:bootstrap_n C:seed_main	
+main	p50|s1	*Auxiliary families* (six RNA-seq cohort	C:aux_cohorts_plan	
+main	p50|s3	The secondary family was tested regardle	C:alpha_secondary	
+main	p54|s4	Before scoring our cohorts, we reproduce	F:cup_example_correct C:cup_example_n F:cup_example_acc_pct	
+main	p54|s5	SCOPE top-1 was the first-ranked class o	C:scope_models_n	
+main	p56|s1	*Ablation.* Because the baseline and Hos	C:abl_models_n C:c_pure03 C:c_pure15 F:sa_rows_factor C:c_mix	
+main	p56|s3	It stated that the mixtures would be con	F:abl_shares_total C:abl_shares_n C:abl_cohorts_n C:abl_share_pass	
+main	p56|s4	Before fitting the mixture model, we reg	F:regen_coef_max	
+main	p56|s6	For the loss of top-1 accuracy in the mi	C:mg_share_cut C:mg_share_cut	
+main	p57|s2	To simulate missing genes, we restricted	C:random_removals C:mg_seed	
+main	p57|s4	To ask which part of the esophageal carc	F:esca_train_n F:esca_adenocarcinoma_n F:esca_squamous_n F:esca_other_n	
+main	p64|s2	Across the ten host-pool tissues, its me	C:host_pool_n F:sim_in_06_base C:rho_display F:sim_in_02_base C:sim_rho_5 F:sim_in_06_sa F:sim_in_02_sa	
+main	p64|s3	The effect was largest for liver: at ρ =	C:rho_display F:simt_liver_06_base_top1 F:simt_liver_06_sa_top1 F:simt_liver_06_base_n	
+main	p64|s4	For the twelve tissues outside the host 	F:sim_outside_n C:rho_display F:sim_out_06_base F:sim_out_06_sa F:sim_out_06_pool22	
+main	p64|s5	Models trained without one pool tissue w	C:rho_display F:loho_loho_median_06 F:loho_base_median_06 F:loho_sa_median_06 F:simt_liver_06_loho_host F:simt_liver_06_base_host F:simt_liver_06_sa_host F:simt_brain_06_loho_host F:simt_brain_06_base_host F:simt_brain_06_sa_host	
+main	p64|s6	Augmentation did not lower accuracy on p	F:tt_base_top1 F:tt_sa_top1 F:tt_paired_diff F:tt_paired_ci_low F:tt_paired_ci_high F:tt_paired_n F:tm_base_top1 F:tm_sa_top1 F:tm_sa_n	
+main	p66|s1	In MET500, the baseline classifier had a	F:dev_base_host F:dev_base_nhost F:dev_base_nrisk F:dev_base_top1 F:dev_base_n	
+main	p66|s2	Among the candidate training procedures,	F:dev_sa_top1 F:dev_sa_host F:dev_sc_top1 F:dev_sc_host	status: 'pre-specified' qualifies the locking rule; the MET500 values are development (exploratory) results
+main	p66|s3	Normal classes and gene removal left mos	F:dev_nc_if20_host F:dev_ld_host F:dev_m1_top1	
+main	p66|s4	Gene-set scores were less accurate than 	F:dev_basek_top1 F:dev_sak_top1	
+main	p68|s1	In POG570, HostMix-TOO reduced the host-	F:pog_base_host F:pog_sa_host F:H1_n F:H1_diff F:H1_ci_low F:H1_ci_high F:H1_n_favor F:H1_n_against F:H1_p F:pog_base_top1 F:pog_sa_top1 F:H2_n F:H2_diff F:H2_ci_low F:H2_ci_high F:H2_n_favor F:H2_n_against F:H2_p	keys: 'from X to Y' gives the baseline then HostMix-TOO, the sentence subject
+main	p68|s2	In the native-truth set, top-1 accuracy 	F:pog_base_native F:pog_sa_native F:H3_n F:H3_diff F:H3_ci_low F:H3_ci_high	
+main	p68|s3	The one-sided 95% lower bound, −0.121, w	F:H3_bound C:ni_bound	
+main	p69|s2	In liver biopsies, the baseline named li	F:pogsite_liver_base_host F:pogsite_liver_base_nrisk F:pogsite_liver_sa_host F:pogsite_liver_base_top1 F:pogsite_liver_sa_top1 F:pogsite_liver_base_n	
+main	p69|s3	Under the baseline, the host-attraction 	F:pogtc_T1_base_host F:pogtc_T2_base_host F:pogtc_T3_base_host F:pogtc_T1_sa_host F:pogtc_T2_sa_host F:pogtc_T3_sa_host	
+main	p69|s4	In the native-truth set, the net loss of	F:pog_native_net_loss F:pog_st_base_ncorrect F:pog_st_sa_ncorrect F:pogsite_soft_tissue_base_nnative F:pog_rem_base_ncorrect F:pog_rem_sa_ncorrect F:pogsite_remainder_base_nnative	
+main	p69|s5	Among the alternatives locked with HostM	F:pog_sc_top1 F:pog_sc_host F:pog_nc_top1 F:pog_nc_host F:pog_ld_top1 F:pog_ld_host	
+main	p70|s0	### Confirmation 2: six RNA-seq cohorts	C:aux_cohorts_plan	
+main	p71|s1	In the six auxiliary RNA-seq cohorts, al	C:aux_cohorts_plan C:aux_primary_n	
+main	p71|s2	HostMix-TOO reduced the host-attraction 	F:ext_aux_rnaseq_base_host F:ext_aux_rnaseq_sa_host F:AH1_n F:AH1_diff F:AH1_low F:AH1_high F:AH1_n_favor F:AH1_n_against F:AH1_p F:ext_aux_rnaseq_base_top1 F:ext_aux_rnaseq_sa_top1 F:AH2_n F:AH2_diff F:AH2_low F:AH2_high F:AH2_n_favor F:AH2_n_against F:AH2_p F:AH3_n F:ext_aux_rnaseq_base_native F:ext_aux_rnaseq_sa_native F:AH3_diff F:AH3_low F:AH3_high F:AH3_bound	keys: 'from X to Y' and 'X versus Y' give the baseline then HostMix-TOO, the sentence subject
+main	p71|s4	The gated model was less accurate than H	F:aux_gated_native F:ext_aux_rnaseq_sa_native F:aux_gated_top1 F:ext_aux_rnaseq_sa_top1 F:gate_base_eval_n F:AS3_n F:gate_base_native_n F:AS1_n F:AS2_n F:aux_pool22_pooloutrisk_host F:aux_sa_pooloutrisk_host F:AS2_n_favor F:AS2_n_against F:AS2_p	status: 'post hoc' qualifies only the gate-decision counts in the parenthesis (552, 303); the AS1-AS3 values are the preregistered secondary family
+main	p72|s2	Most of the host-attraction reduction ca	F:prince_ah1_favor F:AH1_n_favor F:prince_risk_liver_n F:sub_prince_sa_nrisk F:su2c_ah1_favor	keys: the favorable discordant pairs are the AH1 pairs in favor of HostMix-TOO (the reduction of the previous sentences); 37 and 13 are the PRINCE and SU2C parts
+main	p72|s3	In the pre-specified leave-one-cohort an	F:sens_lo_AH1_diff_max F:sens_lo_AH1_diff_min	keys: differences are HostMix-TOO minus baseline (Methods, 'Differences are HostMix-TOO minus baseline'); the AH1 leave-one-cohort estimates
+main	p72|s4	Most of the accuracy gain came instead f	F:imv_native_base_esophagus F:imv_native_n F:imv_native_sa_esophagus	
+main	p72|s5	Without IMvigor210, the difference in to	F:sens_lo_imv_AH2_diff F:sens_lo_imv_AH2_n F:loc_imv_AH3_diff F:loc_imv_AH3_low F:loc_imv_AH3_high F:loc_imv_AH3_n F:loc_imv_AH3_bound	
+main	p74|s1	In the five microarray cohorts, analyzed	F:ma_cohorts_n F:mae_AH1_diff F:mae_AH1_low F:mae_AH1_high F:mae_AH1_n F:mae_AH2_diff F:mae_AH2_low F:mae_AH2_high F:mae_AH2_n F:mae_AH3_diff F:mae_AH3_low F:mae_AH3_high F:mae_AH3_n	
+main	p74|s2	Top-1 accuracy was 0.724 for the baselin	F:ma_layer_base_top1 F:ma_layer_sa_top1	
+main	p74|s4	Among the alternatives locked with HostM	F:ma_rates_ld_top1 F:ma_rates_ld_host	
+main	p76|s1	In the post hoc ablation (Fig. 4a, b), t	F:abl_MET500_pure03_host F:abl_MET500_pure15_host F:abl_POG570_pure03_host F:abl_POG570_pure15_host F:abl_aux_rnaseq_pure03_host F:abl_aux_rnaseq_pure15_host F:abl_MET500_mix_host F:abl_POG570_mix_host F:abl_aux_rnaseq_mix_host F:abl_MET500_sa_host F:abl_POG570_sa_host F:abl_aux_rnaseq_sa_host	
+main	p76|s2	The share of the gap between the baselin	F:share_min F:share_max F:abl_shares_total C:abl_share_pass	status: 'pre-specified' qualifies the reading rule committed before the fits; the shares are post hoc, as the sentence opening 'In the post hoc ablation' of the paragraph states
+main	p76|s3	Top-1 accuracy followed the same divisio	F:abl_MET500_mix_top1 F:abl_MET500_sa_top1 F:abl_POG570_mix_top1 F:abl_POG570_sa_top1 F:abl_aux_rnaseq_mix_top1 F:abl_aux_rnaseq_sa_top1 F:abl_MET500_pure03_top1 F:abl_MET500_pure15_top1 F:abl_POG570_pure03_top1 F:abl_POG570_pure15_top1 F:abl_aux_rnaseq_pure03_top1 F:abl_aux_rnaseq_pure15_top1 F:abl_MET500_base_top1 F:abl_POG570_base_top1 F:abl_aux_rnaseq_base_top1	
+main	p76|s4	In the POG570 native-truth set, the unst	F:abl_POG570_mix_native F:abl_POG570_base_native F:abl_POG570_sa_native F:abl_POG570_base_nnative	
+main	p77|s1	The same five models located the loss on	F:abl_ma_models_n	
+main	p77|s2	In the microarray evaluation set (n = 53	F:ma_layer_n_evaluation F:ma_layer_mix_top1 F:ma_layer_base_top1 F:ma_layer_sa_top1 F:ma_layer_pure03_top1 F:ma_layer_pure15_top1	
+main	p77|s3	The unstandardized mixture model also ha	F:ma_layer_mix_host_rate F:ma_layer_base_host_rate F:ma_layer_sa_host_rate F:ma_layer_n_at_risk F:ma_layer_mix_native_truth_top1 F:ma_layer_base_native_truth_top1 F:ma_layer_sa_native_truth_top1 F:ma_layer_n_native_truth F:ma_layer_mix_n_esophagus F:ma_layer_base_n_esophagus F:ma_layer_sa_n_esophagus	
+main	p77|s4	In the missing-gene simulation, removing	F:mg_base_mix_random_mean_mean F:mg_pure_random_mean_mean F:mg_sa_random_mean_mean	keys: 'each standardized pure-tumor model' names both pure models (C = 0.03 and 0.15); their two means are equal
+main	p77|s5	The shares of HostMix-TOO's microarray a	F:ms_accuracy_s_mix F:ms_accuracy_s_std F:ms_accuracy_s_stdw F:ms_random_removal_s2_mix F:ms_random_removal_s2_std F:ms_random_removal_s2_stdw	keys: 'the unstandardized mixture model and ... the two standardized pure-tumor models' gives the order mixture, pure C = 0.03, pure C = 0.15 for both triples; the second triple is the random-removal contrast
+main	p79|s1	In exploratory variants run between the 	F:php_var_host_min F:php_var_host_max F:var_m8_nmix C:rho_mix_low C:rho_low_r50 F:var_c001 F:var_c01 F:php_pool3_host	keys: each variant is named by its setting (eight mixtures per tumor, C of 0.01 and 0.1); the range covers HostMix-TOO and the setting variants of Table S5
+main	p79|s2	It was 0.222 when the standardized model	F:php_m0_host F:php_loholiver_host	
+main	p81|s1	SCOPE and CUP-AI-Dx showed host attracti	C:pub_cohorts_n F:ext_MET500_scope_host F:ext_POG570_scope_host F:ext_aux_rnaseq_scope_host F:ext_MET500_cup_host F:ext_POG570_cup_host F:ext_aux_rnaseq_cup_host F:ext_MET500_sa_host F:ext_POG570_sa_host F:ext_aux_rnaseq_sa_host	
+main	p81|s2	HostMix-TOO had the highest top-1 accura	F:ext_MET500_sa_top1 F:ext_POG570_sa_top1	
+main	p81|s3	CUP-AI-Dx had the highest in the auxilia	F:ext_aux_rnaseq_cup_top1 F:ext_aux_rnaseq_sa_top1 F:sub_imv_cup_top1 F:sub_imv_sa_top1 F:sub_imv_sa_n F:sub_anders_cup_top1 F:sub_anders_sa_top1 F:sub_anders_sa_n	
+main	p81|s4	Conversely, CUP-AI-Dx named the host org	F:sub_prince_cup_host F:sub_prince_sa_host F:sub_prince_sa_nrisk F:sub_gse50760_cup_host F:sub_gse50760_sa_host F:sub_gse50760_sa_nrisk	
+main	p81|s5	SCOPE assigned a normal-tissue class to 	F:scope_aux_ns_n F:ext_aux_rnaseq_scope_top1 F:scope_aux_top1_ns_organ	
+main	p83|s2	Of the at-risk biopsies whose baseline h	F:shift_POG570_n_sa_correct F:shift_POG570_n_favor F:shift_MET500_n_sa_correct F:shift_MET500_n_favor F:shift_aux_rnaseq_n_sa_correct F:shift_aux_rnaseq_n_favor	
+main	p84|s2	Of the 114 auxiliary biopsies that CUP-A	F:cupsa_total F:cupsa_imv F:cupsa_anders F:cupsa_sa_esophagus	
+main	p84|s3	In the microarray cohort GSE41258, HostM	F:gse41258_sa_esophagus F:gse41258_colon_n	
+main	p84|s4	The single esophageal carcinoma class of	F:esca_adenocarcinoma_n F:esca_squamous_n F:esca_other_n	
+main	p84|s5	Of the esophagus calls by HostMix-TOO, 1	F:hist_gse41258_sa_n_closer_adenocarcinoma F:hist_gse41258_sa_n F:hist_prince_sa_n_closer_adenocarcinoma F:hist_prince_sa_n F:hist_imv_sa_n_closer_squamous F:hist_imv_sa_n	
+main	p85|s2	Restricting POG570 profiles to the genes	F:gpl96_pog570_missing_n C:classifier_genes_n F:mg_base_gpl96_pog570_restriction_drop F:mg_sa_gpl96_pog570_restriction_drop F:mg_base_gpl96_pog570_random_mean F:mg_sa_gpl96_pog570_random_mean	
+main	p85|s3	HostMix-TOO was thus more sensitive than	F:mg_base_gpl96_pog570_extra F:mg_sa_gpl96_pog570_extra	
+main	p86|s1	Finally, pancreatic cancer biopsies in P	F:prince_top1_min F:prince_top1_max F:sub_prince_sa_n	keys: 'any method' is the range over the baseline, HostMix-TOO, SCOPE and CUP-AI-Dx in PRINCE (Fig. 6c)
+main	p88|s2	For RNA-seq data the answer was consiste	F:sa_base_host_ratio_min F:sa_base_host_ratio_max	keys: the rates are those of HostMix-TOO relative to the baseline in the RNA-seq cohorts (MET500, POG570 and the auxiliary cohorts), the confirmations named in the sentence. status: 'preregistered' qualifies the two confirmations; the ratio range is derived from the development and confirmation rates, so its derived status is mixed
+main	p88|s4	Two results limit the claim for HostMix-	F:H3_diff_pct|abs	keys: 'accuracy for tumors biopsied from their organ of origin' is the native-truth set of H3; HostMix-TOO is the sentence subject
+main	p89|s7	These results favor training mixture-aug	F:abl_POG570_mix_host F:abl_aux_rnaseq_mix_host F:abl_POG570_sa_host F:abl_aux_rnaseq_sa_host	
+main	p90|s1	The results extend the contamination mod	C:host_pool_n	
+main	p90|s4	Normal-tissue classes, the design used b	F:nc_scope_host_min_pct F:nc_scope_host_max_pct	keys: the range covers the normal-class model and SCOPE in MET500, POG570 and the auxiliary cohorts (Results, development and published classifiers)
+main	p91|s5	The esophagus calls in IMvigor210 and in	F:imv_native_base_esophagus F:imv_native_sa_esophagus F:imv_native_n F:ma_layer_sa_n_esophagus F:ma_layer_pure03_n_esophagus F:ma_layer_pure15_n_esophagus F:ma_layer_base_n_esophagus F:ma_layer_mix_n_esophagus	keys: 'from 145 to 65' gives the baseline then HostMix-TOO in IMvigor210 (bladder tumors biopsied from the bladder); the microarray counts are those of the microarray evaluation set named in the sentence
+main	p92|s2	The mixtures may teach the classifier to	F:pog_native_net_loss	keys: the six net losses are those of HostMix-TOO in the POG570 native-truth set (Results, Confirmation 1)
+main	p92|s3	The ablation suggests, however, that the	F:abl_POG570_mix_native F:abl_POG570_pure03_native F:abl_POG570_pure15_native F:abl_POG570_sa_native F:abl_POG570_base_native F:abl_POG570_base_nnative	keys: the values are the POG570 native-truth arms of the ablation (previous sentences of the paragraph discuss the POG570 native-truth loss)
+main	p92|s5	For HostMix-TOO as locked, the trade-off	F:H1_n_favor	
+main	p93|s1	Four practical points follow.	C:practical_points_n	
+main	p93|s3	Second, mixture augmentation is inexpens	C:mixes_per_tumor	
+main	p93|s4	Third, the host pool should cover the si	F:pog_liver_share F:simt_brain_06_loho_host F:simt_brain_06_base_host C:rho_display	keys: the brain cortex rates are the simulation rates at rho 0.6 of the leave-one-host-out model and the baseline named in the sentence
+main	p94|s7	Sites outside the host pool were protect	C:pool22_n F:AS2_n	keys: the secondary hypothesis on the 22-tissue pool is AS2 of the auxiliary family (Methods, auxiliary families)
+main	p94|s10	The cohort search was not exhaustive: 14	F:geo_held_n	
+main	p121|s5	Each TCGA-train tumor profile is used on	C:mixes_per_tumor C:host_pool_n	
+main	p121|s6	Within-sample rank-normal scores of 5000	C:classifier_genes_n F:sa_c F:n_labels F:n_organs	keys: the legend describes HostMix-TOO (Fig. 1a title); the labels are the TCGA-train learning labels
+main	p121|s7	The baseline classifier uses the same tu	F:base_c	
+main	p123|s1	Held-out TCGA tumors (n = 1000) were mix	F:sim_tumors_n	
+main	p123|s2	**a** Mean host-attraction rate across t	C:host_pool_n	
+main	p123|s3	**b** Mean host-attraction rate across t	F:sim_outside_n C:pool22_n	keys: the legend is that of the simulation benchmark (Fig. 2 title, "Host attraction in simulated tumor-host mixtures")
+main	p123|s4	Rates are computed over tumors whose org	C:sim_rho_1	
+main	p123|s5	**c** Host-attraction rate at ρ = 0.6 on	C:rho_display	
+main	p125|s1	Differences, HostMix-TOO minus baseline,	C:aux_cohorts_plan	
+main	p125|s4	**c** Top-1 accuracy in the native-truth	C:ni_bound	
+main	p127|s1	**a** Host-attraction rate in the at-ris	C:aux_cohorts_plan F:ma_cohorts_n F:abl_ma_models_n F:base_c C:c_pure03 C:c_pure15 C:c_mix F:sa_c	
+main	p127|s2	**c** Mean loss of top-1 accuracy in MET	C:mg_platforms_n C:mg_platforms_n C:random_removals	
+main	p129|s1	**a** Top-1 organ accuracy in the evalua	F:ext_MET500_base_n F:ext_MET500_base_nrisk F:ext_POG570_base_n F:ext_POG570_base_nrisk C:aux_cohorts_plan F:ext_aux_rnaseq_base_n F:ext_aux_rnaseq_base_nrisk	keys: n is the same for every method of the panel; the facts are read from the baseline rows
+main	p131|s3	**b** POG570 host-attraction rate by bio	C:zero_mark	
+main	p131|s5	**d** At-risk biopsies whose baseline ho	F:shift_MET500_n_favor F:shift_POG570_n_favor F:shift_aux_rnaseq_n_favor	
+main	p135|s4	Auxiliary RNA-seq totals: 729 / 427 / 31	F:ext_aux_rnaseq_base_n F:ext_aux_rnaseq_base_nrisk F:ext_aux_rnaseq_base_nnative F:AS2_n F:imv_kidney_n	keys: n is the same for every method; the totals are those of the auxiliary RNA-seq cohorts named in the sentence; the 71 pool-out at-risk biopsies are the AS2 set
+main	p135|s5	Microarray totals as used in the descrip	F:ma_layer_n_evaluation F:ma_layer_n_at_risk F:ma_layer_n_native_truth	
+main	p135|s6	TCGA-test also supplied the 1000 tumors 	F:sim_tumors_n	
+main	p138|s3	Intervals are two-sided 95% percentile i	C:bootstrap_n	
+main	p141|s5	The auxiliary at-risk set includes 18 GS	F:sub_gse50760_base_nrisk	
+af1	p3|s1	The matrix is distributed as log2(TPM + 	C:toil_pseudocount	
+af1	p4|s2	The gene universe is the 17552 HGNC prot	C:gene_universe_n	
+af1	p8|s1	The search log has 537 rows and 502 stud	F:screen_rows_n F:screen_ids_n	
+af1	p8|s3	Of those 502 studies, 348 were excluded,	F:screen_ids_n F:screen_excluded_n F:geo_held_n F:screen_forward_n	status: post hoc recount of the last decision per study (A17 section 4.7); the sentence restates the search log and claims no analysis status
+af1	p8|s4	These three counts sum to 502.	C:screen_outcomes_n F:screen_ids_n	
+af1	p8|s5	The 35 extra rows are later updates of a	F:screen_extra_rows_n	
+af1	p9|s1	Excluded studies, by the criterion in `c	F:screen_crit2_n X:ID F:screen_crit3_n X:ID F:screen_crit4_n X:ID F:screen_crit6_n X:ID C:aux_min_risk F:screen_crit7_n X:ID	status: post hoc recount of the last decision per study (A17 section 4.7); criterion numbers are item numbers of config/aux_eligibility_A5.md
+af1	p9|s2	These five counts sum to 348.	C:screen_crit_counts_n F:screen_excluded_n	status: post hoc recount of the last decision per study (A17 section 4.7)
+af1	p10|s1	The 142 held studies are GEO series whos	F:geo_held_n	status: post hoc recount of the last decision per study (A17 section 4.7)
+af1	p10|s2	Held means that the title and summary di	X:ID	criterion number of config/aux_eligibility_A5.md
+af1	p10|s3	The 12 studies taken forward are the coh	F:screen_forward_n F:screen_selected_n F:screen_included_n	status: post hoc recount of the last decision per study (A17 section 4.7)
+af1	p12|s1	A sample was marked as a duplicate when 	C:dup_rho_high C:dup_rho_low	
+af1	p12|s2	That rule excluded 76 SU2C/PCF samples.	F:su2c_dup_removed_n	status: post hoc recount of the duplicate flags (A17 section 4.7)
+af1	p13|s2	Normal tissue, polyps and samples with a	X:ID F:excl8_aurora_n F:excl8_gse41258_n F:excl8_gse50760_n F:excl8_gse71729_n	rule number of the organ rules in config/aux_eval_labels.tsv (organ_rule); keys: each cohort accession (GSE209998 is AURORA US) is written immediately before its count
+af1	p13|s3	Cell-line samples were excluded under ru	X:ID F:excl2_gse41258_n F:excl2_gse71729_n	rule number of the organ rules (organ_rule)
+af1	p13|s4	Neuroendocrine or small-cell features we	X:ID F:excl1_su2c_n F:excl1_gse74685_n	rule number of the organ rules (organ_rule)
+af1	p13|s5	A further 93 samples kept the cohort org	F:exclc_total_n F:exclc_imv_n F:exclc_prince_n F:exclc_anders_n	keys: the total is over the auxiliary cohorts named in the parentheses (IMvigor210, PRINCE, Anders)
+af1	p15|s1	Table S1 gives the 32 tumor labels and t	F:n_labels F:n_organs	keys: the tumor labels are the learning labels of TCGA-train listed in Table S1
+af1	p16|s1	Fifty-nine MET500 specimens were exclude	F:met500_unmapped_n	
+af1	p16|s2	Fifty-eight POG570 samples were excluded	F:pog570_unmapped_n F:pog_base_n	
+af1	p16|s3	In IMvigor210, 67 samples were metastase	F:imv_kidney_n	
+af1	p16|s4	Their true organ, bladder, lies outside 	F:imv_kidney_n F:AS2_n	keys: the pool-out at-risk set of the auxiliary cohorts is the AS2 set (22-tissue model); the sentence names the set
+af1	p18|s1	Thirty-two tumor labels are summed to 26	F:n_labels F:n_organs	keys: legend of Table S1, whose rows are the learning labels of TCGA-train
+af1	p21|s4	Tissues listed here that are not in the 	C:host_pool_n	
+af1	p24|s1	The host pool is ten GTEx tissues.	C:host_pool_n	
+af1	p24|s4	Table S3 lists the pool counts and the e	F:proxy_corr_n	
+af1	p26|s1	GTEx-ref sample counts for the ten host-	C:host_pool_n F:proxy_corr_n	
+af1	p30|s1	Each HostMix-TOO training tumor contribu	C:mixes_per_tumor	
+af1	p30|s2	The tumor fraction of RNA is drawn from 	C:rho_mix_low C:rho_mix_high	
+af1	p30|s4	The mixture seed recorded for HostMix-TO	F:sa_mix_seed	
+af1	p30|s5	Bootstrap intervals use 2000 patient res	C:bootstrap_n C:seed_main	
+af1	p30|s6	The random gene-removal control uses see	C:mg_seed	
+af1	p30|s7	Cross-validation uses seed 20261001.	C:cv_seed	
+af1	p34|s3	Candidate rank is the development orderi	F:dev_candidates_n	
+af1	p37|s2	Simulation rates are unweighted means ac	C:rho_display	
+af1	p37|s3	The leave-one-host-out model that omitte	F:php_loholiver_host	
+af1	p37|s4	Across the 10 left-out tissues, the POG5	F:var_loho_n F:loho_host_min F:loho_host_max	keys: the sentence names the leave-one-host-out models
+af1	p52|s2	Each one-sided α = 0.05.	C:alpha	
+af1	p52|s4	Each hypothesis resamples its analysis s	C:bootstrap_n	
+af1	p52|s5	Seed 20261001.	C:seed_main	
+af1	p52|s6	Percentiles 2.5 and 97.5.	C:prereg_pct_low C:prereg_pct_high	
+af1	p57|s1	- Evaluation set: the organ is neither e	C:prereg_eval_n	
+af1	p57|s2	- At-risk set: evaluation samples whose 	C:prereg_risk_n	
+af1	p57|s3	- Native-truth set: the true organ lies 	C:prereg_native_n	
+af1	p60|s2	Remainder is any standard site other tha	C:site_groups_n	
+af1	p60|s4	- Tumor-content tertiles T1, T2, T3, fro	C:tc_bins C:tc_values_n	
+af1	p65|s1	RNA-seq layer, one sample per patient, f	C:alpha_primary_a6	
+af1	p68|s1	RNA-seq layer, one sample per patient, H	C:alpha_secondary_en	
+af1	p70|s2	The primary family uses a fixed order an	C:alpha_families_a6	
+af1	p71|s1	Effect size for every hypothesis: the di	C:boot_n_a6_effect C:seed_a6_effect	
+af1	p72|s1	Exact one-sided McNemar p = P(Binomial(m	C:mcnemar_null_a6	
+af1	p72|s2	If m = 0, the test is not rejected.	C:m_zero_a6	
+af1	p76|s1	A cohort meta-analysis uses cohorts with	C:meta_min_risk	
+af1	p76|s3	If b_i or c_i is 0, 0.5 is added to both	C:meta_zero C:meta_cc	
+af1	p79|s2	In each simulated data set every biopsy 	F:power_alpha F:power_nsim F:power_seed	
+af1	p79|s3	The full scenario used the MET500 develo	F:dev_pair_sa_n_host_fixed F:dev_base_nrisk F:dev_pair_sa_n_host_new F:dev_base_nrisk F:dev_pair_sa_n_method_only F:dev_base_n F:dev_pair_sa_n_base_only F:dev_base_n	keys: the sentence names the MET500 development proportions of the baseline and HostMix-TOO
+af1	p79|s4	The half scenario halved p_favor and kep	C:half_factor	
+af1	p83|s3	That comparison has 274 rows and 0 misma	F:planted_rows_n F:planted_mismatch_n	
+af1	p85|s3	CUP-AI-Dx uses the 791 features in the r	C:cup_features_n	
+af1	p85|s4	Cohort expression was converted to log2(	C:cup_fill C:cup_features_n	
+af1	p85|s5	SCOPE uses its 17688-gene list.	C:scope_features_n	
+af1	p85|s6	Features absent from a cohort were set t	C:cup_fill	
+af1	p85|s9	The fraction of samples whose SCOPE top-	F:scale_four_max F:scale_dfci_frac F:scale_dfci_changed F:scale_dfci_n	keys: the cohorts are named in the sentence (POG570, IMvigor210, Anders, PRINCE; DFCI melanoma is mel_dfci_2019)
+af1	p87|s1	The scale-check rule is line 64 of `conf	C:a8_scale_line C:a8_cup_line	
+af1	p87|s2	For GSE50760, 18 at-risk biopsies outsid	F:gse50760_late_n	
+af1	p88|s2	The wrapper compares each prediction wit	F:cup_example_correct C:cup_example_n F:cup_example_acc_pct	
+af1	p90|s1	The ablation plan was committed before t	C:abl_models_n	
+af1	p90|s3	The reading rule was that the mixtures w	F:abl_shares_total C:abl_share_pass	
+af1	p91|s1	The missing-gene simulation restricted P	C:random_removals	
+af1	p92|s4	The ten largest positive and the five mo	C:s4_pos_n C:s4_neg_n	
+af1	p95|s1	Five logistic models compared after the 	F:abl_rna_models_n F:base_c C:c_pure03 C:c_pure15 C:c_mix F:sa_c	
+af1	p98|s1	Top-1 accuracy in the microarray evaluat	F:ma_layer_n_evaluation F:ma_layer_n_at_risk F:ma_layer_n_native_truth F:abl_ma_models_n C:random_removals C:mg_platforms_n	
+af1	p100|s1	The shares of HostMix-TOO's top-1 loss o	F:ms_accuracy_s_mix F:ms_accuracy_s_std C:c_pure03 F:ms_accuracy_s_stdw C:c_pure15	
+af1	p100|s3	The shares of the extra loss under rando	F:ms_random_s2_mix F:ms_random_s2_std F:ms_random_s2_stdw	keys: the missing-gene simulation on POG570 and MET500 is named in the Table S9 legend; the models follow the order of the previous sentence (unstandardized mixture model, C = 0.03, C = 0.15)
+af1	p100|s4	The gap in that loss between HostMix-TOO	F:ms_random_gap	keys: "that loss" is the random-removal loss of the missing-gene simulation on POG570 and MET500 (Table S9 legend)
+af1	p103|s2	Columns are MET500, POG570, the six conf	C:aux_cohorts_plan	
+af1	p103|s5	The auxiliary column is a post hoc aggre	C:aux_cohorts_plan	
+af1	p103|s6	The microarray column is a post hoc aggr	F:ma_layer_n_evaluation F:ma_layer_n_at_risk	
+af1	p103|s7	Shading runs from light to dark gray ove	C:s1_scale_low C:s1_scale_high C:s1_scale_low C:s1_digits	
+af1	p103|s8	Native-organ masking has a host-attracti	F:m1_host_max	
+af1	p104|s2	Accuracy and host attraction in three an	F:set9_sets_n	
+af1	p105|s4	A bar of height zero is labeled 0.	C:zero_mark	
+af1	p107|s1	**a** Fraction of biopsies whose true or	C:aux_cohorts_plan	
+af1	p107|s2	The microarray n counts 556 evaluation s	F:ma_eval_samples_n F:overlap_eval_n	status: post hoc recount of the patient overlap (A17 section 4.7)
+af1	p107|s3	**b** HostMix-TOO calls for the 183 GSE4	F:gse41258_colon_n F:gse41258_sa_esophagus	
+af1	p107|s5	The horizontal mark is the mean change a	C:random_removals C:random_removals	
+af1	p109|s1	Mean contribution of each gene to the di	F:contrib_base_n F:contrib_sa_n	
+af1	p109|s4	The ten largest positive and the five mo	C:s4_pos_n C:s4_neg_n	
+af1	p111|s1	Each row is one cohort, grouped as the s	C:aux_cohorts_plan F:ma_cohorts_n	
+af1	p111|s3	The n at the end of a bar is that panel'	C:zero_mark	the label printed for a zero count is the same zero_mark label
+af1	p111|s4	Of 147 HostMix-TOO esophagus calls in GS	F:hist_gse41258_sa_n F:hist_gse41258_sa_n_closer_adenocarcinoma F:hist_gse41258_sa_n_closer_squamous F:hist_imv_sa_n_closer_squamous F:hist_imv_sa_n	
+af1	p113|s1	Difference in host-attraction rate, Host	C:meta_min_risk	
+af1	p113|s2	Diamonds show the DerSimonian–Laird rand	F:meta_rna_k F:meta_ma_k	
+af1	p113|s3	FHCRC is absent because its at-risk coun	C:meta_min_risk	
+af1	p113|s4	Cohort n counts one sample per patient w	F:meta_gse74685_n F:ma_gse74685_n_at_risk F:overlap_risk_n	status: post hoc recount of the patient overlap (A17 section 4.7)
+cover	p3|s4	In three metastatic RNA-seq evaluations,	C:pub_cohorts_n F:pub_host_min_pct0 F:pub_host_max_pct0	keys: the three evaluations are MET500, POG570 and the auxiliary RNA-seq cohorts (Table 2); percentages are rounded to integers
+cover	p4|s1	We evaluate a training-time remedy: addi	C:host_pool_n	
+cover	p4|s3	In POG570, host attraction fell from 22.	F:pog_base_host_pct F:pog_sa_host_pct F:pog_base_top1_pct F:pog_sa_top1_pct C:aux_cohorts_plan C:aux_primary_n	keys: 'from X to Y' gives the baseline then HostMix-TOO, the remedy named in the previous sentence
+card	p7|s1	Primary-tumor expression from the UCSC T	F:tcga_train_n F:n_labels	keys: the Training data section describes the training rows, which are TCGA-train
+card	p7|s2	GTEx-ref profiles from ten host tissues,	C:host_pool_n F:gtexref_pool_n	
+card	p9|s2	Ranks use every gene in G, including zer	C:classifier_genes_n	
+card	p10|s1	Both models are multinomial L2 logistic 	C:max_iter	
+card	p13|s1	SA-Z uses one pure profile and four mixt	C:mixes_per_tumor	
+card	p13|s2	The mixture weight is Uniform(0.15, 1.0)	C:rho_mix_low C:rho_mix_high	
+card	p13|s4	The SA seed is 890338470.	F:sa_mix_seed	
+card	p15|s2	H1 host rate, n = 378: BASE-Z 0.228, SA-	F:H1_n F:pog_base_host F:pog_sa_host F:H1_diff F:H1_ci_low F:H1_ci_high	
+card	p15|s3	H2 top-1, n = 512: 0.682 and 0.756, diff	F:H2_n F:pog_base_top1 F:pog_sa_top1 F:H2_diff F:H2_ci_low F:H2_ci_high	keys: POG570 and BASE-Z, SA-Z are named in the previous sentences of the paragraph; the two rates follow that order
+card	p15|s4	H3: non-inferiority (margin -0.10) was n	C:ni_bound F:H3_diff F:H3_ci_low F:H3_ci_high F:H3_bound	keys: POG570 is named in the paragraph (H1-H3 are the POG570 hypotheses)
+card	p16|s2	AH1 host rate, n = 427: 0.204 and 0.056,	F:AH1_n F:ext_aux_rnaseq_base_host F:ext_aux_rnaseq_sa_host F:AH1_diff	keys: BASE-Z then SA-Z, the order named in the H1 line of the same section
+card	p16|s3	AH2 top-1, n = 729: 0.527 and 0.698, dif	F:AH2_n F:ext_aux_rnaseq_base_top1 F:ext_aux_rnaseq_sa_top1 F:AH2_diff	keys: the auxiliary cohorts and BASE-Z, SA-Z order are named in the previous sentence
+card	p16|s4	AH3 non-inferiority was shown: differenc	F:AH3_diff F:AH3_bound	keys: AH3 is the auxiliary native-truth hypothesis named in the paragraph
+card	p17|s2	On MET500, POG570, and the auxiliary set	F:pub_host_min F:pub_host_max	
+card	p17|s3	SA-Z host rates were 0.024 to 0.056.	F:sa_host_min F:sa_host_max	keys: same three cohorts as the previous sentence (MET500, POG570, auxiliary set)
+card	p18|s1	Post hoc ablation: the mixture share of 	F:share_min C:abl_cohorts_n	keys: the three cohorts are MET500, POG570 and the auxiliary set named in the previous line of the section
+card	p24|s1	Training data and settings: the 7486 TCG	F:tcga_train_n C:mixes_per_tumor F:sa_train_rows C:c_mix	
+card	p24|s2	Multinomial L2 logistic regression, clas	C:max_iter	
+card	p24|s3	Predictions rebuilt from these files mat	F:mixmodel_check_n F:mixmodel_check_mismatch	keys: the section heading names the post hoc unstandardized mixture model (MIX-Z0)
+card	p27|s1	In the microarray evaluation set the uns	F:ma_layer_mix_n_esophagus F:ma_layer_base_n_esophagus F:ma_layer_sa_n_esophagus	
+card	p27|s2	When as many randomly chosen classifier 	C:mg_platforms_n F:mg_mix_random_mean_mean F:mg_base_random_mean_mean F:mg_sa_random_mean_mean	

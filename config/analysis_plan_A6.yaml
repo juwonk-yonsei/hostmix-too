@@ -1,0 +1,86 @@
+# Locked before the stage-6 freeze commit. The confirmation script reads this file.
+stage: 6
+label_file: config/aux_eval_labels.tsv
+label_sha256: 85a0159bd1938e682a70eed34da86f520e7646fc5f2a312f3099bd6e24b3aa03
+site_dictionary_aux: config/mappings/site_dictionary_aux.tsv
+site_dictionary: config/mappings/site_dictionary.tsv
+site_native: config/mappings/site_native.tsv
+conformal_thresholds: config/conformal_thresholds_A3.tsv
+seed_bootstrap: 20261001
+n_boot: 2000
+seed_power: 20261012
+n_power: 10000
+alpha_primary: 0.05
+alpha_family_secondary: 0.05
+holm_alpha_each: 0.016666666666666666
+sa_g_tau: 0.02
+sa_g_rule: "LD beta <= 0.02 or beta is NA -> BASE-Z, otherwise SA-Z"
+pool_out_sites:
+  - kidney
+  - pancreas
+  - bladder
+  - thyroid
+  - ovary
+  - breast
+  - stomach
+  - colon_rectum
+  - prostate
+  - esophagus
+  - head_neck
+  - cervix
+gi_organs: [Stomach, Esophagus, Pancreas, Biliary, Colorectal]
+conformal_methods: [BASE-Z, SA-Z]
+conformal_alphas: [0.1, 0.2]
+conformal_variants: [global, mondrian]
+conformal_levels: [liver, lymph_node, other]
+methods:
+  - BASE-Z
+  - SA-Z
+  - SA-G
+  - SA-pool22
+  - SC-Z
+  - LD-Z
+  - NC-Z
+  - M1-Z
+  - BASE-K
+  - SA-K
+  - V0-K
+  - SA-MLP
+confirmation_cohorts:
+  - blca_iatlas_imvigor210_2017
+  - brca_iatlas_anders_2022
+  - mel_dfci_2019
+  - paad_iatlas_prince_2022
+  - prad_su2c_2019
+  - GSE50760
+descriptive_only:
+  - cohort: GSE209998
+    reason: patient-prefix checks failed; barcode is one patient
+  - cohort: GSE41258
+    reason: microarray layer
+  - cohort: GSE14018
+    reason: microarray layer
+  - cohort: GSE71729
+    reason: microarray layer
+  - cohort: GSE74685
+    reason: microarray layer
+  - cohort: prad_fhcrc
+    reason: microarray layer
+set_sizes_one_sample_confirm:
+  eval: 729
+  risk: 427
+  native: 315
+  pool_out_risk: 71
+power:
+  - {hypothesis: AH1, scenario: 1, n: 427, p_favor: 0.2037037037037037, p_against: 0.0, alpha: 0.05, power: 1.0}
+  - {hypothesis: AH1, scenario: 2, n: 427, p_favor: 0.09418282548476455, p_against: 0.002770083102493075, alpha: 0.05, power: 1.0}
+  - {hypothesis: AH2, scenario: 1, n: 729, p_favor: 0.119140625, p_against: 0.044921875, alpha: 0.05, power: 0.9996}
+  - {hypothesis: AH2, scenario: 2, n: 729, p_favor: 0.06636155606407322, p_against: 0.02745995423340961, alpha: 0.05, power: 0.96}
+  - {hypothesis: AS1, scenario: 1, n: 315, p_favor: 0.07692307692307693, p_against: 0.01098901098901099, alpha: 0.016666666666666666, power: 0.9779}
+  - {hypothesis: AS1, scenario: 2, n: 315, p_favor: 0.06043956043956044, p_against: 0.027472527472527472, alpha: 0.016666666666666666, power: 0.3597}
+  - {hypothesis: AS2, scenario: 1, n: 71, p_favor: 0.084, p_against: 0.002, alpha: 0.016666666666666666, power: 0.5072}
+  - {hypothesis: AS2, scenario: 2, n: 71, p_favor: 0.043, p_against: 0.002, alpha: 0.016666666666666666, power: 0.0756}
+  - {hypothesis: AS3, scenario: 1, n: 729, p_favor: 0.037109375, p_against: 0.017578125, alpha: 0.016666666666666666, power: 0.4927}
+  - {hypothesis: AS3, scenario: 2, n: 729, p_favor: 0.018306636155606407, p_against: 0.011441647597254004, alpha: 0.016666666666666666, power: 0.1027}
+ld_missing_genes: drop genes absent from the cohort, restrict reference profiles to those genes, re-sum to 1e6
+na_prediction: incorrect

@@ -1,0 +1,9 @@
+panel	cohort	set	n	source_file	source_column
+a	MET500	evaluation	437	results/stage2/met500_overall.tsv	n
+b	MET500	at risk	361	results/stage2/met500_overall.tsv	n_at_risk
+a	POG570	evaluation	512	results/stage4/confirm/secondary_overall.tsv	n
+b	POG570	at risk	378	results/stage4/confirm/secondary_overall.tsv	n_at_risk
+a	Auxiliary RNA-seq	evaluation	729	results/stage10/derived/aux_six_rates.tsv	n_evaluation
+b	Auxiliary RNA-seq	at risk	427	results/stage10/derived/aux_six_rates.tsv	n_at_risk
+a	Microarray	evaluation	536	results/stage10/derived/microarray_rates.tsv	n_evaluation
+b	Microarray	at risk	207	results/stage10/derived/microarray_rates.tsv	n_at_risk

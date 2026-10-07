@@ -1,0 +1,19 @@
+id: T3
+doc: main
+caption: "Table 3."
+header: ["Cohort", "Classifier", "Top-1 accuracy (n)", "Host-attraction rate (n at risk)"]
+key_cols: [0, 1]
+row_id: "{co}/{mt}"
+maps:
+  0:
+    MET500: {co: MET500}
+    POG570: {co: POG570}
+    Auxiliary RNA-seq: {co: aux_rnaseq}
+  1:
+    Baseline: {mt: base}
+    HostMix-TOO: {mt: sa}
+    SCOPE: {mt: scope}
+    CUP-AI-Dx: {mt: cup}
+columns:
+  2: {id: top1, t: "{v} ({n})", f: {v: {fact: "ext_{co}_{mt}_top1"}, n: {fact: "ext_{co}_{mt}_n"}}}
+  3: {id: host, t: "{v} ({n})", f: {v: {fact: "ext_{co}_{mt}_host"}, n: {fact: "ext_{co}_{mt}_nrisk"}}}

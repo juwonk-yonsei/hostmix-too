@@ -1,0 +1,29 @@
+group	cohort	method	host_rate	n_at_risk	source	group_display
+Development	MET500	BASE-Z	0.135734072	361	stage8 metrics	Development
+Development	MET500	SA-Z	0.04432132964	361	stage8 metrics	Development
+Confirmation 1	POG570	BASE-Z	0.2275132275	378	stage8 metrics	Confirmation 1
+Confirmation 1	POG570	SA-Z	0.02380952381	378	stage8 metrics	Confirmation 1
+Confirmation 2	IMvigor210	BASE-Z	0.03658536585	82	subcohort_metrics	Confirmation 2
+Confirmation 2	IMvigor210	SA-Z	0.0243902439	82	subcohort_metrics	Confirmation 2
+Confirmation 2	Anders	BASE-Z	0.05882352941	17	subcohort_metrics	Confirmation 2
+Confirmation 2	Anders	SA-Z	0	17	subcohort_metrics	Confirmation 2
+Confirmation 2	DFCI	BASE-Z	0.1428571429	35	subcohort_metrics	Confirmation 2
+Confirmation 2	DFCI	SA-Z	0	35	subcohort_metrics	Confirmation 2
+Confirmation 2	PRINCE	BASE-Z	0.8392857143	56	subcohort_metrics	Confirmation 2
+Confirmation 2	PRINCE	SA-Z	0.1785714286	56	subcohort_metrics	Confirmation 2
+Confirmation 2	GSE50760	BASE-Z	0.3888888889	18	subcohort_metrics	Confirmation 2
+Confirmation 2	GSE50760	SA-Z	0.05555555556	18	subcohort_metrics	Confirmation 2
+Confirmation 2	SU2C/PCF	BASE-Z	0.1095890411	219	subcohort_metrics	Confirmation 2
+Confirmation 2	SU2C/PCF	SA-Z	0.0502283105	219	subcohort_metrics	Confirmation 2
+Descriptive RNA-seq	AURORA US	BASE-Z	0.109375	64	stage7 metrics	Other RNA-seq
+Descriptive RNA-seq	AURORA US	SA-Z	0.015625	64	stage7 metrics	Other RNA-seq
+Descriptive microarray	GSE41258	BASE-Z	0.2413793103	58	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	GSE41258	SA-Z	0.03448275862	58	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	GSE14018	BASE-Z	0.25	36	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	GSE14018	SA-Z	0.2777777778	36	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	GSE71729	BASE-Z	0.5	56	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	GSE71729	SA-Z	0.125	56	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	GSE74685	BASE-Z	0.04081632653	49	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	GSE74685	SA-Z	0.02040816327	49	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	FHCRC	BASE-Z	0	8	post hoc aggregate of confirmatory predictions	Microarray
+Descriptive microarray	FHCRC	SA-Z	0.125	8	post hoc aggregate of confirmatory predictions	Microarray

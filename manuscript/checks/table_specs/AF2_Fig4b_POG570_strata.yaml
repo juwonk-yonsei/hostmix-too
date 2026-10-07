@@ -1,0 +1,8 @@
+id: AF2_Fig4b_POG570_strata
+doc: af2
+sheet: Fig4b_POG570_strata
+header_row: 2
+builder: copy
+params:
+  source: results/stage4/confirm/secondary_by_site.tsv
+origin: results

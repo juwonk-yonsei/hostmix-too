@@ -1,0 +1,138 @@
+id: CARD2
+doc: card
+caption: Post hoc model
+key_cols:
+- 0
+- 1
+carry:
+- 0
+row_id: '{c}/{t}'
+header:
+- Cohort
+- Model
+- Top-1
+- Host-attraction rate
+- Native-truth top-1
+maps:
+  0:
+    re:^MET500:
+      c: MET500
+      ct: MET500
+      kind: rna
+    re:^POG570:
+      c: POG570
+      ct: POG570
+      kind: rna
+    re:^Auxiliary RNA-seq:
+      c: aux_rnaseq
+      ct: Auxiliary RNA-seq
+      kind: rna
+    re:^Microarray:
+      c: layer
+      ct: Microarray
+      kind: ma
+  1:
+    Baseline:
+      t: base
+    HostMix-TOO:
+      t: sa
+    Unstandardized mixture model:
+      t: mix
+columns:
+  0:
+    id: cohort
+    t: '{*}'
+    rows:
+      MET500/base:
+        t: '{*} (n = {n}, {r}, {v})'
+        f:
+          n:
+            fact: abl_MET500_base_n
+          r:
+            fact: abl_MET500_base_nrisk
+          v:
+            fact: abl_MET500_base_nnative
+      POG570/base:
+        t: '{*} (n = {n}, {r}, {v})'
+        f:
+          n:
+            fact: abl_POG570_base_n
+          r:
+            fact: abl_POG570_base_nrisk
+          v:
+            fact: abl_POG570_base_nnative
+      aux_rnaseq/base:
+        t: '{*} (n = {n}, {r}, {v})'
+        f:
+          n:
+            fact: abl_aux_rnaseq_base_n
+          r:
+            fact: abl_aux_rnaseq_base_nrisk
+          v:
+            fact: abl_aux_rnaseq_base_nnative
+      layer/base:
+        t: '{*} (n = {n}, {r}, {v})'
+        f:
+          n:
+            fact: ma_layer_n_evaluation
+          r:
+            fact: ma_layer_n_at_risk
+          v:
+            fact: ma_layer_n_native_truth
+  2:
+    id: top1
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_top1
+    rows:
+      layer/base:
+        f:
+          v:
+            fact: ma_layer_base_top1
+      layer/mix:
+        f:
+          v:
+            fact: ma_layer_mix_top1
+      layer/sa:
+        f:
+          v:
+            fact: ma_layer_sa_top1
+  3:
+    id: host
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_host
+    rows:
+      layer/base:
+        f:
+          v:
+            fact: ma_layer_base_host_rate
+      layer/mix:
+        f:
+          v:
+            fact: ma_layer_mix_host_rate
+      layer/sa:
+        f:
+          v:
+            fact: ma_layer_sa_host_rate
+  4:
+    id: native
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_native
+    rows:
+      layer/base:
+        f:
+          v:
+            fact: ma_layer_base_native_truth_top1
+      layer/mix:
+        f:
+          v:
+            fact: ma_layer_mix_native_truth_top1
+      layer/sa:
+        f:
+          v:
+            fact: ma_layer_sa_native_truth_top1

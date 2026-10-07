@@ -1,0 +1,62 @@
+id: T1
+doc: main
+caption: "Table 1."
+header: ["Data set", "Role", "Assay (unit)", "Tumor type", "n: evaluation / at risk / native truth", "Reference"]
+key_cols: [0]
+row_id: "{row}"
+maps:
+  0:
+    TCGA-train: {row: tcga_train}
+    TCGA-test: {row: tcga_test}
+    GTEx-ref: {row: gtex_ref}
+    GTEx-sim: {row: gtex_sim}
+    MET500: {row: met500}
+    POG570: {row: pog570}
+    IMvigor210: {row: imv}
+    "Anders et al.": {row: anders}
+    DFCI melanoma: {row: dfci}
+    PRINCE: {row: prince}
+    GSE50760: {row: gse50760}
+    SU2C/PCF: {row: su2c}
+    "GSE209998 (AURORA US)": {row: aurora}
+    GSE41258: {row: gse41258, nn: ma_gse41258_n_native_truth}
+    GSE14018: {row: gse14018, nn: s7_gse14018_base_nnative}
+    GSE71729: {row: gse71729, nn: ma_gse71729_n_native_truth}
+    GSE74685: {row: gse74685, nn: s7_gse74685_base_nnative}
+    FHCRC: {row: fhcrc, nn: ma_fhcrc_n_native_truth}
+columns:
+  1:
+    id: role
+    t: "{*}"
+    rows:
+      gtex_ref: {t: "Host pool ({v} tissues), reference profiles", f: {v: {const: host_pool_n}}}
+      gtex_sim: {t: "Simulation hosts ({v} tissues)", f: {v: {fact: sim_tissues_n}}}
+  2: {id: assay, t: "{*}"}
+  3:
+    id: tumor_type
+    t: "{*}"
+    rows:
+      tcga_train: {t: "{v} tumor labels", f: {v: {fact: n_labels}}}
+      tcga_test: {t: "{v} tumor labels", f: {v: {fact: n_labels}}, note: "keys: the labels are counted in TCGA-train; TCGA-test is a stratified split of the same labels (Methods, Data)"}
+  4:
+    id: n
+    t: "{e} / {r} / {n}"
+    f:
+      e: {fact: "ma_{row}_n_evaluation"}
+      r: {fact: "ma_{row}_n_at_risk"}
+      n: {fact: "{nn}"}
+    rows:
+      tcga_train: {t: "{v} primary tumors", f: {v: {fact: tcga_train_n}}}
+      tcga_test: {t: "{v} primary tumors", f: {v: {fact: tcga_test_n}}}
+      gtex_ref: {t: "{a} of {b} samples", f: {a: {fact: gtexref_pool_n}, b: {fact: gtexref_n}}}
+      gtex_sim: {t: "{a} of {b} samples", f: {a: {fact: gtexsim_22_n}, b: {fact: gtexsim_n}}}
+      met500: {f: {e: {fact: dev_base_n}, r: {fact: dev_base_nrisk}, n: {fact: dev_base_nnative}}}
+      pog570: {f: {e: {fact: pog_base_n}, r: {fact: pog_base_nrisk}, n: {fact: pog_base_nnative}}}
+      imv: {f: {e: {fact: s7_imv_base_n}, r: {fact: sub_imv_base_nrisk}, n: {fact: s7_imv_base_nnative}}}
+      anders: {f: {e: {fact: s7_anders_base_n}, r: {fact: sub_anders_base_nrisk}, n: {fact: s7_anders_base_nnative}}}
+      dfci: {f: {e: {fact: s7_dfci_base_n}, r: {fact: sub_dfci_base_nrisk}, n: {fact: s7_dfci_base_nnative}}}
+      prince: {f: {e: {fact: s7_prince_base_n}, r: {fact: sub_prince_base_nrisk}, n: {fact: s7_prince_base_nnative}}}
+      gse50760: {f: {e: {fact: s7_gse50760_base_n}, r: {fact: sub_gse50760_base_nrisk}, n: {fact: s7_gse50760_base_nnative}}}
+      su2c: {f: {e: {fact: s7_su2c_base_n}, r: {fact: sub_su2c_base_nrisk}, n: {fact: s7_su2c_base_nnative}}}
+      aurora: {f: {e: {fact: s7_aurora_base_n}, r: {fact: s7_aurora_base_nrisk}, n: {fact: s7_aurora_base_nnative}}}
+  5: {id: reference, t: "{*}"}

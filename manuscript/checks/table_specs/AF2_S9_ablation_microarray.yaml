@@ -1,0 +1,11 @@
+id: AF2_S9_ablation_microarray
+doc: af2
+sheet: S9_ablation_microarray
+header_row: 2
+builder: s9_microarray
+origin: results
+params:
+  metrics: results/stage10/ablation_microarray/metrics.tsv
+  restriction: results/stage10/ablation_microarray/restriction.tsv
+  shares: results/stage10/ablation_microarray/shares.tsv
+  category: results/stage10/ablation_microarray/category.tsv

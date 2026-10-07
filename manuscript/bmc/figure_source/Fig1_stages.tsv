@@ -1,0 +1,7 @@
+panel	stage	border
+c	Development: simulation, MET500	development, thin solid
+c	Lock: models, code and plans committed	lock, thin solid
+c	Confirmation 1: POG570 (H1–H3)	preregistered, thick solid
+c	Confirmation 2: six RNA-seq cohorts (AH1–AH3, AS1–AS3)	preregistered, thick solid
+c	Published classifiers: SCOPE, CUP-AI-Dx	pre-specified descriptive, dashed
+c	Post hoc: ablation, error analyses	post hoc, dotted

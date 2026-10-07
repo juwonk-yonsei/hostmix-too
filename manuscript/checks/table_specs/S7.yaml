@@ -1,0 +1,19 @@
+id: S7
+doc: af1
+caption: Table S7.
+key_cols:
+- 0
+row_id: '{c0}'
+maps:
+  0:
+    re:.: {}
+columns:
+  0:
+    id: name
+    t: '{*}'
+    rows:
+      Gene removal 20%:
+        t: Gene removal {q}%
+        f:
+          q:
+            const: if_q20

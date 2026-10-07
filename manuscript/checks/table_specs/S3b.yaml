@@ -1,0 +1,58 @@
+id: S3b
+doc: af1
+caption: Table S3.
+which: 1
+header:
+- Query
+- Candidate tissue
+- Genes compared
+- GTEx-ref samples
+- Spearman
+key_cols:
+- 0
+- 1
+row_id: '{q}/{g}'
+maps:
+  0:
+    lymph node:
+      q: lymph node
+    bone marrow:
+      q: bone marrow
+  1:
+    Spleen:
+      g: Spleen
+    Whole Blood:
+      g: Whole Blood
+    Cells - Ebv-Transformed Lymphocytes:
+      g: Cells - Ebv-Transformed Lymphocytes
+    Small Intestine - Terminal Ileum:
+      g: Small Intestine - Terminal Ileum
+columns:
+  2:
+    id: genes
+    t: '{v}'
+    f:
+      v:
+        src: results/stage2/proxy_correlation.tsv
+        sel: hpa_query == '{q}' and gtex_tissue == '{g}'
+        col: n_genes
+        dec: 0
+  3:
+    id: gtex_ref
+    t: '{v}'
+    f:
+      v:
+        src: results/stage2/proxy_correlation.tsv
+        sel: hpa_query == '{q}' and gtex_tissue == '{g}'
+        col: n_gtex_ref
+        dec: 0
+  4:
+    id: spearman
+    t: '{v}'
+    f:
+      v:
+        src: results/stage2/proxy_correlation.tsv
+        sel: hpa_query == '{q}' and gtex_tissue == '{g}'
+        col: spearman
+        dec: 0
+        form: raw

@@ -1,0 +1,37 @@
+cohort	method	n	adenocarcinoma	squamous	tie
+IMvigor210	Baseline	214	73	141	0
+Anders	Baseline	17	0	17	0
+DFCI	Baseline	2	1	1	0
+PRINCE	Baseline	9	7	2	0
+GSE50760	Baseline	0	0	0	0
+SU2C/PCF	Baseline	1	1	0	0
+AURORA US	Baseline	8	4	4	0
+GSE41258	Baseline	29	27	2	0
+GSE14018	Baseline	0	0	0	0
+GSE71729	Baseline	1	1	0	0
+GSE74685	Baseline	0	0	0	0
+FHCRC	Baseline	0	0	0	0
+IMvigor210	HostMix-TOO	105	36	69	0
+Anders	HostMix-TOO	18	1	17	0
+DFCI	HostMix-TOO	0	0	0	0
+PRINCE	HostMix-TOO	47	45	2	0
+GSE50760	HostMix-TOO	0	0	0	0
+SU2C/PCF	HostMix-TOO	2	2	0	0
+AURORA US	HostMix-TOO	11	5	6	0
+GSE41258	HostMix-TOO	147	145	2	0
+GSE14018	HostMix-TOO	0	0	0	0
+GSE71729	HostMix-TOO	0	0	0	0
+GSE74685	HostMix-TOO	0	0	0	0
+FHCRC	HostMix-TOO	0	0	0	0
+IMvigor210	Linear deconvolution	218	76	142	0
+Anders	Linear deconvolution	18	1	17	0
+DFCI	Linear deconvolution	3	2	1	0
+PRINCE	Linear deconvolution	19	17	2	0
+GSE50760	Linear deconvolution	0	0	0	0
+SU2C/PCF	Linear deconvolution	3	3	0	0
+AURORA US	Linear deconvolution	11	6	5	0
+GSE41258	Linear deconvolution	16	14	2	0
+GSE14018	Linear deconvolution	4	2	2	0
+GSE71729	Linear deconvolution	1	1	0	0
+GSE74685	Linear deconvolution	0	0	0	0
+FHCRC	Linear deconvolution	0	0	0	0

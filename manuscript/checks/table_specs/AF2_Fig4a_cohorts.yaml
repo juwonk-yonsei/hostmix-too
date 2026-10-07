@@ -1,0 +1,13 @@
+id: AF2_Fig4a_cohorts
+doc: af2
+sheet: Fig4a_cohorts
+header_row: 2
+builder: fig4a
+origin: figure_source
+params:
+  source: manuscript/bmc/figure_source/Fig4a_cohorts.tsv
+  files:
+    stage8 metrics: results/stage8/external/tables/metrics.tsv
+    subcohort_metrics: results/stage9/subcohort_metrics.tsv
+    stage7 metrics: results/stage7/confirm/tables/metrics.tsv
+    post hoc aggregate of confirmatory predictions: results/stage7/confirm/predictions.parquet

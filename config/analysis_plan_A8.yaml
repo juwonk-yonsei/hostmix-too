@@ -1,0 +1,108 @@
+# A8 analysis plan. Pre-specified description. Not a hypothesis test.
+# Written before any SCOPE or CUP-AI-Dx run on MET500, POG570, or the auxiliary cohorts.
+
+status: pre_specified_description
+hypothesis_test: false
+seed_bootstrap: 20261001
+n_bootstrap: 2000
+bootstrap: patient percentile, two-sided 95 percent
+mcnemar: exact two-sided binomial, no multiplicity correction
+label_map_commit: fd712e02
+label_map: config/external_tool_label_map.tsv
+
+cohorts:
+  MET500:
+    role: development
+    set_definition: stage-3 one sample per patient
+    n_eval: 437
+    n_risk: 361
+    predictions: results/stage5/posthoc/met500_predictions.parquet
+  POG570:
+    role: primary confirmation
+    n_eval: 512
+    n_risk: 378
+    n_native_truth: 91
+    predictions: results/stage3/pog570_predictions.parquet
+    predictions_sha256: c1042f614c9e5298f9ad17b581b2b67573385595247f87fe58bc6cee22a9fd6a
+  aux_rnaseq:
+    role: secondary confirmation
+    cohorts:
+      - blca_iatlas_imvigor210_2017
+      - brca_iatlas_anders_2022
+      - mel_dfci_2019
+      - paad_iatlas_prince_2022
+      - GSE50760
+      - prad_su2c_2019
+    n_eval: 729
+    n_risk: 427
+    n_native: 315
+    selection: include_confirm and selected_eval, selected_risk, selected_native
+    predictions: results/stage7/confirm/predictions.parquet
+    excluded:
+      - microarray layer
+      - GSE209998
+
+methods_ours:
+  - BASE-Z
+  - SA-Z
+tools:
+  SCOPE:
+    models: [v1_rm500, v1_rm500dropout, v1_smotenone17k, v1_none17k, v1_none17kdropout]
+    top1: SCOPE_topPredictions rank_pred 1
+    top3_and_probability: mean of the five model class probabilities
+  CUP-AI-Dx:
+    model: models/inception_net_1d.h5
+    wrapper: same preprocessing as external_test.py metastatic (features_791.csv, StandardScaler fit on the genes-by-samples matrix, then transpose back)
+    wrapper_gate: re-predict ExternalDataMeta and match overall accuracy 92.13197969543148 percent before any cohort run
+
+inputs:
+  rules_table: config/external_inputs_A8.tsv
+  scope_expected_features: 17688
+  scope_gene_id: HUGO symbol
+  cup_gene_id: HGNC complete set, symbol to Entrez; previous symbols only when they map to exactly one Entrez; symbols that share an Entrez are summed on the linear scale
+  missing_features: fill 0 on the tool input scale when the tool documentation has no imputation rule. The CUP file named features_40_median_icgc_tcga.csv is a feature-id list, not a median table.
+  scope_scale_check: inputs that are a per-sample constant multiple of RPKM are passed unchanged, then run once more at times 2. The primary result is the unchanged run. Report the fraction of samples whose top-1 class changes.
+  overlap: compare ExternalDataMeta and any public SCOPE test sample ids with MET500, POG570, and auxiliary ids. If overlap is nonzero, every section 2.5 table also reports the value with those samples removed.
+  scope_bc_cancer: quote the SCOPE paper sentence on whether the BC Cancer metastatic test set is the same program as POG.
+
+scoring:
+  top1: map the tool top class through the committed label map. An unmapped class is an error. Report the unmapped count.
+  scope_ns_primary: a class ending in _NS is incorrect for top-1
+  scope_ns_sensitivity: count a _NS prediction as correct when its mapped organ equals the truth organ
+  top3: map classes in probability order to organs, drop duplicate organs, keep the first three
+  host_pull: on the risk set, predicted organ is in that sample native_organs and differs from the truth. SCOPE _NS uses the committed normal-tissue rule.
+  common_label_set: truth organ is in the label space of BASE-Z, SA-Z, SCOPE, and CUP-AI-Dx. Primary comparison tables use this set. Full-set values are also reported.
+  gi_internal_error: same count as the confirmation gi_count. GI organs are Stomach, Esophagus, Pancreas, Biliary, Colorectal. A count requires a wrong call that is not a host pull and has both truth and prediction in that set.
+
+tables:
+  note: pre-specified description, not a hypothesis test
+  by_method_cohort:
+    - top1
+    - top3
+    - macro_f1
+    - host_rate
+    - native_truth_top1
+    - gi_internal_error_count
+    - prediction_class_distribution
+  paired:
+    contrasts: [SA-Z minus tool, BASE-Z minus tool]
+    metrics: [top1, host_rate]
+    interval: patient bootstrap percentile 95 percent, 2000 draws, seed 20261001
+    discordant_counts: true
+    mcnemar: exact two-sided, no multiplicity correction
+  host_rate_by_site_group: [real_host_tissue, proxy_host, pool_out, other]
+  site_groups:
+    real_host_tissue: [adrenal, brain, liver, lung, skin, soft_tissue]
+    proxy_host: [bone, lymph_node]
+    pool_out: [kidney, pancreas, bladder, thyroid, ovary, breast, stomach, colon_rectum, prostate, esophagus, head_neck, cervix]
+    other: [pleura]
+
+locked:
+  do_not_change_after_results:
+    - config/external_tool_label_map.tsv
+    - input rules
+    - set definitions
+  do_not_touch:
+    - preregistration and freeze files
+    - results/stage7/confirm
+    - frozen models

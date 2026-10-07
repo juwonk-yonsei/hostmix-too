@@ -1,0 +1,43 @@
+id: P1
+doc: af1
+caption: POG570 confirmatory hypotheses
+key_cols:
+- 0
+row_id: '{h}'
+maps:
+  0:
+    H1:
+      h: H1
+    H2:
+      h: H2
+    H3:
+      h: H3
+columns:
+  1:
+    id: statement
+    t: '{*}'
+    rows:
+      H3:
+        t: '{*} by more than {m} percentage points'
+        f:
+          m:
+            const: ni_margin_pts
+            abs: true
+  2:
+    id: test
+    t: '{*}'
+    rows:
+      H1:
+        t: '{*} Binomial(n_disc, {p}) variable is at least the observed favorable count. If n_disc = {z}, p = {o}'
+        f:
+          p:
+            const: mcnemar_null_p
+          z:
+            const: ndisc_zero
+          o:
+            const: p_no_discordant
+      H3:
+        t: '{*} is greater than {b}. Judged only if H2 is met'
+        f:
+          b:
+            const: ni_bound

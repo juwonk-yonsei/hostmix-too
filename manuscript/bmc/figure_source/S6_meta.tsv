@@ -1,0 +1,14 @@
+layer	row	cohort	n_at_risk	difference	ci_low	ci_high	interval	I2	I2_percent	k
+RNA-seq	cohort	IMvigor210	82	-0.01219512195	-0.06557738079	0.04118713689	Wald, recorded variance			
+RNA-seq	cohort	Anders	17	-0.05882352941	-0.2194583377	0.1018112788	Wald, recorded variance			
+RNA-seq	cohort	DFCI	35	-0.1428571429	-0.2716049584	-0.01410932734	Wald, recorded variance			
+RNA-seq	cohort	PRINCE	56	-0.6607142857	-0.7895673998	-0.5318611717	Wald, recorded variance			
+RNA-seq	cohort	GSE50760	18	-0.3333333333	-0.5768162909	-0.08985037578	Wald, recorded variance			
+RNA-seq	cohort	AURORA US	64	-0.09375	-0.171452451	-0.01604754895	Wald, recorded variance			
+RNA-seq	cohort	SU2C/PCF	219	-0.05936073059	-0.09191171647	-0.02680974471	Wald, recorded variance			
+RNA-seq	DerSimonian-Laird			-0.1811427818	-0.3012763002	-0.06100926341	DerSimonian-Laird 95% interval	0.9340859592	93.40859592	7
+Microarray	cohort	GSE41258	58	-0.2068965517	-0.3311396041	-0.08265349939	Wald, recorded variance			
+Microarray	cohort	GSE14018	36	0.02777777778	-0.1159825919	0.1715381475	Wald, recorded variance			
+Microarray	cohort	GSE71729	56	-0.375	-0.5065413433	-0.2434586567	Wald, recorded variance			
+Microarray	cohort	GSE74685	57	-0.01754385965	-0.06595920227	0.03087148297	Wald, recorded variance			
+Microarray	DerSimonian-Laird			-0.1399866757	-0.3109764006	0.0310030492	DerSimonian-Laird 95% interval	0.9050675812	90.50675812	4

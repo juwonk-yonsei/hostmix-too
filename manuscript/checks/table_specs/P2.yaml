@@ -1,0 +1,37 @@
+id: P2
+doc: af1
+caption: Auxiliary confirmatory hypotheses
+which: 0
+key_cols:
+- 0
+row_id: '{h}'
+maps:
+  0:
+    AH1:
+      h: AH1
+    AH2:
+      h: AH2
+    AH3:
+      h: AH3
+columns:
+  1:
+    id: statement
+    t: '{*}'
+    rows:
+      AH3:
+        t: '{*} by more than {m} percentage points'
+        f:
+          m:
+            const: ni_margin_pts_a6
+            abs: true
+  2:
+    id: test
+    t: '{*}'
+    rows:
+      AH3:
+        t: '{*} ({n} replicates) > {b}. Judged only if AH2 is met'
+        f:
+          n:
+            const: bootstrap_n_a6
+          b:
+            const: ni_bound_a6

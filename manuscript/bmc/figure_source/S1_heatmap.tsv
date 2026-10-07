@@ -1,0 +1,59 @@
+cohort	method	top1	host_rate	status
+MET500	BASE-Z	0.6887871854	0.135734072	exploratory
+MET500	M1-Z	0.5995423341	0	exploratory
+MET500	NC-Z	0.6750572082	0.1191135734	exploratory
+MET500	LD-Z	0.709382151	0.08864265928	exploratory
+MET500	SA-Z	0.7276887872	0.04432132964	exploratory
+MET500	IF20-Z	0.6773455378	0.1191135734	exploratory
+MET500	SC-Z	0.7139588101	0.03047091413	exploratory
+MET500	SC+IF20-Z	0.709382151	0.03047091413	exploratory
+MET500	SC+IF40-Z	0.704805492	0.02770083102	exploratory
+MET500	BASE-K	0.5675057208	0.1412742382	exploratory
+MET500	M1-K	0.4805491991	0	exploratory
+MET500	V0-K	0.5789473684	0.05263157895	exploratory
+MET500	NC-K	0.590389016	0.1191135734	exploratory
+MET500	LD-K	0.5491990847	0.06648199446	exploratory
+MET500	SA-K	0.6704805492	0.04432132964	exploratory
+MET500	IF20-K	0.5743707094	0.1412742382	exploratory
+MET500	SC-K	0.6086956522	0.02216066482	exploratory
+MET500	SC+IF20-K	0.6155606407	0.02493074792	exploratory
+MET500	SC+IF40-K	0.6292906178	0.02493074792	exploratory
+POG570	BASE-Z	0.681640625	0.2275132275	preregistered
+POG570	BASE-K	0.595703125	0.246031746	pre-specified descriptive
+POG570	SA-Z	0.755859375	0.02380952381	preregistered
+POG570	SC-Z	0.7578125	0.02380952381	pre-specified descriptive
+POG570	LD-Z	0.72265625	0.1428571429	pre-specified descriptive
+POG570	NC-Z	0.708984375	0.1798941799	pre-specified descriptive
+POG570	M1-Z	0.63671875	0	pre-specified descriptive
+POG570	SA-K	0.7265625	0.03703703704	pre-specified descriptive
+POG570	V0-K	0.677734375	0.07407407407	pre-specified descriptive
+MET500	SA-pool22	0.704805492	0.04709141274	exploratory
+MET500	SA-MLP	0.6956521739	0.03047091413	exploratory
+POG570	SA-pool22	0.74609375	0.04761904762	exploratory
+POG570	SA-MLP	0.75	0.02380952381	exploratory
+MET500	SA-G	0.7345537757	0.05263157895	exploratory
+POG570	SA-G	0.775390625	0.04232804233	exploratory
+Microarray	BASE-Z	0.723880597	0.2560386473	post hoc aggregate
+Microarray	SA-Z	0.4552238806	0.1014492754	post hoc aggregate
+Microarray	SA-G	0.6828358209	0.09661835749	post hoc aggregate
+Microarray	SA-pool22	0.5391791045	0.1884057971	post hoc aggregate
+Microarray	SC-Z	0.4347014925	0.1111111111	post hoc aggregate
+Microarray	LD-Z	0.8115671642	0.009661835749	post hoc aggregate
+Microarray	NC-Z	0.3973880597	0.2028985507	post hoc aggregate
+Microarray	M1-Z	0.2089552239	0	post hoc aggregate
+Microarray	BASE-K	0.05970149254	0.04830917874	post hoc aggregate
+Microarray	SA-K	0.2294776119	0.08695652174	post hoc aggregate
+Microarray	V0-K	0.01305970149	0.004830917874	post hoc aggregate
+Microarray	SA-MLP	0.5354477612	0.05314009662	post hoc aggregate
+Auxiliary RNA-seq	BASE-Z	0.5267489712	0.2037470726	post hoc aggregate
+Auxiliary RNA-seq	SA-Z	0.6982167353	0.05620608899	post hoc aggregate
+Auxiliary RNA-seq	SC-Z	0.6899862826	0.04918032787	post hoc aggregate
+Auxiliary RNA-seq	LD-Z	0.536351166	0.1451990632	post hoc aggregate
+Auxiliary RNA-seq	NC-Z	0.4869684499	0.1709601874	post hoc aggregate
+Auxiliary RNA-seq	M1-Z	0.3470507545	0	post hoc aggregate
+Auxiliary RNA-seq	SA-G	0.5500685871	0.06088992974	post hoc aggregate
+Auxiliary RNA-seq	SA-pool22	0.5336076818	0.05620608899	post hoc aggregate
+Auxiliary RNA-seq	BASE-K	0.3017832647	0.1522248244	post hoc aggregate
+Auxiliary RNA-seq	SA-K	0.5048010974	0.06088992974	post hoc aggregate
+Auxiliary RNA-seq	V0-K	0.2949245542	0.09367681499	post hoc aggregate
+Auxiliary RNA-seq	SA-MLP	0.5198902606	0.04449648712	post hoc aggregate

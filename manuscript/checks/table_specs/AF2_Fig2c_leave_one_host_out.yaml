@@ -1,0 +1,10 @@
+id: AF2_Fig2c_leave_one_host_out
+doc: af2
+sheet: Fig2c_leave_one_host_out
+header_row: 2
+builder: copy
+params:
+  source: manuscript/bmc/figure_source/Fig2_loho.tsv
+  rename:
+    hostmix: hostmix_too
+origin: figure_source

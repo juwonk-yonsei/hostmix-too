@@ -1,0 +1,26 @@
+item	value	limit	pass	detail
+abstract words (with the three subheadings)	348	350	True	without subheadings 345
+figure titles over 15 words	0	0	True	12 figures; longest title 10 words
+figure legends over 300 words	0	0	True	longest legend 218 words
+reference first-citation order deviations	0	0	True	69 listed, 69 cited, list numbered 1..n: True
+uncited references	0	0	True	
+cited numbers absent from the list	0	0	True	
+first-citation order deviations, figures	0	0	True	order 1 2 3 4 5 6
+first-citation order deviations, tables	0	0	True	order 1 2 3
+first-citation order deviations, additional files	0	0	True	order 1 2 3
+abbreviations listed but not used	0	0	True	
+abbreviations defined in the text but not listed	0	0	True	
+'scaled', 'unscaled', 'scaling'	0	0	True	A_main.md 0; Additional_file_1.md 0; cover_letter.md 0
+forbidden: stored	0	0	True	0 in exempt places
+forbidden: significant	0	0	True	0 in exempt places
+forbidden: host-pull	0	0	True	0 in exempt places
+forbidden: internal name	0	0	True	16 in exempt places
+forbidden: path	0	0	True	118 in exempt places
+forbidden: hash	0	0	True	7 in exempt places
+files in manuscript/bmc/figures	24	24	True	Figure1.pdf Figure1.png Figure2.pdf Figure2.png Figure3.pdf Figure3.png Figure4.pdf Figure4.png Figure5.pdf Figure5.png Figure6.pdf Figure6.png FigureS1.pdf FigureS1.png FigureS2.pdf FigureS2.png FigureS3.pdf FigureS3.png FigureS4.pdf FigureS4.png FigureS5.pdf FigureS5.png FigureS6.pdf FigureS6.png
+files over 10 MB	0	0	True	
+PDF files with fonts not embedded	0	0	True	13 PDF files checked
+placeholders (listed, not filled)	0	list	True	
+release dry run exit status	0	0	True	dummy URL and DOI, print only
+release dry run: post hoc model included	True	True	True	
+release: POG570 sample-level files	0	0	True	42 text files scanned; most distinct identifiers in one file: 0

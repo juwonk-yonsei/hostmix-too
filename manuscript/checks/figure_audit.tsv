@@ -1,0 +1,13 @@
+figure	width_mm	height_mm	png_px	min_font_pt_pdf	max_font_pt_pdf	min_font_pt_artists	texts	overlaps	outside_page	outside_axes	text_on_axes	tight_boxes	value_labels	pdf_mb	png_mb	changes
+Figure1	170.0	105.0	2007x1240	6.5	10.0	6.5	48	0	0	0	0	0	0	0.026	0.283	A18: border key words 'preregistered confirmation', 'pre-specified descriptive', 'development', 'post hoc', one per row because the longer words do not fit two per row in panel c.
+Figure2	170.0	142.0	2007x1677	6.5	10.0	6.5	67	0	0	0	0	0	10	0.024	0.21	Mean lines only in a and b; new c dot plot at rho = 0.6 sorted by the baseline; at-risk n per tissue; separate margins for the top row and c.
+Figure3	170.0	64.0	2007x755	6.5	10.0	6.5	35	0	0	0	0	0	12	0.022	0.113	Read by key from the stored hypothesis tables; one shared difference axis; black points and intervals; -0.10 tick and margin label; arm values and n in right-hand columns.
+Figure4	170.0	218.0	2007x2574	6.5	10.0	6.5	95	0	0	0	0	0	41	0.031	0.276	A18: bar and legend edges in d 0.5 pt; nothing else changed.
+Figure5	170.0	75.0	2007x885	6.5	10.0	6.5	48	0	0	0	0	0	18	0.062	0.165	A18: a, b and c in one row (axes 50, 50 and 30 mm), height 75 mm; one-row legend on top; bar edges 0.5 pt; group labels 6.5 pt; values and n unchanged.
+Figure6	170.0	70.0	2007x826	6.5	10.0	6.5	37	0	0	0	0	0	18	0.019	0.089	One legend for both panels; evaluation n under a, at-risk n under b; b on 0-0.4 with values above the bars.
+FigureS1	170.0	110.0	2007x1299	6.5	10.0	6.5	153	0	0	0	0	0	110	0.039	0.303	A18: n under each column name (a evaluation, b at risk), read by key; nothing else changed.
+FigureS2	170.0	110.0	2007x1299	6.5	10.0	6.5	59	0	0	0	0	0	30	0.021	0.116	Read from the stored set table; one legend; n under every cell; lower row 0-0.4; native-truth lower cell relabeled to its own metric.
+FigureS3	170.0	120.0	2007x1417	6.5	10.0	6.5	53	0	0	0	0	0	16	0.023	0.184	A18: microarray group of a recounted on the layer set (n = 536, post hoc); bar and legend edges 0.5 pt; nothing else changed.
+FigureS4	170.0	118.0	2007x1393	7.0	10.0	7.0	47	0	0	0	0	0	2	0.025	0.115	Ten largest positive and five most negative contributions in signed order with a gap; zero line; no tick at the gap; italic gene symbols.
+FigureS5	170.0	98.0	2007x1157	6.5	10.0	6.5	71	0	0	0	0	0	36	0.024	0.122	A18: bar and legend edges 0.5 pt; nothing else changed.
+FigureS6	170.0	112.0	2007x1322	6.5	7.5	6.5	39	0	0	0	0	0	26	0.025	0.186	A18: I2 printed as a percentage with one decimal under the column title 'I2 (%)'; nothing else changed.

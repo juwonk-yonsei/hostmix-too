@@ -1,0 +1,391 @@
+sample_id	patient_id	raw_site	standard_site	organ	organ_rule	library	in_eval	in_native	in_risk
+GSM1012278	300	Polyp		exclude	8	GPL96	False	False	False
+GSM1012279	450	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012280	450	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012281	450	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012282	464	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012283	485	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012284	485	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012285	485	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012286	620	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012287	823	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012288	823	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012289	823	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012290	838	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012291	838	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012292	838	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012293	852	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012294	871	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012295	888	Polyp		exclude	8	GPL96	False	False	False
+GSM1012296	947	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012297	990	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012298	1720	Normal Lung		exclude	8	GPL96	False	False	False
+GSM1012299	1720	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012300	1984	Polyp		exclude	8	GPL96	False	False	False
+GSM1012301	2050	Normal Lung		exclude	8	GPL96	False	False	False
+GSM1012302	2050	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012303	2184	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012304	2184	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012305	2189	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012306	2189	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012307	2308	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012308	2500	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012309	2663	Polyp		exclude	8	GPL96	False	False	False
+GSM1012310	2679	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012311	2679	Polyp		exclude	8	GPL96	False	False	False
+GSM1012312	2779	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012313	2779	Polyp		exclude	8	GPL96	False	False	False
+GSM1012314	2815	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012315	2815	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012316	2832	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012317	3023	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012318	3023	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012319	3156	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012320	3283	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012321	3358	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012322	3393	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012323	3393	Polyp		exclude	8	GPL96	False	False	False
+GSM1012324	3401	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012325	3465	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012326	3519	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012327	3519	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012328	3531	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012329	3598	Polyp		exclude	8	GPL96	False	False	False
+GSM1012330	3598	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012331	3637	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012332	3637	Polyp		exclude	8	GPL96	False	False	False
+GSM1012333	3637	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012334	3657	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012335	3657	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012336	3706	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012337	3706	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012338	3752	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012339	3753	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012340	3753	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012341	3777	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012342	3777	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012343	3820	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012344	3862	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012345	3862	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012346	4176	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012347	4176	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012348	4222	Normal Lung		exclude	8	GPL96	False	False	False
+GSM1012349	4222	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012350	4276	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012351	4276	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012352	4388	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012353	4449	Polyp		exclude	8	GPL96	False	False	False
+GSM1012354	4494	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012355	4494	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012356	4549	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012357	4549	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012358	4800	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012359	4800	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012360	4809	Polyp		exclude	8	GPL96	False	False	False
+GSM1012361	5025	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012362	5192	Polyp		exclude	8	GPL96	False	False	False
+GSM1012363	5334	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012364	5424	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012365	5479	Polyp		exclude	8	GPL96	False	False	False
+GSM1012366	5629	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012367	5708	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012368	5786	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012369	5786	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012370	5839	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012371	5885	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012372	5969	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012373	6051	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012374	6220	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012375	6265	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012376	6314	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012377	6432	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012378	6572	Polyp		exclude	8	GPL96	False	False	False
+GSM1012379	6657	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012380	6657	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012381	6706	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012382	6764	Normal Lung		exclude	8	GPL96	False	False	False
+GSM1012383	6764	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012384	6840	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012385	6997	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012386	7061	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012387	7145	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012388	7392	Polyp		exclude	8	GPL96	False	False	False
+GSM1012389	7427	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012390	7445	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012391	7576	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012392	7632	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012393	7662	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012394	7677	Polyp		exclude	8	GPL96	False	False	False
+GSM1012395	7721	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012396	7925	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012397	7930	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012398	7973	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012399	8018	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012400	8029	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012401	8061	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012402	8070	Polyp		exclude	8	GPL96	False	False	False
+GSM1012403	8088	Normal Lung		exclude	8	GPL96	False	False	False
+GSM1012404	8088	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012405	8168	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012406	8568	Polyp		exclude	8	GPL96	False	False	False
+GSM1012407	8792	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012408	9054	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012409	9077	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012410	9185	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012411	9297	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012412	9343	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012413	9394	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012414	9420	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012415	9446	Polyp		exclude	8	GPL96	False	False	False
+GSM1012416	9468	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012417	9518	Polyp		exclude	8	GPL96	False	False	False
+GSM1012418	9518	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012419	9728	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012420	9728	Polyp		exclude	8	GPL96	False	False	False
+GSM1012421	9811	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012422	10078	Polyp		exclude	8	GPL96	False	False	False
+GSM1012423	10194	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012424	10216	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012425	10258	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012426	10264	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012427	10368	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012428	10512	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012429	10630	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012430	11185	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012431	11190	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012432	11325	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012433	11670	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012434	11718	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012435	12051	Normal Lung		exclude	8	GPL96	False	False	False
+GSM1012436	12051	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012437	12237	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012438	12285	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012439	12292	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012440	12297	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012441	12355	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012442	12847	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012443	13279	Normal Lung		exclude	8	GPL96	False	False	False
+GSM1012444	13279	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012445	13321	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012446	13357	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012447	14475	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012448	14756	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012449	14756	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012450	14938	Lung Metastasis	lung	Colorectal	cohort	GPL96	True	False	True
+GSM1012451	15329	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012452	79744	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012453	80649	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012454	A0022	Polyp		exclude	8	GPL96	False	False	False
+GSM1012455	A0319	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012456	A0702	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012457	A1288	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012458	A1327	Polyp		exclude	8	GPL96	False	False	False
+GSM1012459	A1327	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012460	A1423	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012461	A1516	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012462	A1644	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012463	A1716	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012464	A1853	Polyp		exclude	8	GPL96	False	False	False
+GSM1012465	A1853	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012466	A2191	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012467	A2226	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012468	A2367	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012469	A2434	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012470	A2561	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012471	A2715	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012472	A3203	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012473	A3443	Polyp		exclude	8	GPL96	False	False	False
+GSM1012474	A3536	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012475	A3622	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012476	A3684	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012477	A4177	Polyp		exclude	8	GPL96	False	False	False
+GSM1012478	A4248	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012479	A4342	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012480	A4396	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012481	A4410	Polyp		exclude	8	GPL96	False	False	False
+GSM1012482	A4410	Polyp		exclude	8	GPL96	False	False	False
+GSM1012483	A4410	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012484	A4674	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012485	A4756	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012486	A4779	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012487	A4779	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012488	A4792	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012489	A4902	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012490	A4902	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012491	A4902	Microadenoma		exclude	8	GPL96	False	False	False
+GSM1012492	A4947	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012493	A5086	Polyp		exclude	8	GPL96	False	False	False
+GSM1012494	A5135	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012495	A5135	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012496	A5135	Microadenoma		exclude	8	GPL96	False	False	False
+GSM1012497	A5153	Polyp		exclude	8	GPL96	False	False	False
+GSM1012498	A5153	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012499	A5320	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012500	A5465	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012501	A5607	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012502	A5627	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012503	A5627	Polyp		exclude	8	GPL96	False	False	False
+GSM1012504	A5790	Polyp		exclude	8	GPL96	False	False	False
+GSM1012505	A5790	Polyp		exclude	8	GPL96	False	False	False
+GSM1012506	A5960	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012507	A6141	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012508	A6143	Polyp		exclude	8	GPL96	False	False	False
+GSM1012509	A6275	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012510	A7366	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012511	A8307	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012512	A8457	Polyp		exclude	8	GPL96	False	False	False
+GSM1012513	A8528	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012514	A8528	Polyp		exclude	8	GPL96	False	False	False
+GSM1012515	A9369	Polyp		exclude	8	GPL96	False	False	False
+GSM1012516	C0020	Polyp		exclude	8	GPL96	False	False	False
+GSM1012517	C0035	Polyp		exclude	8	GPL96	False	False	False
+GSM1012518	C0045	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012519	C0047	Polyp		exclude	8	GPL96	False	False	False
+GSM1012520	C0056	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012521	C0059	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012522	C0068	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012523	C0072	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012524	C0075	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012525	C0081	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012526	C0101	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012527	C0104	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012528	C0105	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012529	C0111	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012530	C0111	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012531	C0112	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012532	C0113	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012533	C0114	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012534	C0114	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012535	C0115	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012536	C0117	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012537	C0117	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012538	C0122	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012539	C0123	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012540	C0123	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012541	C0124	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012542	C0125	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012543	C0127	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012544	C0128	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012545	C0128	Polyp		exclude	8	GPL96	False	False	False
+GSM1012546	C0130	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012547	C0134	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012548	C0134	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012549	C0136	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012550	C0136	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012551	C0136	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012552	C0136	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012553	C0137	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012554	C0137	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012555	C0139	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012556	C0139	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012557	C0139	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012558	C0140	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012559	C0141	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012560	C0145	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012561	C0147	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012562	C0147	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012563	C0147	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012564	C0149	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012565	C0151	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012566	C0152	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012567	C0153	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012568	C0153	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012569	C0154	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012570	C0155	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012571	C0156	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012572	C0157	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012573	C0157	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012574	C0158	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012575	C0158	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012576	C0159	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012577	C0168	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012578	C0170	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012579	C0171	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012580	C0172	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012581	C0172	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012582	C0177	Polyp		exclude	8	GPL96	False	False	False
+GSM1012583	C0178	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012584	C0180	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012585	C0180	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012586	C0181	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012587	C0186	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012588	C0192	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012589	C0193	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012590	C0193	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012591	C0194	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012592	C0194	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012593	C0198	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012594	C0198	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012595	C0200	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012596	C0203	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012597	C0210	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012598	C0210	Polyp		exclude	8	GPL96	False	False	False
+GSM1012599	C0210	Polyp, high grade		exclude	8	GPL96	False	False	False
+GSM1012600	C0221	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012601	C0224	Polyp		exclude	8	GPL96	False	False	False
+GSM1012602	C0225	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012603	2308	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012604	C0234	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012605	C0238	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012606	C0251	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012607	C0251	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012608	C0252	Polyp		exclude	8	GPL96	False	False	False
+GSM1012609	C0253	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012610	C0253	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012611	C0257	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012612	C0265	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012613	C0265	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012614	C0265	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012615	C0273	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012616	C0275	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012617	C0283	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012618	C0285	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012619	C0295	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012620	C0297	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012621	C0297	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012622	C0298	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012623	C0298	Polyp		exclude	8	GPL96	False	False	False
+GSM1012624	C0312	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012625	3156	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012626	C0319	Polyp		exclude	8	GPL96	False	False	False
+GSM1012627	C0323	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012628	C0323	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012629	C0329	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012630	C0329	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012631	C0330	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012632	C0331	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012633	C0331	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012634	C0334	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012635	C0353	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012636	C0353	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012637	C0353	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012638	C0353	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012639	C0415	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012640	C0415	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012641	C0415	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012642	C0415	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012643	C0472	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012644	C0472	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012645	C0487	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012646	C0487	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012647	C0575	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012648	C0575	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012649	C0575	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012650	C0575	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012651	C0667	Primary Tumor	colon_rectum	Colorectal	cohort	GPL96	True	True	False
+GSM1012652	C0667	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012653	C0667	Normal Colon		exclude	8	GPL96	False	False	False
+GSM1012654	C0667	Normal Liver		exclude	8	GPL96	False	False	False
+GSM1012655	C0667	Liver Metastasis	liver	Colorectal	cohort	GPL96	True	False	True
+GSM1012656	Cell line	DLD1		exclude	2	GPL96	False	False	False
+GSM1012657	Cell line	HCT15		exclude	2	GPL96	False	False	False
+GSM1012658	Cell line	HCT15rehyb		exclude	2	GPL96	False	False	False
+GSM1012659	Cell line	HT29		exclude	2	GPL96	False	False	False
+GSM1012660	Cell line	HTB39		exclude	2	GPL96	False	False	False
+GSM1012661	Cell line	LNCap		exclude	2	GPL96	False	False	False
+GSM1012662	Cell line	LOVO		exclude	2	GPL96	False	False	False
+GSM1012663	Cell line	MCF7		exclude	2	GPL96	False	False	False
+GSM1012664	Cell line	NCM460		exclude	2	GPL96	False	False	False
+GSM1012665	Cell line	SW1116		exclude	2	GPL96	False	False	False
+GSM1012666	Cell line	SW620		exclude	2	GPL96	False	False	False
+GSM1012667	Cell line	WiDr		exclude	2	GPL96	False	False	False

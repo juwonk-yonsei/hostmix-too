@@ -1,0 +1,8 @@
+id: AF2_Fig3_auxiliary_secondary
+doc: af2
+sheet: Fig3_auxiliary_secondary
+header_row: 2
+builder: copy
+params:
+  source: results/stage7/confirm/tables/hypothesis_secondary.tsv
+origin: results

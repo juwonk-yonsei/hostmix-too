@@ -1,0 +1,44 @@
+id: S11
+doc: af1
+caption: 11. Published classifiers
+key_cols:
+- 0
+row_id: '{c}'
+maps:
+  0:
+    MET500:
+      c: MET500
+    POG570:
+      c: POG570
+    IMvigor210:
+      c: blca_iatlas_imvigor210_2017
+    Anders:
+      c: brca_iatlas_anders_2022
+    DFCI melanoma:
+      c: mel_dfci_2019
+    PRINCE:
+      c: paad_iatlas_prince_2022
+    GSE50760:
+      c: GSE50760
+    SU2C/PCF:
+      c: prad_su2c_2019
+columns:
+  1:
+    id: values
+    t: '{*}'
+  2:
+    id: scope
+    t: '{*}'
+  5:
+    id: cup
+    t: '{*}'
+  6:
+    id: evidence
+    t: '`config/external_inputs_A8.tsv`: {v}'
+    f:
+      v:
+        src: config/external_inputs_A8.tsv
+        sel: cohort == '{c}'
+        col: __line__
+        dec: 0
+        meaning: line of the cited input table

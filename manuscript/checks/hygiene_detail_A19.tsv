@@ -1,0 +1,203 @@
+check	file	figure	title_words	legend_words	order	deviations	text	meaning	uses_in_body	defined_in_text	line	kind	exempt	context	project_commit	bytes	size_ok_10MB	fonts	fonts_embedded
+figure length	A_main.md	Figure 1	7.0	218.0															
+figure length	A_main.md	Figure 2	6.0	184.0															
+figure length	A_main.md	Figure 3	8.0	109.0															
+figure length	A_main.md	Figure 4	8.0	147.0															
+figure length	A_main.md	Figure 5	10.0	155.0															
+figure length	A_main.md	Figure 6	8.0	115.0															
+figure length	Additional_file_1.md	Figure S1	8.0	160.0															
+figure length	Additional_file_1.md	Figure S2	8.0	119.0															
+figure length	Additional_file_1.md	Figure S3	8.0	154.0															
+figure length	Additional_file_1.md	Figure S4	7.0	94.0															
+figure length	Additional_file_1.md	Figure S5	9.0	124.0															
+figure length	Additional_file_1.md	Figure S6	5.0	139.0															
+supplementary_tables_in_main					1 2 3 4 5 6 8 9	2.0													
+supplementary_figures_in_main					1 3 5 4	2.0													
+abbreviation							CI	confidence interval	14.0	False									
+abbreviation							FFPE	formalin-fixed, paraffin-embedded	2.0	False									
+abbreviation							FPKM	fragments per kilobase of transcript per million mapped fragments	5.0	True									
+abbreviation							GEO	Gene Expression Omnibus	4.0	True									
+abbreviation							GTEx	Genotype-Tissue Expression	10.0	True									
+abbreviation							HGNC	HUGO Gene Nomenclature Committee	1.0	False									
+abbreviation							MSigDB	Molecular Signatures Database	1.0	False									
+abbreviation							POG	Personalized OncoGenomics	2.0	False									
+abbreviation							RNA-seq	RNA sequencing	42.0	False									
+abbreviation							SU2C/PCF	Stand Up To Cancer/Prostate Cancer Foundation	2.0	False									
+abbreviation							TCGA	The Cancer Genome Atlas	13.0	True									
+abbreviation							TPM	transcripts per million	15.0	True									
+abbreviation defined, not listed							GSE14018	accession or method name, not counted											
+abbreviation defined, not listed							GSE209998	accession or method name, not counted											
+abbreviation defined, not listed							GSE41258	accession or method name, not counted											
+abbreviation defined, not listed							GSE50760	accession or method name, not counted											
+abbreviation defined, not listed							GSE71729	accession or method name, not counted											
+abbreviation defined, not listed							HostMix-TOO	accession or method name, not counted											
+forbidden	A_main.md						fd9db4cd20122c8c7b675400c0df2a4c5bebb257				225.0	hash	True	ere run from their public repositories at commits fd9db4cd20122c8c7b675400c0df2a4c5bebb257 and 79f9aa210a5b023d2d7525c48a7288f7423b15f6, res	False				
+forbidden	A_main.md						79f9aa210a5b023d2d7525c48a7288f7423b15f6				225.0	hash	True	mits fd9db4cd20122c8c7b675400c0df2a4c5bebb257 and 79f9aa210a5b023d2d7525c48a7288f7423b15f6, respectively.	False				
+forbidden	A_main.md						bc4a55e63569bd743412530353a35c3609fd17c8				301.0	hash	True	57. ONCOfind repository, commit bc4a55e63569bd743412530353a35c3609fd17c8. https://github.com/yeonuk-Jeong/ONCOfind. Access	False				
+forbidden	A_main.md						fd9db4cd20122c8c7b675400c0df2a4c5bebb257				303.0	hash	True	59. CancerScope repository, commit fd9db4cd20122c8c7b675400c0df2a4c5bebb257. https://github.com/jasgrewal/cancerscope. Access	False				
+forbidden	A_main.md						79f9aa210a5b023d2d7525c48a7288f7423b15f6				304.0	hash	True	60. CUP-AI-Dx repository, commit 79f9aa210a5b023d2d7525c48a7288f7423b15f6. https://github.com/TheJacksonLaboratory/CUP-AI-D	False				
+forbidden	Additional_file_1.md						results/				15.0	path	True	arch log has 537 rows and 502 study identifiers (`results/stage5/aux/screening_log.tsv`). The last row for e					
+forbidden	Additional_file_1.md						stage5				15.0	path	True	 has 537 rows and 502 study identifiers (`results/stage5/aux/screening_log.tsv`). The last row for each id					
+forbidden	Additional_file_1.md						screening_log.tsv				15.0	path	True	ws and 502 study identifiers (`results/stage5/aux/screening_log.tsv`). The last row for each identifier is the decisi					
+forbidden	Additional_file_1.md						config/				17.0	path	True	Excluded studies, by the criterion in `config/aux_eligibility_A5.md`: 144 failed criterion 2 (no					
+forbidden	Additional_file_1.md						config/				23.0	path	True	elation with another patient in the same cohort (`config/prereg_A6.md`). That rule excluded 76 SU2C/PCF sam					
+forbidden	Additional_file_1.md						e579bc2d20ce5bae611f18aafe24ebb11f47d742				297.0	hash	True	Translated from the Korean plan file committed at e579bc2d20ce5bae611f18aafe24ebb11f47d742; the original file is authoritative.	True				
+forbidden	Additional_file_1.md						ba3c074e96e0cfd0124e54a24e08964849e7879e				328.0	hash	True	Translated from the Korean plan file committed at ba3c074e96e0cfd0124e54a24e08964849e7879e; the original file is authoritative.	True				
+forbidden	Additional_file_1.md						results/				370.0	path	True	or POG570 was computed before that confirmation (`results/stage3/power.json`) and is not a result of the con					
+forbidden	Additional_file_1.md						stage3				370.0	path	True	0 was computed before that confirmation (`results/stage3/power.json`) and is not a result of the confirmat					
+forbidden	Additional_file_1.md						power.json				370.0	path	True	omputed before that confirmation (`results/stage3/power.json`) and is not a result of the confirmatory data. I					
+forbidden	Additional_file_1.md						config/				402.0	path	True	o a sum of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 2 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				402.0	path	True	 of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 2 |					
+forbidden	Additional_file_1.md						config/				403.0	path	True	d run for the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 3 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				403.0	path	True	or the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 3 |					
+forbidden	Additional_file_1.md						config/				404.0	path	True	d run for the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 4 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				404.0	path	True	or the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 4 |					
+forbidden	Additional_file_1.md						config/				405.0	path	True	d run for the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 5 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				405.0	path	True	or the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 5 |					
+forbidden	Additional_file_1.md						config/				406.0	path	True	d run for the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 6 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				406.0	path	True	or the scale check only | log2(TPM + 1) | `config/external_inputs_A8.tsv`: 6 |					
+forbidden	Additional_file_1.md						config/				407.0	path	True	o a sum of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 7 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				407.0	path	True	 of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 7 |					
+forbidden	Additional_file_1.md						config/				408.0	path	True	o a sum of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 8 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				408.0	path	True	 of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 8 |					
+forbidden	Additional_file_1.md						config/				409.0	path	True	o a sum of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 9 |					
+forbidden	Additional_file_1.md						external_inputs_A8.tsv				409.0	path	True	 of 10^6 per sample, then log2(TPM + 1) | `config/external_inputs_A8.tsv`: 9 |					
+forbidden	Additional_file_1.md						config/				411.0	path	True	The scale-check rule is line 64 of `config/analysis_plan_A8.yaml`, and the CUP-AI-Dx preproce					
+forbidden	Additional_file_1.md						analysis_plan_A8.yaml				411.0	path	True	The scale-check rule is line 64 of `config/analysis_plan_A8.yaml`, and the CUP-AI-Dx preprocessing is line 55 of t					
+forbidden	Additional_file_1.md						results/				493.0	path	True	otes of Sections 2, 3, 9, 10 and 11. Files under `results/` are produced by the scripts and are not in the p					
+forbidden	Additional_file_1.md						config/				493.0	path	True	he scripts and are not in the public repository; `config/prereg_A6.md` is withheld from it because it lists					
+forbidden	Additional_file_1.md						WITHHELD.tsv				493.0	path	True	atient identifiers with per-patient results (see `WITHHELD.tsv` there). Its English translation, `config/prereg_					
+forbidden	Additional_file_1.md						config/				493.0	path	True	 `WITHHELD.tsv` there). Its English translation, `config/prereg_A6_en.md`, is in the repository, and the co					
+forbidden	Additional_file_1.md						BASE-Z				497.0	internal name	True	| Baseline | BASE-Z | scripts/08_train.py | results/stage2/models/BAS					
+forbidden	Additional_file_1.md						scripts/				497.0	path	True	| Baseline | BASE-Z | scripts/08_train.py | results/stage2/models/BASE_Z.joblib 					
+forbidden	Additional_file_1.md						08_train.py				497.0	path	True	| Baseline | BASE-Z | scripts/08_train.py | results/stage2/models/BASE_Z.joblib |					
+forbidden	Additional_file_1.md						results/				497.0	path	True	| Baseline | BASE-Z | scripts/08_train.py | results/stage2/models/BASE_Z.joblib |					
+forbidden	Additional_file_1.md						stage2				497.0	path	True	Baseline | BASE-Z | scripts/08_train.py | results/stage2/models/BASE_Z.joblib |					
+forbidden	Additional_file_1.md						BASE_Z.joblib				497.0	path	True	E-Z | scripts/08_train.py | results/stage2/models/BASE_Z.joblib |					
+forbidden	Additional_file_1.md						SA-Z				498.0	internal name	True	| HostMix-TOO | SA-Z | scripts/08_train.py | results/stage2/models/SA_					
+forbidden	Additional_file_1.md						scripts/				498.0	path	True	| HostMix-TOO | SA-Z | scripts/08_train.py | results/stage2/models/SA_Z.joblib |					
+forbidden	Additional_file_1.md						08_train.py				498.0	path	True	| HostMix-TOO | SA-Z | scripts/08_train.py | results/stage2/models/SA_Z.joblib |					
+forbidden	Additional_file_1.md						results/				498.0	path	True	| HostMix-TOO | SA-Z | scripts/08_train.py | results/stage2/models/SA_Z.joblib |					
+forbidden	Additional_file_1.md						stage2				498.0	path	True	ostMix-TOO | SA-Z | scripts/08_train.py | results/stage2/models/SA_Z.joblib |					
+forbidden	Additional_file_1.md						SA_Z.joblib				498.0	path	True	A-Z | scripts/08_train.py | results/stage2/models/SA_Z.joblib |					
+forbidden	Additional_file_1.md						NC-Z				499.0	internal name	True	| Normal classes | NC-Z | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				499.0	path	True	| Normal classes | NC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				499.0	path	True	| Normal classes | NC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				499.0	path	True	| Normal classes | NC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				499.0	path	True	al classes | NC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				499.0	path	True	ses | NC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						SC-Z				500.0	internal name	True	| Site-specific mixtures | SC-Z | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				500.0	path	True	| Site-specific mixtures | SC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				500.0	path	True	| Site-specific mixtures | SC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				500.0	path	True	-specific mixtures | SC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				500.0	path	True	c mixtures | SC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				500.0	path	True	res | SC-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						LD-Z				501.0	internal name	True	| Linear deconvolution | LD-Z | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				501.0	path	True	| Linear deconvolution | LD-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				501.0	path	True	| Linear deconvolution | LD-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				501.0	path	True	near deconvolution | LD-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				501.0	path	True	onvolution | LD-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				501.0	path	True	ion | LD-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						M1-Z				502.0	internal name	True	| Native-organ masking | M1-Z | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				502.0	path	True	| Native-organ masking | M1-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				502.0	path	True	| Native-organ masking | M1-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				502.0	path	True	tive-organ masking | M1-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				502.0	path	True	an masking | M1-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				502.0	path	True	ing | M1-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						IF20-Z				503.0	internal name	True	| Gene removal 20% | IF20-Z | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				503.0	path	True	| Gene removal 20% | IF20-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				503.0	path	True	| Gene removal 20% | IF20-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				503.0	path	True	Gene removal 20% | IF20-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				503.0	path	True	oval 20% | IF20-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				503.0	path	True	% | IF20-Z | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						BASE-K				504.0	internal name	True	| Gene sets | BASE-K | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				504.0	path	True	| Gene sets | BASE-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				504.0	path	True	| Gene sets | BASE-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				504.0	path	True	| Gene sets | BASE-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				504.0	path	True	ene sets | BASE-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				504.0	path	True	s | BASE-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						SA-K				505.0	internal name	True	| Gene sets + mixtures | SA-K | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				505.0	path	True	| Gene sets + mixtures | SA-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				505.0	path	True	| Gene sets + mixtures | SA-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				505.0	path	True	ne sets + mixtures | SA-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				505.0	path	True	+ mixtures | SA-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				505.0	path	True	res | SA-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						V0-K				506.0	internal name	True	| Gene sets + host correction | V0-K | scripts/08_train.py | results/stage2/met500_ove					
+forbidden	Additional_file_1.md						scripts/				506.0	path	True	| Gene sets + host correction | V0-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						08_train.py				506.0	path	True	| Gene sets + host correction | V0-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						results/				506.0	path	True	 + host correction | V0-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						stage2				506.0	path	True	correction | V0-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						met500_overall.tsv				506.0	path	True	ion | V0-K | scripts/08_train.py | results/stage2/met500_overall.tsv |					
+forbidden	Additional_file_1.md						SA-G				507.0	internal name	True	| Gated model | SA-G | scripts/24_aux_confirm.py | results/stage7/conf					
+forbidden	Additional_file_1.md						scripts/				507.0	path	True	| Gated model | SA-G | scripts/24_aux_confirm.py | results/stage7/confirm/tables/					
+forbidden	Additional_file_1.md						24_aux_confirm.py				507.0	path	True	| Gated model | SA-G | scripts/24_aux_confirm.py | results/stage7/confirm/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						results/				507.0	path	True	 Gated model | SA-G | scripts/24_aux_confirm.py | results/stage7/confirm/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						stage7				507.0	path	True	odel | SA-G | scripts/24_aux_confirm.py | results/stage7/confirm/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						metrics.tsv				507.0	path	True	24_aux_confirm.py | results/stage7/confirm/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						SA-pool22				508.0	internal name	True	| 22-tissue model | SA-pool22 | scripts/14_stage5_train.py | results/stage5/pos					
+forbidden	Additional_file_1.md						scripts/				508.0	path	True	| 22-tissue model | SA-pool22 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_ov					
+forbidden	Additional_file_1.md						14_stage5_train.py				508.0	path	True	| 22-tissue model | SA-pool22 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						results/				508.0	path	True	 model | SA-pool22 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						stage5				508.0	path	True	 SA-pool22 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						pog_overall.tsv				508.0	path	True	ripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						SA-pool3				509.0	internal name	True	| 3-tissue model | SA-pool3 | scripts/14_stage5_train.py | results/stage5/pos					
+forbidden	Additional_file_1.md						scripts/				509.0	path	True	| 3-tissue model | SA-pool3 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_ov					
+forbidden	Additional_file_1.md						14_stage5_train.py				509.0	path	True	| 3-tissue model | SA-pool3 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						results/				509.0	path	True	e model | SA-pool3 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						stage5				509.0	path	True	| SA-pool3 | scripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						pog_overall.tsv				509.0	path	True	ripts/14_stage5_train.py | results/stage5/posthoc/pog_overall.tsv |					
+forbidden	Additional_file_1.md						scripts/				510.0	path	True	| POG570 hypotheses | H1 H2 H3 | scripts/12_confirm.py | results/stage4/confirm/primary.tsv					
+forbidden	Additional_file_1.md						12_confirm.py				510.0	path	True	| POG570 hypotheses | H1 H2 H3 | scripts/12_confirm.py | results/stage4/confirm/primary.tsv |					
+forbidden	Additional_file_1.md						results/				510.0	path	True	0 hypotheses | H1 H2 H3 | scripts/12_confirm.py | results/stage4/confirm/primary.tsv |					
+forbidden	Additional_file_1.md						stage4				510.0	path	True	eses | H1 H2 H3 | scripts/12_confirm.py | results/stage4/confirm/primary.tsv |					
+forbidden	Additional_file_1.md						primary.tsv				510.0	path	True	 | scripts/12_confirm.py | results/stage4/confirm/primary.tsv |					
+forbidden	Additional_file_1.md						scripts/				511.0	path	True	| Auxiliary hypotheses | AH AS | scripts/24_aux_confirm.py | results/stage7/confirm/tables/					
+forbidden	Additional_file_1.md						24_aux_confirm.py				511.0	path	True	| Auxiliary hypotheses | AH AS | scripts/24_aux_confirm.py | results/stage7/confirm/tables/hypothesis_primar					
+forbidden	Additional_file_1.md						results/				511.0	path	True	 hypotheses | AH AS | scripts/24_aux_confirm.py | results/stage7/confirm/tables/hypothesis_primary.tsv |					
+forbidden	Additional_file_1.md						stage7				511.0	path	True	ses | AH AS | scripts/24_aux_confirm.py | results/stage7/confirm/tables/hypothesis_primary.tsv |					
+forbidden	Additional_file_1.md						hypothesis_primary.tsv				511.0	path	True	24_aux_confirm.py | results/stage7/confirm/tables/hypothesis_primary.tsv |					
+forbidden	Additional_file_1.md						scripts/				512.0	path	True	| Published classifiers | SCOPE CUP-AI-Dx | scripts/29_cup_wrapper_A8.py | results/stage8/external/tab					
+forbidden	Additional_file_1.md						29_cup_wrapper_A8.py				512.0	path	True	Published classifiers | SCOPE CUP-AI-Dx | scripts/29_cup_wrapper_A8.py | results/stage8/external/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						results/				512.0	path	True	 SCOPE CUP-AI-Dx | scripts/29_cup_wrapper_A8.py | results/stage8/external/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						stage8				512.0	path	True	UP-AI-Dx | scripts/29_cup_wrapper_A8.py | results/stage8/external/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						metrics.tsv				512.0	path	True	up_wrapper_A8.py | results/stage8/external/tables/metrics.tsv |					
+forbidden	Additional_file_1.md						PURE-Zs				513.0	internal name	True	| Ablation | PURE-Zs PURE-Zs-w MIX-Z0 | scripts/45_ablation_A12.py | r					
+forbidden	Additional_file_1.md						PURE-Zs-w				513.0	internal name	True	| Ablation | PURE-Zs PURE-Zs-w MIX-Z0 | scripts/45_ablation_A12.py | results/sta					
+forbidden	Additional_file_1.md						MIX-Z0				513.0	internal name	True	| Ablation | PURE-Zs PURE-Zs-w MIX-Z0 | scripts/45_ablation_A12.py | results/stage9/abl					
+forbidden	Additional_file_1.md						scripts/				513.0	path	True	| Ablation | PURE-Zs PURE-Zs-w MIX-Z0 | scripts/45_ablation_A12.py | results/stage9/ablation/metri					
+forbidden	Additional_file_1.md						45_ablation_A12.py				513.0	path	True	| Ablation | PURE-Zs PURE-Zs-w MIX-Z0 | scripts/45_ablation_A12.py | results/stage9/ablation/metrics.tsv |					
+forbidden	Additional_file_1.md						results/				513.0	path	True	s PURE-Zs-w MIX-Z0 | scripts/45_ablation_A12.py | results/stage9/ablation/metrics.tsv |					
+forbidden	Additional_file_1.md						stage9				513.0	path	True	s-w MIX-Z0 | scripts/45_ablation_A12.py | results/stage9/ablation/metrics.tsv |					
+forbidden	Additional_file_1.md						metrics.tsv				513.0	path	True	ipts/45_ablation_A12.py | results/stage9/ablation/metrics.tsv |					
+forbidden	Additional_file_1.md						scripts/				514.0	path	True	| Figure source | display names | scripts/50_figures_A13.py | manuscript/bmc/figure_source/ 					
+forbidden	Additional_file_1.md						50_figures_A13.py				514.0	path	True	| Figure source | display names | scripts/50_figures_A13.py | manuscript/bmc/figure_source/ |					
+forbidden	Additional_file_1.md						manuscript/				514.0	path	True	rce | display names | scripts/50_figures_A13.py | manuscript/bmc/figure_source/ |					
+file	manuscript/bmc/figures/Figure1.pdf															26860.0	True	2.0	2.0
+file	manuscript/bmc/figures/Figure1.png															296729.0	True		
+file	manuscript/bmc/figures/Figure2.pdf															25632.0	True	2.0	2.0
+file	manuscript/bmc/figures/Figure2.png															219690.0	True		
+file	manuscript/bmc/figures/Figure3.pdf															22808.0	True	2.0	2.0
+file	manuscript/bmc/figures/Figure3.png															118187.0	True		
+file	manuscript/bmc/figures/Figure4.pdf															32238.0	True	2.0	2.0
+file	manuscript/bmc/figures/Figure4.png															289162.0	True		
+file	manuscript/bmc/figures/Figure5.pdf															64777.0	True	2.0	2.0
+file	manuscript/bmc/figures/Figure5.png															172545.0	True		
+file	manuscript/bmc/figures/Figure6.pdf															19553.0	True	2.0	2.0
+file	manuscript/bmc/figures/Figure6.png															93019.0	True		
+file	manuscript/bmc/figures/FigureS1.pdf															40628.0	True	2.0	2.0
+file	manuscript/bmc/figures/FigureS1.png															317675.0	True		
+file	manuscript/bmc/figures/FigureS2.pdf															22292.0	True	2.0	2.0
+file	manuscript/bmc/figures/FigureS2.png															121183.0	True		
+file	manuscript/bmc/figures/FigureS3.pdf															24507.0	True	2.0	2.0
+file	manuscript/bmc/figures/FigureS3.png															192436.0	True		
+file	manuscript/bmc/figures/FigureS4.pdf															26542.0	True	3.0	3.0
+file	manuscript/bmc/figures/FigureS4.png															120881.0	True		
+file	manuscript/bmc/figures/FigureS5.pdf															24990.0	True	2.0	2.0
+file	manuscript/bmc/figures/FigureS5.png															127575.0	True		
+file	manuscript/bmc/figures/FigureS6.pdf															26088.0	True	2.0	2.0
+file	manuscript/bmc/figures/FigureS6.png															194809.0	True		
+file	manuscript/bmc/A_main.docx															70022.0	True		
+file	manuscript/bmc/Additional_file_1.docx															948513.0	True		
+file	manuscript/bmc/figures_contact_sheet.pdf															700641.0	True	2.0	2.0
+file	manuscript/bmc/Additional_file_2.xlsx															310661.0	True		
+file	manuscript/bmc/Additional_file_3.xlsx															8392.0	True		

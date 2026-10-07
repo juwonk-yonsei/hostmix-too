@@ -1,0 +1,11 @@
+tissue	display	n_at_risk	baseline	leave_one_host_out	hostmix
+Liver	Liver	957	0.6248693835	0.5485893417	0.001044932079
+Lung	Lung	883	0.2672706682	0.1993204983	0.005662514156
+Brain - Cortex	Brain - Cortex	929	0.06781485468	0.7578040904	0
+Skin - Not Sun Exposed (Suprapubic)	Skin - Not Sun Exposed (Suprapubic)	989	0.04550050556	0.03134479272	0
+Adrenal Gland	Adrenal Gland	973	0.04522096608	0.1048304214	0
+Adipose - Subcutaneous	Adipose - Subcutaneous	972	0.03189300412	0.005144032922	0.003086419753
+Adipose - Visceral (Omentum)	Adipose - Visceral (Omentum)	991	0.02219979818	0.002018163471	0.001009081736
+Muscle - Skeletal	Muscle - Skeletal	972	0.005144032922	0.005144032922	0.004115226337
+Whole Blood	Whole Blood (bone marrow proxy)	976	0.001024590164	0.002049180328	0.001024590164
+Spleen	Spleen (lymph node proxy)	995	0	0.001005025126	0.001005025126

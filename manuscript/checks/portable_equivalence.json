@@ -1,0 +1,12 @@
+{
+  "BASE_Z": {
+    "max_abs_proba": 0.0,
+    "top1_mismatch": 0,
+    "n": 437
+  },
+  "SA_Z": {
+    "max_abs_proba": 0.0,
+    "top1_mismatch": 0,
+    "n": 437
+  }
+}

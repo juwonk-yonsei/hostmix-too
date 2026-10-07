@@ -1,0 +1,129 @@
+id: S10a
+doc: af1
+caption: 10. Design power
+which: 0
+header:
+- Hypothesis
+- Scenario
+- n
+- p_favor
+- p_against
+- α
+- Simulations
+- Power
+key_cols:
+- 0
+- 1
+row_id: '{h}_{s}'
+maps:
+  0:
+    H1:
+      h: H1
+      fav: n_host_fixed
+      aga: n_host_new
+      den: dev_base_nrisk
+    H2:
+      h: H2
+      fav: n_method_only
+      aga: n_base_only
+      den: dev_base_n
+  1:
+    MET500 proportions:
+      s: full
+    Half effect:
+      s: half
+columns:
+  1:
+    id: scenario
+    t: '{*}'
+    rows:
+      H1_half:
+        t: '{h_w} effect'
+        f:
+          h_w:
+            const: half_factor
+      H2_half:
+        t: '{h_w} effect'
+        f:
+          h_w:
+            const: half_factor
+  2:
+    id: n
+    t: '{v}'
+    f:
+      v:
+        src: results/stage3/power.json
+        sel: all
+        col: '{h}_{s}.n'
+        dec: 0
+  3:
+    id: p_favor
+    note: "keys: the counts in parentheses are the MET500 paired counts of HostMix-TOO against the baseline; the AF1 section 10 text says 'The full scenario used the MET500 development proportions of the baseline and HostMix-TOO'"
+    t: '{v} ({a}/{b})'
+    f:
+      v:
+        src: results/stage3/power.json
+        sel: all
+        col: '{h}_{s}.p_favor'
+        dec: 3
+      a:
+        src: results/stage2/met500_paired.tsv
+        sel: method == 'SA' and representation == 'Z'
+        col: '{fav}'
+        dec: 0
+      b:
+        fact: '{den}'
+    rows:
+      H1_half:
+        f:
+          a:
+            fact: pw_h1_half_favor
+      H2_half:
+        f:
+          b:
+            fact: pw_h2_half_den
+  4:
+    id: p_against
+    note: "keys: the counts in parentheses are the MET500 paired counts of HostMix-TOO against the baseline; the AF1 section 10 text says 'The full scenario used the MET500 development proportions of the baseline and HostMix-TOO'"
+    t: '{v} ({a}/{b})'
+    f:
+      v:
+        src: results/stage3/power.json
+        sel: all
+        col: '{h}_{s}.p_against'
+        dec: 3
+      a:
+        src: results/stage2/met500_paired.tsv
+        sel: method == 'SA' and representation == 'Z'
+        col: '{aga}'
+        dec: 0
+      b:
+        fact: '{den}'
+  5:
+    id: alpha
+    t: '{v}'
+    f:
+      v:
+        src: results/stage3/power.json
+        sel: all
+        col: alpha
+        dec: 2
+        form: num
+  6:
+    id: n_sim
+    t: '{v}'
+    f:
+      v:
+        src: results/stage3/power.json
+        sel: all
+        col: '{h}_{s}.n_sim'
+        dec: 0
+  7:
+    id: power
+    t: '{v}'
+    f:
+      v:
+        src: results/stage3/power.json
+        sel: all
+        col: '{h}_{s}.power'
+        dec: 3

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+results/
+logs/download_stdout.txt
+logs/time_*.txt
+*.partial
+*.h5
+*.parquet

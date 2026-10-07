@@ -1,0 +1,102 @@
+id: S8
+doc: af1
+caption: Table S8.
+header:
+- Cohort
+- Model
+- n
+- Top-1
+- n at risk
+- Host-attraction rate
+- n native-truth
+- Native-truth top-1
+key_cols:
+- 0
+- 1
+row_id: '{c}/{t}'
+maps:
+  0:
+    MET500:
+      c: MET500
+    POG570:
+      c: POG570
+    Auxiliary RNA-seq:
+      c: aux_rnaseq
+  1:
+    Baseline:
+      t: base
+      mm: BASE-Z
+    Standardized, pure (C = 0.03):
+      t: pure03
+      mm: PURE-Zs
+    Standardized, pure (C = 0.15):
+      t: pure15
+      mm: PURE-Zs-w
+    Unstandardized, mixtures (C = 0.1):
+      t: mix
+      mm: MIX-Z0
+    HostMix-TOO:
+      t: sa
+      mm: SA-Z
+columns:
+  1:
+    id: model
+    t: '{*}'
+    rows:
+      MET500/pure03: &id001
+        t: Standardized, pure (C = {v})
+        f:
+          v:
+            const: c_pure03
+      MET500/pure15: &id002
+        t: Standardized, pure (C = {v})
+        f:
+          v:
+            const: c_pure15
+      MET500/mix: &id003
+        t: Unstandardized, mixtures (C = {v})
+        f:
+          v:
+            const: c_mix
+      POG570/pure03: *id001
+      POG570/pure15: *id002
+      POG570/mix: *id003
+      aux_rnaseq/pure03: *id001
+      aux_rnaseq/pure15: *id002
+      aux_rnaseq/mix: *id003
+  2:
+    id: n
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_n
+  3:
+    id: top1
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_top1
+  4:
+    id: nrisk
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_nrisk
+  5:
+    id: host
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_host
+  6:
+    id: nnative
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_nnative
+  7:
+    id: native
+    t: '{v}'
+    f:
+      v:
+        fact: abl_{c}_{t}_native

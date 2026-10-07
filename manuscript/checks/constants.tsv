@@ -1,0 +1,114 @@
+constant_id	value	meaning	source_file	line	check	note
+alpha	0.05	one-sided alpha of each POG570 and auxiliary confirmatory test	config/prereg_A3_en.md	5	literal:α = 0.05	
+ni_margin	0.10	non-inferiority margin of H3 and AH3 (difference not lower than −0.10)	config/prereg_A3_en.md	11	literal:−0.10	
+ni_bound	-0.10	threshold the one-sided 95% lower bound must exceed in H3 and AH3	config/prereg_A3_en.md	11	literal:−0.10	
+ni_margin_pts	-10	non-inferiority margin in percentage points	config/prereg_A3_en.md	11	literal:10 percentage points	
+host_pool_n	10	number of GTEx tissues in the training host pool	config/analysis_plan_A2.yaml	49	yamllen:host_pool_sorted	
+bootstrap_n	2000	patient bootstrap resamples of every confirmatory difference	config/prereg_A3_en.md	5	literal:2,000 times	
+seed_main	20261001	seed of the bootstrap, cross-validation and simulation draws	config/prereg_A3_en.md	5	literal:Seed 20261001	
+rho_display	0.6	tumor RNA fraction at which simulation host rates are reported (one value of the rho grid)	config/analysis_plan_A2.yaml	119	literal:0.6	
+if_q20	20	gene-removal fraction 0.20 of the IF20 variants, shown as a percent	scripts/08_train.py	236	literal:0.20	
+if_q40	40	gene-removal fraction 0.40 of the IF40 variants, shown as a percent	scripts/08_train.py	276	literal:0.40	
+rho_low_r30	0.3	lower bound of the tumor RNA fraction in variant SA-r30	scripts/14_stage5_train.py	204	literal:0.30	
+rho_low_r50	0.5	lower bound of the tumor RNA fraction in variant SA-r50	scripts/14_stage5_train.py	206	literal:0.50	
+cv_folds_sa	3	folds of the grouped cross-validation that chose C of SA-Z	config/analysis_plan_A2.yaml	99	literal:n_splits=3	
+c_grid_sa_1	0.03	first value of the C grid of SA-Z	config/analysis_plan_A2.yaml	98	literal:[0.03, 0.1, 0.3]	
+c_grid_sa_2	0.1	second value of the C grid of SA-Z	config/analysis_plan_A2.yaml	98	literal:[0.03, 0.1, 0.3]	
+c_grid_sa_3	0.3	third value of the C grid of SA-Z	config/analysis_plan_A2.yaml	98	literal:[0.03, 0.1, 0.3]	
+c_tie_tol	1e-12	tolerance for the smallest C within the best cross-validation score	results/stage9/ablation/pipeline_table.tsv	3	literal:within 1e-12 of the best	post hoc pipeline table records the rule
+c_pure03	0.03	C of the standardized pure-tumor model PURE-Zs	config/analysis_plan_A12.yaml	26	literal:C: 0.03	
+c_pure15	0.15	C of the standardized pure-tumor model PURE-Zs-w	config/analysis_plan_A12.yaml	31	literal:C: 0.15	
+c_mix	0.1	C of the unstandardized mixture model MIX-Z0	config/analysis_plan_A12.yaml	36	literal:C: 0.1	
+mcnemar_null_p	0.5	success probability of the exact McNemar binomial under the null	config/prereg_A3_en.md	9	literal:Binomial(n_disc, 0.5)	
+ndisc_zero	0	number of discordant pairs at which p is set to 1	config/prereg_A3_en.md	9	literal:If n_disc = 0, p = 1	
+p_no_discordant	1	p value assigned when there are no discordant pairs	config/prereg_A3_en.md	9	literal:If n_disc = 0, p = 1	
+ni_margin_pts_a6	-10	non-inferiority margin of AH3 in percentage points	config/prereg_A6_en.md	13	literal:10 percentage points	
+ni_bound_a6	-0.10	threshold the one-sided 95% lower bound must exceed in AH3	config/prereg_A6_en.md	13	literal:> −0.10	
+bootstrap_n_a6	2000	patient bootstrap replicates of the auxiliary hypotheses	config/prereg_A6_en.md	13	literal:(2,000 replicates)	
+half_factor	0.5	factor applied to p_favor in the half-effect power scenario	results/stage3/power.json	6	literal:p_favor is halved	
+rho_mix_low	0.15	lower bound of the tumor RNA fraction rho of HostMix-TOO mixtures	config/analysis_plan_A2.yaml	79	literal:uniform(0.15, 1.0)	
+rho_mix_high	1	upper bound of the tumor RNA fraction rho of HostMix-TOO mixtures (half-open)	config/analysis_plan_A2.yaml	79	literal:uniform(0.15, 1.0)	
+pure_per_tumor	1	pure profiles per training tumor in HostMix-TOO (pure_plus_mixes 5 = 1 pure + 4 mixtures)	config/analysis_plan_A2.yaml	78	literal:pure_plus_mixes: 5	
+mixes_per_tumor	4	mixtures per training tumor in HostMix-TOO (pure_plus_mixes 5 = 1 pure + 4 mixtures)	config/analysis_plan_A2.yaml	78	literal:pure_plus_mixes: 5	
+random_removals	10	random gene removals per platform in the missing-gene simulation	config/analysis_plan_A15.yaml	28	literal:random_removals: 10	
+pog_hypotheses_n	3	preregistered POG570 hypotheses H1-H3	config/prereg_A3_en.md	9	linecount:^\| H[0-9] \|	
+aux_primary_n	3	preregistered primary auxiliary hypotheses AH1-AH3	config/prereg_A6_en.md	11	linecount:^\| AH[0-9] \|	
+aux_secondary_n	3	preregistered secondary auxiliary hypotheses AS1-AS3	config/prereg_A6_en.md	21	linecount:^\| AS[0-9] \|	
+vincent_err_base	77	Vincent et al., test error on liver-metastasis biopsies before the contamination model (percent)	data/reference/literature_A17/pubmed_24463184_vincent2014.txt	27	literal:from 77 to 45%	PubMed abstract of reference 13
+vincent_err_mix	45	Vincent et al., test error with the contamination model (percent)	data/reference/literature_A17/pubmed_24463184_vincent2014.txt	27	literal:from 77 to 45%	PubMed abstract of reference 13
+vincent_err_train	34	Vincent et al., test error when biopsies were added to training (percent)	data/reference/literature_A17/pubmed_24463184_vincent2014.txt	27	literal:reduction to 34%	PubMed abstract of reference 13
+study_stages_n	4	stages of the study, counted from the enumerators of the same paragraph	manuscript/bmc/A_main.md	42	count:\b(?:First|Second|Third|Fourth), 	self-count of the paragraph that lists the stages
+deviations_n	3	deviations described in the same paragraph	manuscript/bmc/A_main.md	48	count:(?:The first unlocked run|Eighteen GSE50760|One classifier named)	self-count; Additional file 3 lists the same three plus a file-path deviation
+analysis_sets_n	4	analysis sets defined in the same paragraph	manuscript/bmc/A_main.md	92	count:The (?:evaluation|at-risk|native-truth|pool-out at-risk) set contains	self-count of the set definitions that follow
+toil_pseudocount	0.001	pseudocount of the Toil log2(TPM + 0.001) matrix, used to convert back to TPM	scripts/04_matrices.py	85	literal:np.exp2(block) - np.float32(0.001)	data-format constant
+split_test_frac	0.2	TCGA test fraction of the 80:20 split	scripts/03_splits_genes.py	55	literal:test_size=0.2	
+aurora_prefix_n	53	AURORA (GSE209998) unique patient-identifier prefixes	config/prereg_A6.md	31	literal:고유 접두부 53	
+aurora_paper_n	55	AURORA patients in the original publication	config/prereg_A6.md	31	literal:논문 환자 수 55	
+dup_rho_high	0.98	duplicate screen, maximum external correlation that always excludes	config/prereg_A6.md	25	literal:외부 최대 ≥ 0.98	
+dup_rho_low	0.95	duplicate screen, maximum external correlation that excludes when above the internal maximum	config/prereg_A6.md	25	literal:외부 최대 ≥ 0.95	
+gene_universe_n	17552	genes in the universe G	config/analysis_plan_A1.yaml	7	literal:n_G: 17552	
+gene_sets_n	8267	MSigDB gene sets kept for the gene-set scores	config/analysis_plan_A1.yaml	8	literal:n_sets_kept: 8267	
+max_iter	5000	L-BFGS iteration limit of both classifiers	config/analysis_plan_A2.yaml	96	literal:max_iter: 5000	
+microarray_fill	0	score of classifier genes absent from a microarray platform	scripts/24_aux_confirm.py	178	literal:z = np.zeros((block.shape[0], len(b0)), dtype=np.float32)	absent genes keep the zero fill
+base_cv_folds	5	cross-validation folds for the baseline C	config/analysis_plan_A1.yaml	29	literal:5-fold	
+base_grid_1	0.01	baseline C candidate 1	config/analysis_plan_A1.yaml	28	literal:C_grid: [0.01, 0.1, 1.0, 10.0]	
+base_grid_2	0.1	baseline C candidate 2	config/analysis_plan_A1.yaml	28	literal:C_grid: [0.01, 0.1, 1.0, 10.0]	
+base_grid_3	1	baseline C candidate 3	config/analysis_plan_A1.yaml	28	literal:C_grid: [0.01, 0.1, 1.0, 10.0]	
+base_grid_4	10	baseline C candidate 4	config/analysis_plan_A1.yaml	28	literal:C_grid: [0.01, 0.1, 1.0, 10.0]	
+site_models_n	9	site-specific mixture models	config/analysis_plan_A2.yaml	61	yamlkeys:site_models|shared_names,no_site_model_uses	keys of site_models other than the alias and fallback entries
+pool3_n	3	tissues of the three-tissue host-pool variant	scripts/14_stage5_train.py	208	literal:["Liver", "Lung", "Spleen"]	
+pool22_n	22	tissues of the 22-tissue host-pool model	config/prereg_A6_en.md	22	literal:22-tissue model	name of the AS2 model in the preregistration
+gate_tau	0.02	deconvolution host-fraction threshold of the gated model	config/analysis_plan_A6.yaml	16	literal:sa_g_tau: 0.02	
+sim_rho_1	1.0	simulation tumor fraction 1	scripts/stage2_common.py	71	literal:SIM_RHOS = [1.0, 0.8, 0.6, 0.4, 0.2]	
+sim_rho_2	0.8	simulation tumor fraction 2	scripts/stage2_common.py	71	literal:SIM_RHOS = [1.0, 0.8, 0.6, 0.4, 0.2]	
+sim_rho_3	0.6	simulation tumor fraction 3	scripts/stage2_common.py	71	literal:SIM_RHOS = [1.0, 0.8, 0.6, 0.4, 0.2]	
+sim_rho_4	0.4	simulation tumor fraction 4	scripts/stage2_common.py	71	literal:SIM_RHOS = [1.0, 0.8, 0.6, 0.4, 0.2]	
+sim_rho_5	0.2	simulation tumor fraction 5	scripts/stage2_common.py	71	literal:SIM_RHOS = [1.0, 0.8, 0.6, 0.4, 0.2]	
+alpha_secondary	0.05	one-sided family-wise alpha of the secondary auxiliary family	config/analysis_plan_A6.yaml	14	literal:alpha_family_secondary: 0.05	
+cup_example_n	394	metastatic samples in the CUP-AI-Dx example data	results/stage7/external_tools/cup_example.txt	31	literal:meta data size: (394, 791)	
+cup_example_acc	92.13197969543148	CUP-AI-Dx example, overall metastatic accuracy (percent)	results/stage7/external_tools/cup_example.txt	51	literal:Overall metastatic accuracy: 92.13197969543148%	
+scope_models_n	5	models in the SCOPE ensemble	config/analysis_plan_A8.yaml	50	yamllen:tools.SCOPE.models	
+abl_models_n	3	models refitted in the post hoc ablation	config/analysis_plan_A12.yaml	22	yamllen:models	
+abl_shares_n	3	models with a share in the ablation reading rule	config/analysis_plan_A12.yaml	61	yamllen:reading_rule.shares	
+abl_cohorts_n	3	cohorts of the ablation reading rule	config/analysis_plan_A12.yaml	46	yamllen:evaluation.cohorts	
+abl_share_pass	0.5	share every ablation model had to reach	config/analysis_plan_A12.yaml	62	literal:every share is at least 0.5	
+mg_share_cut	0.5	share threshold of the A15 attribution rule	config/analysis_plan_A15.yaml	62	literal:s_mix < 0.5 and min(s_std, s_stdw) >= 0.5	
+mg_seed	20261023	seed of the random gene removals	config/analysis_plan_A15.yaml	29	literal:seed: 20261023	
+classifier_genes_n	5000	genes used by both classifiers (highest rank-normal variance on TCGA-train)	config/analysis_plan_A2.yaml	87	literal:stage-1 B0 5000	
+aux_cohorts_plan	6	RNA-seq cohorts of the auxiliary confirmatory family	config/analysis_plan_A6.yaml	49	yamllen:confirmation_cohorts	
+pub_cohorts_n	3	cohorts scored by the published classifiers	config/analysis_plan_A8.yaml	13	yamllen:cohorts	
+practical_points_n	4	practical points of the paragraph, counted from its enumerators	manuscript/bmc/A_main.md	188	count:\b(?:First|Second|Third|Fourth), 	self-count of the paragraph
+zero_mark	0	label printed for a zero rate in the figures	scripts/84_figures_A19.py	365	literal:def zero_mark(ax, x: float, value: float, text: str = "0")	
+mg_platforms_n	4	microarray platforms of the missing-gene simulation	config/analysis_plan_A15.yaml	27	count:GPL96|GPL20769|GPL15659|FHCRC Agilent	the plan file does not parse as YAML (lines 33-37), so the list on line 27 is counted
+prereg_pct_low	2.5	lower percentile of the POG570 bootstrap interval	config/prereg_A3_en.md	5	literal:Percentiles 2.5 and 97.5	
+prereg_pct_high	97.5	upper percentile of the POG570 bootstrap interval	config/prereg_A3_en.md	5	literal:Percentiles 2.5 and 97.5	
+prereg_eval_n	512	POG570 evaluation set size written in the preregistration	config/prereg_A3_en.md	19	literal:n = 512.	
+prereg_risk_n	378	POG570 at-risk set size written in the preregistration	config/prereg_A3_en.md	20	literal:n = 378.	
+prereg_native_n	91	POG570 native-truth set size written in the preregistration	config/prereg_A3_en.md	21	literal:n = 91.	
+site_groups_n	4	named site groups before the remainder group	config/prereg_A3_en.md	27	count:\b(?:liver|lymph_node|lung|soft_tissue),	
+tc_bins	3	bins of the tumor-content tertiles	config/prereg_A3_en.md	28	literal:qcut with 3 bins	
+tc_values_n	512	evaluation values used for the tumor-content tertile boundaries	config/prereg_A3_en.md	28	literal:on the 512 evaluation values	
+alpha_primary_a6	0.05	one-sided alpha of each primary auxiliary hypothesis	config/prereg_A6_en.md	7	literal:each one-sided α = 0.05	
+alpha_secondary_en	0.05	family-wise one-sided alpha of the secondary auxiliary family	config/prereg_A6_en.md	17	literal:family-wise one-sided α = 0.05	
+alpha_families_a6	0.05	family-wise alpha of each auxiliary family	config/prereg_A6_en.md	25	literal:each at family-wise α = 0.05	
+boot_n_a6_effect	2000	patient bootstrap replicates of the auxiliary effect sizes	config/prereg_A6_en.md	27	literal:(2,000 replicates, seed 20261001	
+seed_a6_effect	20261001	seed of the auxiliary effect-size bootstrap	config/prereg_A6_en.md	27	literal:(2,000 replicates, seed 20261001	
+mcnemar_null_a6	0.5	success probability of the auxiliary exact McNemar binomial	config/prereg_A6_en.md	29	literal:P(Binomial(m, 0.5)	
+m_zero_a6	0	discordant count at which the auxiliary test is not rejected	config/prereg_A6_en.md	29	literal:If m = 0, the test is not rejected	
+meta_min_risk	10	minimum at-risk samples of a cohort in the meta-analysis	config/prereg_A6_en.md	37	literal:at least 10 at-risk samples	
+meta_zero	0	discordant count that triggers the variance correction of the meta-analysis	config/prereg_A6_en.md	37	literal:If b_i or c_i is 0, 0.5 is added	
+meta_cc	0.5	value added to both counts for the meta-analysis variance	config/prereg_A6_en.md	37	literal:If b_i or c_i is 0, 0.5 is added	
+cup_features_n	791	features of CUP-AI-Dx	results/stage7/external_tools/cup_example.txt	31	literal:meta data size: (394, 791)	
+cup_fill	0	value given to features absent from a cohort in the published-classifier inputs	config/analysis_plan_A8.yaml	63	literal:missing_features: fill 0	
+scope_features_n	17688	genes of the SCOPE input list	config/analysis_plan_A8.yaml	60	literal:scope_expected_features: 17688	
+a8_scale_line	64	line of config/analysis_plan_A8.yaml that holds the SCOPE scale-check rule	config/analysis_plan_A8.yaml	64	literal:scope_scale_check:	line number cited in Additional file 1; the check confirms the rule is on that line
+a8_cup_line	55	line of config/analysis_plan_A8.yaml that holds the CUP-AI-Dx preprocessing	config/analysis_plan_A8.yaml	55	literal:wrapper: same preprocessing as external_test.py	line number cited in Additional file 1; the check confirms the rule is on that line
+cv_seed	20261001	seed of the grouped cross-validation	config/analysis_plan_A2.yaml	99	literal:random_state=20261001	
+s4_pos_n	10	largest positive mean contributions shown in Figure S4	scripts/84_figures_A19.py	1248	literal:ordered.head(10).assign	
+s4_neg_n	5	most negative mean contributions shown in Figure S4	scripts/84_figures_A19.py	1249	literal:ordered.tail(5).assign	
+s1_scale_low	0	lower end of the Figure S1 shading scale	scripts/84_figures_A19.py	995	literal:Normalize(0, vmax)	
+s1_scale_high	1	upper end of the Figure S1 shading scale for top-1 accuracy	scripts/84_figures_A19.py	994	literal:vmax = 1.0 if column == "top1"	
+s1_digits	3	decimals of the Figure S1 cell labels	scripts/84_figures_A19.py	114	literal:digits: int = 3	
+aux_min_risk	10	minimum at-risk samples in the metadata (eligibility criterion 6)	config/aux_eligibility_A5.md	10	literal:위험 집합 샘플이 10개 이상	
+screen_outcomes_n	3	screening outcomes summed in the same paragraph	manuscript/bmc/Additional_file_1.md	15	count:\d+ were (?:excluded|held|taken forward)	self-count of the paragraph
+screen_crit_counts_n	5	criterion counts summed in the same paragraph	manuscript/bmc/Additional_file_1.md	17	count:\d+ failed criterion \d	self-count of the paragraph

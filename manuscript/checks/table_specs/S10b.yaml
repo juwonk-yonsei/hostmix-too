@@ -1,0 +1,118 @@
+id: S10b
+doc: af1
+caption: 10. Design power
+which: 1
+header:
+- hypothesis
+- scenario
+- n
+- p_favor
+- p_against
+- alpha
+- power
+key_cols:
+- 0
+- 1
+row_id: '{h}_{s}'
+maps:
+  0:
+    AH1:
+      h: AH1
+    AH2:
+      h: AH2
+    AS1:
+      h: AS1
+    AS2:
+      h: AS2
+    AS3:
+      h: AS3
+  1:
+    '1':
+      s: '1'
+    '2':
+      s: '2'
+columns:
+  1:
+    id: scenario
+    t: '{v}'
+    f:
+      v:
+        src: results/stage6/power.tsv
+        sel: hypothesis == '{h}' and scenario == {s}
+        col: scenario
+        dec: 0
+        meaning: scenario number
+  2:
+    id: n
+    t: '{v}'
+    f:
+      v:
+        src: results/stage6/power.tsv
+        sel: hypothesis == '{h}' and scenario == {s}
+        col: n
+        dec: 0
+  3:
+    id: p_favor
+    t: '{v}'
+    f:
+      v:
+        src: results/stage6/power.tsv
+        sel: hypothesis == '{h}' and scenario == {s}
+        col: p_favor
+        dec: 3
+  4:
+    id: p_against
+    t: '{v}'
+    f:
+      v:
+        src: results/stage6/power.tsv
+        sel: hypothesis == '{h}' and scenario == {s}
+        col: p_against
+        dec: 3
+  5:
+    id: alpha
+    t: '{v}'
+    f:
+      v:
+        src: results/stage6/power.tsv
+        sel: hypothesis == '{h}' and scenario == {s}
+        col: alpha
+        dec: 3
+    rows:
+      AH1_1:
+        f:
+          v:
+            src: results/stage6/power.tsv
+            sel: hypothesis == '{h}' and scenario == {s}
+            col: alpha
+            dec: 2
+      AH1_2:
+        f:
+          v:
+            src: results/stage6/power.tsv
+            sel: hypothesis == '{h}' and scenario == {s}
+            col: alpha
+            dec: 2
+      AH2_1:
+        f:
+          v:
+            src: results/stage6/power.tsv
+            sel: hypothesis == '{h}' and scenario == {s}
+            col: alpha
+            dec: 2
+      AH2_2:
+        f:
+          v:
+            src: results/stage6/power.tsv
+            sel: hypothesis == '{h}' and scenario == {s}
+            col: alpha
+            dec: 2
+  6:
+    id: power
+    t: '{v}'
+    f:
+      v:
+        src: results/stage6/power.tsv
+        sel: hypothesis == '{h}' and scenario == {s}
+        col: power
+        dec: 3

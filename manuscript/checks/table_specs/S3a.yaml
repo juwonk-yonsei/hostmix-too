@@ -1,0 +1,43 @@
+id: S3a
+doc: af1
+caption: Table S3.
+which: 0
+header:
+- Host-pool tissue
+- GTEx-ref samples
+key_cols:
+- 0
+row_id: '{t}'
+maps:
+  0:
+    Adipose - Subcutaneous:
+      t: Adipose - Subcutaneous
+    Adipose - Visceral (Omentum):
+      t: Adipose - Visceral (Omentum)
+    Adrenal Gland:
+      t: Adrenal Gland
+    Brain - Cortex:
+      t: Brain - Cortex
+    Liver:
+      t: Liver
+    Lung:
+      t: Lung
+    Muscle - Skeletal:
+      t: Muscle - Skeletal
+    Skin - Not Sun Exposed (Suprapubic):
+      t: Skin - Not Sun Exposed (Suprapubic)
+    Spleen:
+      t: Spleen
+    Whole Blood:
+      t: Whole Blood
+columns:
+  1:
+    id: n
+    t: '{v}'
+    f:
+      v:
+        src: config/split_gtex.tsv
+        sel: split == 'GTEx-ref' and tissue == '{t}'
+        col: ''
+        dec: 0
+        tf: count

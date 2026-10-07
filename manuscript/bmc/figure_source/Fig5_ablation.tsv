@@ -1,0 +1,51 @@
+panel	cohort	method	metric	value	n	source	display	label
+a	MET500	BASE-Z	host_rate	0.135734072	361	stage9 ablation	MET500	Baseline
+b	MET500	BASE-Z	top1	0.6887871854	437	stage9 ablation	MET500	Baseline
+a	POG570	BASE-Z	host_rate	0.2275132275	378	stage9 ablation	POG570	Baseline
+b	POG570	BASE-Z	top1	0.681640625	512	stage9 ablation	POG570	Baseline
+a	aux_rnaseq	BASE-Z	host_rate	0.2037470726	427	stage9 ablation	Auxiliary RNA-seq	Baseline
+b	aux_rnaseq	BASE-Z	top1	0.5267489712	729	stage9 ablation	Auxiliary RNA-seq	Baseline
+a	microarray	BASE-Z	host_rate	0.2560386473	207	stage10 ablation	Microarray	Baseline
+b	microarray	BASE-Z	top1	0.723880597	536	stage10 ablation	Microarray	Baseline
+c	MET500	BASE-Z	random_removal_mean_drop	0.006235697941	4	stage10 restriction	MET500	Baseline
+c	POG570	BASE-Z	random_removal_mean_drop	0.006396484375	4	stage10 restriction	POG570	Baseline
+a	MET500	PURE-Zs	host_rate	0.1218836565	361	stage9 ablation	MET500	Standardized, pure (C = 0.03)
+b	MET500	PURE-Zs	top1	0.6796338673	437	stage9 ablation	MET500	Standardized, pure (C = 0.03)
+a	POG570	PURE-Zs	host_rate	0.1957671958	378	stage9 ablation	POG570	Standardized, pure (C = 0.03)
+b	POG570	PURE-Zs	top1	0.705078125	512	stage9 ablation	POG570	Standardized, pure (C = 0.03)
+a	aux_rnaseq	PURE-Zs	host_rate	0.1756440281	427	stage9 ablation	Auxiliary RNA-seq	Standardized, pure (C = 0.03)
+b	aux_rnaseq	PURE-Zs	top1	0.4938271605	729	stage9 ablation	Auxiliary RNA-seq	Standardized, pure (C = 0.03)
+a	microarray	PURE-Zs	host_rate	0.2077294686	207	stage10 ablation	Microarray	Standardized, pure (C = 0.03)
+b	microarray	PURE-Zs	top1	0.3600746269	536	stage10 ablation	Microarray	Standardized, pure (C = 0.03)
+c	MET500	PURE-Zs	random_removal_mean_drop	0.03083524027	4	stage10 restriction	MET500	Standardized, pure (C = 0.03)
+c	POG570	PURE-Zs	random_removal_mean_drop	0.06669921875	4	stage10 restriction	POG570	Standardized, pure (C = 0.03)
+a	MET500	PURE-Zs-w	host_rate	0.1385041551	361	stage9 ablation	MET500	Standardized, pure (C = 0.15)
+b	MET500	PURE-Zs-w	top1	0.6659038902	437	stage9 ablation	MET500	Standardized, pure (C = 0.15)
+a	POG570	PURE-Zs-w	host_rate	0.2222222222	378	stage9 ablation	POG570	Standardized, pure (C = 0.15)
+b	POG570	PURE-Zs-w	top1	0.669921875	512	stage9 ablation	POG570	Standardized, pure (C = 0.15)
+a	aux_rnaseq	PURE-Zs-w	host_rate	0.2014051522	427	stage9 ablation	Auxiliary RNA-seq	Standardized, pure (C = 0.15)
+b	aux_rnaseq	PURE-Zs-w	top1	0.4910836763	729	stage9 ablation	Auxiliary RNA-seq	Standardized, pure (C = 0.15)
+a	microarray	PURE-Zs-w	host_rate	0.2512077295	207	stage10 ablation	Microarray	Standardized, pure (C = 0.15)
+b	microarray	PURE-Zs-w	top1	0.3320895522	536	stage10 ablation	Microarray	Standardized, pure (C = 0.15)
+c	MET500	PURE-Zs-w	random_removal_mean_drop	0.03850114416	4	stage10 restriction	MET500	Standardized, pure (C = 0.15)
+c	POG570	PURE-Zs-w	random_removal_mean_drop	0.05869140625	4	stage10 restriction	POG570	Standardized, pure (C = 0.15)
+a	MET500	MIX-Z0	host_rate	0.04432132964	361	stage9 ablation	MET500	Unstandardized, mixtures (C = 0.1)
+b	MET500	MIX-Z0	top1	0.7276887872	437	stage9 ablation	MET500	Unstandardized, mixtures (C = 0.1)
+a	POG570	MIX-Z0	host_rate	0.03439153439	378	stage9 ablation	POG570	Unstandardized, mixtures (C = 0.1)
+b	POG570	MIX-Z0	top1	0.77734375	512	stage9 ablation	POG570	Unstandardized, mixtures (C = 0.1)
+a	aux_rnaseq	MIX-Z0	host_rate	0.08196721311	427	stage9 ablation	Auxiliary RNA-seq	Unstandardized, mixtures (C = 0.1)
+b	aux_rnaseq	MIX-Z0	top1	0.7064471879	729	stage9 ablation	Auxiliary RNA-seq	Unstandardized, mixtures (C = 0.1)
+a	microarray	MIX-Z0	host_rate	0.09178743961	207	stage10 ablation	Microarray	Unstandardized, mixtures (C = 0.1)
+b	microarray	MIX-Z0	top1	0.776119403	536	stage10 ablation	Microarray	Unstandardized, mixtures (C = 0.1)
+c	MET500	MIX-Z0	random_removal_mean_drop	0.007437070938	4	stage10 restriction	MET500	Unstandardized, mixtures (C = 0.1)
+c	POG570	MIX-Z0	random_removal_mean_drop	0.00380859375	4	stage10 restriction	POG570	Unstandardized, mixtures (C = 0.1)
+a	MET500	SA-Z	host_rate	0.04432132964	361	stage9 ablation	MET500	HostMix-TOO
+b	MET500	SA-Z	top1	0.7276887872	437	stage9 ablation	MET500	HostMix-TOO
+a	POG570	SA-Z	host_rate	0.02380952381	378	stage9 ablation	POG570	HostMix-TOO
+b	POG570	SA-Z	top1	0.755859375	512	stage9 ablation	POG570	HostMix-TOO
+a	aux_rnaseq	SA-Z	host_rate	0.05620608899	427	stage9 ablation	Auxiliary RNA-seq	HostMix-TOO
+b	aux_rnaseq	SA-Z	top1	0.6982167353	729	stage9 ablation	Auxiliary RNA-seq	HostMix-TOO
+a	microarray	SA-Z	host_rate	0.1014492754	207	stage10 ablation	Microarray	HostMix-TOO
+b	microarray	SA-Z	top1	0.4552238806	536	stage10 ablation	Microarray	HostMix-TOO
+c	MET500	SA-Z	random_removal_mean_drop	0.02969107551	4	stage10 restriction	MET500	HostMix-TOO
+c	POG570	SA-Z	random_removal_mean_drop	0.03256835938	4	stage10 restriction	POG570	HostMix-TOO

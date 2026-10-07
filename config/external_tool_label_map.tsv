@@ -1,0 +1,278 @@
+row_type	tool	source	target	note
+class	SCOPE	PAAD_NS	Pancreas	normal
+class	SCOPE	ESCA_EAC_TS	Esophagus	tumor
+class	SCOPE	THYM_TS	Thymus	tumor
+class	SCOPE	OV_TS	Ovary	tumor
+class	SCOPE	KIRC_TS	Kidney	tumor
+class	SCOPE	LGG_TS	Brain	tumor
+class	SCOPE	KIRP_TS	Kidney	tumor
+class	SCOPE	THCA_NS	Thyroid	normal
+class	SCOPE	CESC_CAD_NS	Cervix	normal
+class	SCOPE	UCEC_TS	Uterus	tumor
+class	SCOPE	LUAD_NS	Lung	normal
+class	SCOPE	STAD_TS	Stomach	tumor
+class	SCOPE	LAML_TS	Myeloid	tumor
+class	SCOPE	BRCA_TS	Breast	tumor
+class	SCOPE	THCA_TS	Thyroid	tumor
+class	SCOPE	LIHC_NS	Liver	normal
+class	SCOPE	ESCA_TS	Esophagus	tumor
+class	SCOPE	GBM_TS	Brain	tumor
+class	SCOPE	LUAD_TS	Lung	tumor
+class	SCOPE	PAAD_TS	Pancreas	tumor
+class	SCOPE	BLCA_TS	Bladder	tumor
+class	SCOPE	KICH_NS	Kidney	normal
+class	SCOPE	DLBC_BM_TS	Lymphoid	tumor
+class	SCOPE	COADREAD_NS	Colorectal	normal
+class	SCOPE	SKCM_TS	Melanoma	tumor
+class	SCOPE	COADREAD_TS	Colorectal	tumor
+class	SCOPE	UCS_TS	Uterus	tumor
+class	SCOPE	GBM_NS	Brain	normal
+class	SCOPE	SARC_NS	Sarcoma	normal
+class	SCOPE	KIRP_NS	Kidney	normal
+class	SCOPE	TGCT_TS	Testis	tumor
+class	SCOPE	PCPG_TS	Adrenal	tumor
+class	SCOPE	ESCA_SCC_NS	Esophagus	normal
+class	SCOPE	ESCA_EAC_NS	Esophagus	normal
+class	SCOPE	ACC_TS	Adrenal	tumor
+class	SCOPE	STAD_NS	Stomach	normal
+class	SCOPE	TFRI_GBM_NCL_TS	Brain	tumor
+class	SCOPE	PRAD_NS	Prostate	normal
+class	SCOPE	PCPG_NS	Adrenal	normal
+class	SCOPE	LUSC_NS	Lung	normal
+class	SCOPE	KIRC_NS	Kidney	normal
+class	SCOPE	CHOL_TS	Biliary	tumor
+class	SCOPE	BRCA_NS	Breast	normal
+class	SCOPE	CESC_CAD_TS	Cervix	tumor
+class	SCOPE	CESC_SCC_NS	Cervix	normal
+class	SCOPE	UVM_TS	UvealMelanoma	tumor
+class	SCOPE	HNSC_NS	HeadNeck	normal
+class	SCOPE	SARC_TS	Sarcoma	tumor
+class	SCOPE	PRAD_TS	Prostate	tumor
+class	SCOPE	FL_TS	Lymphoid	tumor
+class	SCOPE	KICH_TS	Kidney	tumor
+class	SCOPE	ESCA_SCC_TS	Esophagus	tumor
+class	SCOPE	LIHC_TS	Liver	tumor
+class	SCOPE	LUSC_TS	Lung	tumor
+class	SCOPE	MB-Adult_TS	Brain	tumor
+class	SCOPE	THYM_NS	Thymus	normal
+class	SCOPE	UCEC_NS	Uterus	normal
+class	SCOPE	NCI_GPH_DLBCL_TS	Lymphoid	tumor
+class	SCOPE	MESO_TS	Mesothelioma	tumor
+class	SCOPE	CHOL_NS	Biliary	normal
+class	SCOPE	CESC_SCC_TS	Cervix	tumor
+class	SCOPE	SKCM_NS	Melanoma	normal
+class	SCOPE	ESCA_NS	Esophagus	normal
+class	SCOPE	BLCA_NS	Bladder	normal
+class	SCOPE	DLBC_TS	Lymphoid	tumor
+class	SCOPE	HNSC_TS	HeadNeck	tumor
+class	CUP-AI-Dx	ACC	Adrenal	tumor
+class	He2023	ACC	Adrenal	tumor
+class	CUP-AI-Dx	BLCA	Bladder	tumor
+class	He2023	BLCA	Bladder	tumor
+class	CUP-AI-Dx	BRCA	Breast	tumor
+class	He2023	BRCA	Breast	tumor
+class	CUP-AI-Dx	CESC	Cervix	tumor
+class	He2023	CESC	Cervix	tumor
+class	CUP-AI-Dx	CHOL	Biliary	tumor
+class	He2023	CHOL	Biliary	tumor
+class	CUP-AI-Dx	COADREAD	Colorectal	tumor
+class	He2023	COADREAD	Colorectal	tumor
+class	CUP-AI-Dx	DLBC	Lymphoid	tumor
+class	He2023	DLBC	Lymphoid	tumor
+class	CUP-AI-Dx	ESCA	Esophagus	tumor
+class	He2023	ESCA	Esophagus	tumor
+class	CUP-AI-Dx	GBM	Brain	tumor
+class	He2023	GBM	Brain	tumor
+class	CUP-AI-Dx	HNSC	HeadNeck	tumor
+class	He2023	HNSC	HeadNeck	tumor
+class	CUP-AI-Dx	KICH	Kidney	tumor
+class	He2023	KICH	Kidney	tumor
+class	CUP-AI-Dx	KIRC	Kidney	tumor
+class	He2023	KIRC	Kidney	tumor
+class	CUP-AI-Dx	KIRP	Kidney	tumor
+class	He2023	KIRP	Kidney	tumor
+class	CUP-AI-Dx	LAML	Myeloid	tumor
+class	He2023	LAML	Myeloid	tumor
+class	CUP-AI-Dx	LGG	Brain	tumor
+class	He2023	LGG	Brain	tumor
+class	CUP-AI-Dx	LIHC	Liver	tumor
+class	He2023	LIHC	Liver	tumor
+class	CUP-AI-Dx	LUAD	Lung	tumor
+class	He2023	LUAD	Lung	tumor
+class	CUP-AI-Dx	LUSC	Lung	tumor
+class	He2023	LUSC	Lung	tumor
+class	CUP-AI-Dx	MESO	Mesothelioma	tumor
+class	He2023	MESO	Mesothelioma	tumor
+class	CUP-AI-Dx	OV	Ovary	tumor
+class	He2023	OV	Ovary	tumor
+class	CUP-AI-Dx	PAAD	Pancreas	tumor
+class	He2023	PAAD	Pancreas	tumor
+class	CUP-AI-Dx	PCPG	Adrenal	tumor
+class	He2023	PCPG	Adrenal	tumor
+class	CUP-AI-Dx	PRAD	Prostate	tumor
+class	He2023	PRAD	Prostate	tumor
+class	CUP-AI-Dx	SARC	Sarcoma	tumor
+class	He2023	SARC	Sarcoma	tumor
+class	CUP-AI-Dx	SKCM	Melanoma	tumor
+class	He2023	SKCM	Melanoma	tumor
+class	CUP-AI-Dx	STAD	Stomach	tumor
+class	He2023	STAD	Stomach	tumor
+class	CUP-AI-Dx	TGCT	Testis	tumor
+class	He2023	TGCT	Testis	tumor
+class	CUP-AI-Dx	THCA	Thyroid	tumor
+class	He2023	THCA	Thyroid	tumor
+class	CUP-AI-Dx	THYM	Thymus	tumor
+class	He2023	THYM	Thymus	tumor
+class	CUP-AI-Dx	UCEC	Uterus	tumor
+class	He2023	UCEC	Uterus	tumor
+class	CUP-AI-Dx	UCS	Uterus	tumor
+class	He2023	UCS	Uterus	tumor
+class	CUP-AI-Dx	UVM	UvealMelanoma	tumor
+class	He2023	UVM	UvealMelanoma	tumor
+site_host	SCOPE	liver	LIHC_NS	host organ class
+site_host	SCOPE	liver	LIHC_TS	host organ class
+site_host	SCOPE	liver	CHOL_TS	host organ class
+site_host	SCOPE	liver	CHOL_NS	host organ class
+site_host	CUP-AI-Dx	liver	LIHC	host organ class
+site_host	CUP-AI-Dx	liver	CHOL	host organ class
+site_host	He2023	liver	LIHC	host organ class
+site_host	He2023	liver	CHOL	host organ class
+site_host	SCOPE	lung	LUAD_NS	host organ class
+site_host	SCOPE	lung	LUAD_TS	host organ class
+site_host	SCOPE	lung	LUSC_NS	host organ class
+site_host	SCOPE	lung	LUSC_TS	host organ class
+site_host	SCOPE	lung	MESO_TS	host organ class
+site_host	CUP-AI-Dx	lung	LUAD	host organ class
+site_host	CUP-AI-Dx	lung	LUSC	host organ class
+site_host	CUP-AI-Dx	lung	MESO	host organ class
+site_host	He2023	lung	LUAD	host organ class
+site_host	He2023	lung	LUSC	host organ class
+site_host	He2023	lung	MESO	host organ class
+site_host	SCOPE	lymph_node	DLBC_BM_TS	host organ class
+site_host	SCOPE	lymph_node	FL_TS	host organ class
+site_host	SCOPE	lymph_node	NCI_GPH_DLBCL_TS	host organ class
+site_host	SCOPE	lymph_node	DLBC_TS	host organ class
+site_host	CUP-AI-Dx	lymph_node	DLBC	host organ class
+site_host	He2023	lymph_node	DLBC	host organ class
+site_host	SCOPE	bone_marrow	LAML_TS	host organ class
+site_host	SCOPE	bone_marrow	DLBC_BM_TS	host organ class
+site_host	SCOPE	bone_marrow	FL_TS	host organ class
+site_host	SCOPE	bone_marrow	NCI_GPH_DLBCL_TS	host organ class
+site_host	SCOPE	bone_marrow	DLBC_TS	host organ class
+site_host	CUP-AI-Dx	bone_marrow	LAML	host organ class
+site_host	CUP-AI-Dx	bone_marrow	DLBC	host organ class
+site_host	He2023	bone_marrow	LAML	host organ class
+site_host	He2023	bone_marrow	DLBC	host organ class
+site_host	SCOPE	bone	LAML_TS	host organ class
+site_host	SCOPE	bone	DLBC_BM_TS	host organ class
+site_host	SCOPE	bone	FL_TS	host organ class
+site_host	SCOPE	bone	NCI_GPH_DLBCL_TS	host organ class
+site_host	SCOPE	bone	DLBC_TS	host organ class
+site_host	CUP-AI-Dx	bone	LAML	host organ class
+site_host	CUP-AI-Dx	bone	DLBC	host organ class
+site_host	He2023	bone	LAML	host organ class
+site_host	He2023	bone	DLBC	host organ class
+site_host	SCOPE	brain	LGG_TS	host organ class
+site_host	SCOPE	brain	GBM_TS	host organ class
+site_host	SCOPE	brain	GBM_NS	host organ class
+site_host	SCOPE	brain	TFRI_GBM_NCL_TS	host organ class
+site_host	SCOPE	brain	MB-Adult_TS	host organ class
+site_host	CUP-AI-Dx	brain	GBM	host organ class
+site_host	CUP-AI-Dx	brain	LGG	host organ class
+site_host	He2023	brain	GBM	host organ class
+site_host	He2023	brain	LGG	host organ class
+site_host	SCOPE	adrenal	PCPG_TS	host organ class
+site_host	SCOPE	adrenal	ACC_TS	host organ class
+site_host	SCOPE	adrenal	PCPG_NS	host organ class
+site_host	CUP-AI-Dx	adrenal	ACC	host organ class
+site_host	CUP-AI-Dx	adrenal	PCPG	host organ class
+site_host	He2023	adrenal	ACC	host organ class
+site_host	He2023	adrenal	PCPG	host organ class
+site_host	SCOPE	skin	SKCM_TS	host organ class
+site_host	SCOPE	skin	SKCM_NS	host organ class
+site_host	CUP-AI-Dx	skin	SKCM	host organ class
+site_host	He2023	skin	SKCM	host organ class
+site_host	SCOPE	subcutaneous	SKCM_TS	host organ class
+site_host	SCOPE	subcutaneous	SKCM_NS	host organ class
+site_host	CUP-AI-Dx	subcutaneous	SKCM	host organ class
+site_host	He2023	subcutaneous	SKCM	host organ class
+site_host	SCOPE	soft_tissue	SARC_NS	host organ class
+site_host	SCOPE	soft_tissue	SARC_TS	host organ class
+site_host	CUP-AI-Dx	soft_tissue	SARC	host organ class
+site_host	He2023	soft_tissue	SARC	host organ class
+site_host	SCOPE	kidney	KIRC_TS	host organ class
+site_host	SCOPE	kidney	KIRP_TS	host organ class
+site_host	SCOPE	kidney	KICH_NS	host organ class
+site_host	SCOPE	kidney	KIRP_NS	host organ class
+site_host	SCOPE	kidney	KIRC_NS	host organ class
+site_host	SCOPE	kidney	KICH_TS	host organ class
+site_host	CUP-AI-Dx	kidney	KICH	host organ class
+site_host	CUP-AI-Dx	kidney	KIRC	host organ class
+site_host	CUP-AI-Dx	kidney	KIRP	host organ class
+site_host	He2023	kidney	KICH	host organ class
+site_host	He2023	kidney	KIRC	host organ class
+site_host	He2023	kidney	KIRP	host organ class
+site_host	SCOPE	pancreas	PAAD_NS	host organ class
+site_host	SCOPE	pancreas	PAAD_TS	host organ class
+site_host	CUP-AI-Dx	pancreas	PAAD	host organ class
+site_host	He2023	pancreas	PAAD	host organ class
+site_host	SCOPE	peritoneum	MESO_TS	host organ class
+site_host	CUP-AI-Dx	peritoneum	MESO	host organ class
+site_host	He2023	peritoneum	MESO	host organ class
+site_host	SCOPE	omentum	MESO_TS	host organ class
+site_host	CUP-AI-Dx	omentum	MESO	host organ class
+site_host	He2023	omentum	MESO	host organ class
+site_host	SCOPE	pleura	MESO_TS	host organ class
+site_host	CUP-AI-Dx	pleura	MESO	host organ class
+site_host	He2023	pleura	MESO	host organ class
+site_host	SCOPE	bladder	BLCA_TS	host organ class
+site_host	SCOPE	bladder	BLCA_NS	host organ class
+site_host	CUP-AI-Dx	bladder	BLCA	host organ class
+site_host	He2023	bladder	BLCA	host organ class
+site_host	SCOPE	thyroid	THCA_NS	host organ class
+site_host	SCOPE	thyroid	THCA_TS	host organ class
+site_host	CUP-AI-Dx	thyroid	THCA	host organ class
+site_host	He2023	thyroid	THCA	host organ class
+site_host	SCOPE	ovary	OV_TS	host organ class
+site_host	CUP-AI-Dx	ovary	OV	host organ class
+site_host	He2023	ovary	OV	host organ class
+site_host	SCOPE	breast	BRCA_TS	host organ class
+site_host	SCOPE	breast	BRCA_NS	host organ class
+site_host	CUP-AI-Dx	breast	BRCA	host organ class
+site_host	He2023	breast	BRCA	host organ class
+site_host	SCOPE	stomach	STAD_TS	host organ class
+site_host	SCOPE	stomach	STAD_NS	host organ class
+site_host	CUP-AI-Dx	stomach	STAD	host organ class
+site_host	He2023	stomach	STAD	host organ class
+site_host	SCOPE	colon_rectum	COADREAD_NS	host organ class
+site_host	SCOPE	colon_rectum	COADREAD_TS	host organ class
+site_host	CUP-AI-Dx	colon_rectum	COADREAD	host organ class
+site_host	He2023	colon_rectum	COADREAD	host organ class
+site_host	SCOPE	prostate	PRAD_NS	host organ class
+site_host	SCOPE	prostate	PRAD_TS	host organ class
+site_host	CUP-AI-Dx	prostate	PRAD	host organ class
+site_host	He2023	prostate	PRAD	host organ class
+site_host	SCOPE	esophagus	ESCA_EAC_TS	host organ class
+site_host	SCOPE	esophagus	ESCA_TS	host organ class
+site_host	SCOPE	esophagus	ESCA_SCC_NS	host organ class
+site_host	SCOPE	esophagus	ESCA_EAC_NS	host organ class
+site_host	SCOPE	esophagus	ESCA_SCC_TS	host organ class
+site_host	SCOPE	esophagus	ESCA_NS	host organ class
+site_host	CUP-AI-Dx	esophagus	ESCA	host organ class
+site_host	He2023	esophagus	ESCA	host organ class
+site_host	SCOPE	head_neck	HNSC_NS	host organ class
+site_host	SCOPE	head_neck	HNSC_TS	host organ class
+site_host	CUP-AI-Dx	head_neck	HNSC	host organ class
+site_host	He2023	head_neck	HNSC	host organ class
+site_host	SCOPE	cervix	CESC_CAD_NS	host organ class
+site_host	SCOPE	cervix	CESC_CAD_TS	host organ class
+site_host	SCOPE	cervix	CESC_SCC_NS	host organ class
+site_host	SCOPE	cervix	CESC_SCC_TS	host organ class
+site_host	CUP-AI-Dx	cervix	CESC	host organ class
+site_host	He2023	cervix	CESC	host organ class
+site_host	SCOPE	other		native_organs empty
+site_host	CUP-AI-Dx	other		native_organs empty
+site_host	He2023	other		native_organs empty
+normal_rule	SCOPE	_NS	native_and_not_truth	예측이 _NS로 끝나면 정상 조직이다. 대응 장기가 그 샘플의 native_organs에 있고 정답 장기와 다르면 숙주 끌림으로 센다. 대응 장기가 native_organs에 없으면 숙주 끌림으로 세지 않는다.
+normal_rule	CUP-AI-Dx			정상 조직 클래스가 없다.
+normal_rule	He2023			정상 조직 클래스가 없다. He2023 클래스 문자열은 논문이 COAD와 READ를 COADREAD로 합쳐 32개로 둔 TCGA 약어이며, CUP-AI-Dx data/label_encoding.json의 32개와 같은 문자열이다. 논문 Table 1 본문은 이번 확인에 없었다.

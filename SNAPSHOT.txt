@@ -1,0 +1,3 @@
+Snapshot of project commit 44779503d423a5acacf58d356157bb5f4b54eaba, made 2026-10-07 08:57 UTC with scripts/87_public_snapshot_A19.py.
+The git history of the project is not included; 23 tracked files that list POG570 patient identifiers, or contain such files, are left out (WITHHELD.tsv). A copy of the history without their contents, in which every commit hash can be verified, is available to editors and reviewers on request.
+415 further tracked files are not included: manuscript drafts, submission notes and superseded check outputs.

@@ -1,0 +1,55 @@
+id: CARD1
+doc: card
+caption: Features and classes
+key_cols:
+- 0
+row_id: '{m}'
+header:
+- Model
+- Scaler
+- C
+- How C was chosen
+- Rows
+maps:
+  0:
+    BASE-Z:
+      m: BASE-Z
+    SA-Z:
+      m: SA-Z
+columns:
+  2:
+    id: C
+    t: '{v}'
+    f:
+      v:
+        src: results/stage9/ablation/pipeline_table.tsv
+        sel: model == '{m}'
+        col: C
+        dec: 0
+        form: raw
+  3:
+    id: how
+    t: '{*}'
+    rows:
+      SA-Z:
+        t: '{k}-fold grouped cross-validation, macro-F1, grid {a}, {b}, {c}, smallest C within {e} of the best'
+        f:
+          k:
+            const: cv_folds_sa
+          a:
+            const: c_grid_sa_1
+          b:
+            const: c_grid_sa_2
+          c:
+            const: c_grid_sa_3
+          e:
+            const: c_tie_tol
+  4:
+    id: rows
+    t: '{v}'
+    f:
+      v:
+        src: results/stage9/ablation/pipeline_table.tsv
+        sel: model == '{m}'
+        col: n_train_rows
+        dec: 0

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "HostMix-TOO: code, trained models and public-cohort predictions for host attraction in tissue-of-origin classification"
+authors:
+  - family-names: "Kang"
+    given-names: "Juwon"
+    orcid: "https://orcid.org/0009-0009-2186-0038"
+    affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+  - family-names: "Choi"
+    given-names: "Junjeong"
+    orcid: "https://orcid.org/0000-0003-1339-593X"
+    affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+license: MIT
+doi: 10.5281/zenodo.23205336
+repository-code: "https://github.com/juwonk-yonsei/hostmix-too"
+keywords:
+  - Cancer of unknown primary
+  - Tissue of origin
+  - Metastasis
+  - Host attraction
+  - Data augmentation
+  - Feature standardization
+  - RNA sequencing
+  - Gene expression classifier
+  - Preregistration

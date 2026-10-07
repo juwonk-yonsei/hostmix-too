@@ -1,0 +1,1 @@
+The data used for the analyses described in this manuscript were obtained from the GTEx Portal (https://www.gtexportal.org/home/datasets) and from the UCSC Toil recompute of GTEx (TcgaTargetGtex_rsem_gene_tpm.gz). Please cite the GTEx Consortium atlas (doi:10.1126/science.aaz1776) and the GTEx Portal download date.

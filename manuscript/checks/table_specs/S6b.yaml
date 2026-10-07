@@ -1,0 +1,103 @@
+id: S6b
+doc: af1
+caption: Table S6.
+which: 1
+header:
+- Classifier
+- Site group
+- n
+- Top-1
+- n at risk
+- Host-attraction rate
+- n native truth
+- Native-truth top-1
+key_cols:
+- 0
+- 1
+row_id: '{m}/{g}'
+maps:
+  0:
+    Baseline:
+      m: BASE-Z
+    Gene sets:
+      m: BASE-K
+    HostMix-TOO:
+      m: SA-Z
+    Site-specific mixtures:
+      m: SC-Z
+    Linear deconvolution:
+      m: LD-Z
+    Normal classes:
+      m: NC-Z
+    Native-organ masking:
+      m: M1-Z
+    Gene sets + mixtures:
+      m: SA-K
+    Gene sets + host correction:
+      m: V0-K
+  1:
+    liver:
+      g: liver
+    lung:
+      g: lung
+    lymph_node:
+      g: lymph_node
+    remainder:
+      g: remainder
+    soft_tissue:
+      g: soft_tissue
+columns:
+  2:
+    id: n
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_by_site.tsv
+        sel: method == '{m}' and site_group == '{g}'
+        col: n
+        dec: 0
+  3:
+    id: top1
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_by_site.tsv
+        sel: method == '{m}' and site_group == '{g}'
+        col: top1
+        dec: 3
+  4:
+    id: nrisk
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_by_site.tsv
+        sel: method == '{m}' and site_group == '{g}'
+        col: n_at_risk
+        dec: 0
+  5:
+    id: host
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_by_site.tsv
+        sel: method == '{m}' and site_group == '{g}'
+        col: host_rate
+        dec: 3
+  6:
+    id: nnative
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_by_site.tsv
+        sel: method == '{m}' and site_group == '{g}'
+        col: n_native_truth
+        dec: 0
+  7:
+    id: native
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_by_site.tsv
+        sel: method == '{m}' and site_group == '{g}'
+        col: native_truth_top1
+        dec: 3

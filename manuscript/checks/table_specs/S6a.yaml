@@ -1,0 +1,90 @@
+id: S6a
+doc: af1
+caption: Table S6.
+which: 0
+header:
+- Classifier
+- n
+- Top-1
+- n at risk
+- Host-attraction rate
+- n native truth
+- Native-truth top-1
+key_cols:
+- 0
+row_id: '{m}'
+maps:
+  0:
+    Baseline:
+      m: BASE-Z
+    Gene sets:
+      m: BASE-K
+    HostMix-TOO:
+      m: SA-Z
+    Site-specific mixtures:
+      m: SC-Z
+    Linear deconvolution:
+      m: LD-Z
+    Normal classes:
+      m: NC-Z
+    Native-organ masking:
+      m: M1-Z
+    Gene sets + mixtures:
+      m: SA-K
+    Gene sets + host correction:
+      m: V0-K
+columns:
+  1:
+    id: n
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_overall.tsv
+        sel: method == '{m}'
+        col: n
+        dec: 0
+  2:
+    id: top1
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_overall.tsv
+        sel: method == '{m}'
+        col: top1
+        dec: 3
+  3:
+    id: nrisk
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_overall.tsv
+        sel: method == '{m}'
+        col: n_at_risk
+        dec: 0
+  4:
+    id: host
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_overall.tsv
+        sel: method == '{m}'
+        col: host_rate
+        dec: 3
+  5:
+    id: nnative
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_overall.tsv
+        sel: method == '{m}'
+        col: n_native_truth
+        dec: 0
+  6:
+    id: native
+    t: '{v}'
+    f:
+      v:
+        src: results/stage4/confirm/secondary_overall.tsv
+        sel: method == '{m}'
+        col: native_truth_top1
+        dec: 3

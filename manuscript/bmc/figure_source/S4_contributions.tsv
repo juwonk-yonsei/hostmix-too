@@ -1,0 +1,31 @@
+method	n_samples	rank	gene	mean_contribution	input	side	order	display
+BASE-Z	145	1	NPIPB5	0.2462617949	rank-normal score	positive	1	Baseline
+BASE-Z	145	2	NPIPB4	0.1930248676	rank-normal score	positive	2	Baseline
+BASE-Z	145	7	FN1	0.1443252555	rank-normal score	positive	3	Baseline
+BASE-Z	145	10	ITGAV	0.1174893736	rank-normal score	positive	4	Baseline
+BASE-Z	145	13	NKX6-3	0.1165294139	rank-normal score	positive	5	Baseline
+BASE-Z	145	15	CALD1	0.1075663639	rank-normal score	positive	6	Baseline
+BASE-Z	145	19	DST	0.1031713924	rank-normal score	positive	7	Baseline
+BASE-Z	145	20	ADAM9	0.1010597027	rank-normal score	positive	8	Baseline
+BASE-Z	145	21	PRAC2	0.09720851521	rank-normal score	positive	9	Baseline
+BASE-Z	145	27	ITPR3	0.08945071644	rank-normal score	positive	10	Baseline
+BASE-Z	145	8	ABHD16B	-0.1392664361	rank-normal score	negative	1	Baseline
+BASE-Z	145	6	IRX1	-0.1539326868	rank-normal score	negative	2	Baseline
+BASE-Z	145	5	REG1A	-0.1605661252	rank-normal score	negative	3	Baseline
+BASE-Z	145	4	IRX2	-0.1691683237	rank-normal score	negative	4	Baseline
+BASE-Z	145	3	REG3A	-0.1715847758	rank-normal score	negative	5	Baseline
+SA-Z	65	1	NPM3	0.372692559	standardized rank-normal score	positive	1	HostMix-TOO
+SA-Z	65	2	SAMD9	0.3600280392	standardized rank-normal score	positive	2	HostMix-TOO
+SA-Z	65	3	BOLA2	0.3308828585	standardized rank-normal score	positive	3	HostMix-TOO
+SA-Z	65	4	ITGAV	0.2855647285	standardized rank-normal score	positive	4	HostMix-TOO
+SA-Z	65	5	MIA2	0.2649693696	standardized rank-normal score	positive	5	HostMix-TOO
+SA-Z	65	6	ADAM9	0.2255680269	standardized rank-normal score	positive	6	HostMix-TOO
+SA-Z	65	7	NFIB	0.218881264	standardized rank-normal score	positive	7	HostMix-TOO
+SA-Z	65	10	TCF12	0.1901055742	standardized rank-normal score	positive	8	HostMix-TOO
+SA-Z	65	11	NPIPB4	0.1868445547	standardized rank-normal score	positive	9	HostMix-TOO
+SA-Z	65	12	EPPK1	0.1845388679	standardized rank-normal score	positive	10	HostMix-TOO
+SA-Z	65	18	PRAF2	-0.168663086	standardized rank-normal score	negative	1	HostMix-TOO
+SA-Z	65	15	CCDC85B	-0.1765395489	standardized rank-normal score	negative	2	HostMix-TOO
+SA-Z	65	13	CDC42EP1	-0.1812477276	standardized rank-normal score	negative	3	HostMix-TOO
+SA-Z	65	9	EIF4EBP1	-0.1995980816	standardized rank-normal score	negative	4	HostMix-TOO
+SA-Z	65	8	CITED4	-0.2028453089	standardized rank-normal score	negative	5	HostMix-TOO

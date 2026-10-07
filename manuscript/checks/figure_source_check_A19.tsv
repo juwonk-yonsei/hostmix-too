@@ -1,0 +1,22 @@
+file	sources	rows	columns	numeric_cells	string_cells	mismatch	first_mismatch
+Fig2_means.tsv	results/stage5/sim_ext/full.tsv	25	5	75	50	0	
+Fig2_loho.tsv	results/stage5/sim_ext/full.tsv	10	6	40	20	0	
+Fig3_differences.tsv	results/stage4/confirm/primary.tsv; results/stage7/confirm/tables/hypothesis_primary.tsv; results/stage4/confirm/secondary_overall.tsv; results/stage8/external/tables/metrics.tsv; results/stage9/set_metrics.tsv	6	10	38	22	0	
+Fig5_ablation.tsv	results/stage9/ablation/metrics.tsv; results/stage10/ablation_microarray/metrics.tsv; results/stage10/ablation_microarray/restriction.tsv	50	9	100	350	0	
+Fig6_published.tsv	results/stage8/external/tables/metrics.tsv	12	17	144	60	0	
+Fig4a_cohorts.tsv	results/stage8/external/tables/metrics.tsv; results/stage9/subcohort_metrics.tsv; results/stage7/confirm/tables/metrics.tsv; results/stage10/derived/microarray_rates.tsv	28	7	56	140	0	
+Fig4b_site.tsv	results/stage4/confirm/secondary_by_site.tsv	10	10	80	20	0	
+Fig4b_tc.tsv	results/stage4/confirm/secondary_tc.tsv	6	10	48	12	0	
+Fig4c_aux_top1.tsv	results/stage9/subcohort_metrics.tsv	24	8	96	96	0	
+Fig4d_removed.tsv	results/stage8/diagnostics/error_shift_cases.tsv	3	4	9	3	0	
+S1_heatmap.tsv	results/stage2/met500_overall.tsv; results/stage4/confirm/secondary_overall.tsv; results/stage5/posthoc/met500_overall.tsv; results/stage5/posthoc/pog_overall.tsv; results/stage5/posthoc/met500_rules.tsv; results/stage5/posthoc/pog_rules.tsv; results/stage10/derived/microarray_rates.tsv; results/stage10/derived/aux_six_rates.tsv	58	5	116	174	0	
+S1_n.tsv	results/stage2/met500_overall.tsv; results/stage4/confirm/secondary_overall.tsv; results/stage10/derived/aux_six_rates.tsv; results/stage10/derived/microarray_rates.tsv	8	6	8	40	0	
+S2_sets.tsv	results/stage9/set_metrics.tsv	36	7	108	144	0	
+S3_esophagus_fraction.tsv	results/stage8/diagnostics/esophagus_absorption.tsv; results/stage10/derived/s3a_microarray_layer.tsv	12	7	22	62	0	
+S3_gse41258.tsv	results/stage8/diagnostics/gse41258_colon_confusion.tsv	7	5	14	21	0	
+S3_platform.tsv	results/stage9/mask_metrics.tsv	16	12	112	80	0	
+S3_random.tsv	results/stage9/mask_random_summary.tsv	16	14	160	64	0	
+S4_contributions.tsv	results/stage9/imvigor_contribution_fix1.tsv	30	9	120	150	0	
+S5_histology.tsv	results/stage9/esophagus_histology_summary.tsv	23	7	92	69	0	
+S5_reconciliation.tsv	results/stage9/esophagus_histology_summary.tsv	36	6	144	72	0	
+S6_meta.tsv	results/stage7/confirm/tables/meta_analysis.tsv	13	11	56	87	0	

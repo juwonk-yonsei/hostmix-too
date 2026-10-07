@@ -1,0 +1,8 @@
+id: AF2_S8_ablation
+doc: af2
+sheet: S8_ablation
+header_row: 3
+builder: s8_display
+origin: results (three-decimal display strings)
+params:
+  source: results/stage9/ablation/metrics.tsv

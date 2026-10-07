@@ -1,0 +1,13 @@
+analysis	cohort	method	n_truth_not_esophagus	esophagus_fraction	shown	source
+MET500	MET500	BASE-Z	425	0.03529411765	value	results/stage8/diagnostics/esophagus_absorption.tsv
+MET500	MET500	SA-Z	425	0.04	value	results/stage8/diagnostics/esophagus_absorption.tsv
+MET500	MET500	LD-Z			n/c	results/stage8/diagnostics/esophagus_absorption.tsv
+POG570	POG570	BASE-Z	501	0.005988023952	value	results/stage8/diagnostics/esophagus_absorption.tsv
+POG570	POG570	SA-Z	501	0.00998003992	value	results/stage8/diagnostics/esophagus_absorption.tsv
+POG570	POG570	LD-Z	501	0.003992015968	value	results/stage8/diagnostics/esophagus_absorption.tsv
+aux_rnaseq	all	BASE-Z	729	0.3333333333	value	results/stage8/diagnostics/esophagus_absorption.tsv
+aux_rnaseq	all	SA-Z	729	0.2359396433	value	results/stage8/diagnostics/esophagus_absorption.tsv
+aux_rnaseq	all	LD-Z	729	0.3580246914	value	results/stage8/diagnostics/esophagus_absorption.tsv
+microarray	all	BASE-Z	536	0.05597014925	value	results/stage10/derived/s3a_microarray_layer.tsv
+microarray	all	SA-Z	536	0.2742537313	value	results/stage10/derived/s3a_microarray_layer.tsv
+microarray	all	LD-Z	536	0.03917910448	value	results/stage10/derived/s3a_microarray_layer.tsv

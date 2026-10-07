@@ -1,0 +1,15 @@
+{
+  "model": "MIX_Z0_posthoc",
+  "source": "results/stage9/ablation/models/MIX-Z0.joblib",
+  "source_sha256": "90150a893527d711c4e92ef4bf2712bc57f5420f38bed252a3a3916a840152f0",
+  "files": {
+    "MIX_Z0_posthoc.joblib": "90150a893527d711c4e92ef4bf2712bc57f5420f38bed252a3a3916a840152f0",
+    "MIX_Z0_posthoc.npz": "0ed9e16b59ee807a1fa9df35544f205597d0acfb47a9731600bfc0c07d5103cd",
+    "MIX_Z0_posthoc.json": "997be7dd6daf3c5cb155370b6ef34c4ec028d3b6da3f9a912827948539398a00"
+  },
+  "n_met500": 437,
+  "joblib_top1_mismatch_vs_stage9": 0,
+  "portable_top1_mismatch_vs_stage9": 0,
+  "max_abs_proba_joblib_vs_portable": 0.0,
+  "pass": true
+}

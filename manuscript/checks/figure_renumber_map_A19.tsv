@@ -1,0 +1,23 @@
+doc	line_before	where	sentence_start	old	new	new_title
+A_main.md	42	main text	The study had four stages (Fig. 1c). First, we assembled the	Fig. 1c	Fig. 1c	Host attraction, mixture-augmented training and study design
+A_main.md	130	main text	In simulated mixtures of held-out TCGA tumors with GTEx-sim 	Fig. 2	Fig. 2	Host attraction in simulated tumor–host mixtures
+A_main.md	130	main text	In simulated mixtures of held-out TCGA tumors with GTEx-sim 	Fig. 2a	Fig. 2a	Host attraction in simulated tumor–host mixtures
+A_main.md	130	main text	In simulated mixtures of held-out TCGA tumors with GTEx-sim 	Fig. 2b	Fig. 2b	Host attraction in simulated tumor–host mixtures
+A_main.md	130	main text	In simulated mixtures of held-out TCGA tumors with GTEx-sim 	Fig. 2c	Fig. 2c	Host attraction in simulated tumor–host mixtures
+A_main.md	138	main text	In POG570, HostMix-TOO reduced the host-attraction rate from	Fig. 3	Fig. 3	Preregistered comparisons of HostMix-TOO with the baseline classifier
+A_main.md	140	main text	The pre-specified descriptive strata show where the reductio	Fig. 6b	Fig. 4b	Host attraction and accuracy by cohort and stratum
+A_main.md	144	main text	In the six auxiliary RNA-seq cohorts, all three primary hypo	Fig. 3	Fig. 3	Preregistered comparisons of HostMix-TOO with the baseline classifier
+A_main.md	146	main text	The cohorts contributed differently (Fig. 6a, c). Most of th	Fig. 6a, c	Fig. 4a, c	Host attraction and accuracy by cohort and stratum
+A_main.md	154	main text	In the post hoc ablation (Fig. 4a, b), the two standardized 	Fig. 4a, b	Fig. 5a, b	Post hoc ablation separating mixtures from feature standardization and regularization
+A_main.md	156	main text	The same five models located the loss on microarray profiles	Fig. 4	Fig. 5	Post hoc ablation separating mixtures from feature standardization and regularization
+A_main.md	156	main text	The same five models located the loss on microarray profiles	Fig. 4c	Fig. 5c	Post hoc ablation separating mixtures from feature standardization and regularization
+A_main.md	164	main text	SCOPE and CUP-AI-Dx showed host attraction in all three coho	Fig. 5	Fig. 6	Host attraction and accuracy of two published classifiers
+A_main.md	164	main text	SCOPE and CUP-AI-Dx showed host attraction in all three coho	Fig. 6c	Fig. 4c	Host attraction and accuracy by cohort and stratum
+A_main.md	168	main text	Removing a host-attraction error did not always produce a co	Fig. 6d	Fig. 4d	Host attraction and accuracy by cohort and stratum
+A_main.md	172	main text	Missing genes explain part of the microarray loss. Restricti	Fig. 4c	Fig. 5c	Post hoc ablation separating mixtures from feature standardization and regularization
+A_main.md	316	legend title	**Figure 1. Host attraction, mixture-augmented training and 	Figure 1	Figure 1	Host attraction, mixture-augmented training and study design
+A_main.md	320	legend title	**Figure 2. Host attraction in simulated tumor–host mixtures	Figure 2	Figure 2	Host attraction in simulated tumor–host mixtures
+A_main.md	324	legend title	**Figure 3. Preregistered comparisons of HostMix-TOO with th	Figure 3	Figure 3	Preregistered comparisons of HostMix-TOO with the baseline classifier
+A_main.md	328	legend title	**Figure 4. Post hoc ablation separating mixtures from featu	Figure 4	Figure 5	Post hoc ablation separating mixtures from feature standardization and regularization
+A_main.md	332	legend title	**Figure 5. Host attraction and accuracy of two published cl	Figure 5	Figure 6	Host attraction and accuracy of two published classifiers
+A_main.md	336	legend title	**Figure 6. Host attraction and accuracy by cohort and strat	Figure 6	Figure 4	Host attraction and accuracy by cohort and stratum

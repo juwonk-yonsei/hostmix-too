@@ -1,0 +1,128 @@
+source	raw_value	standard_site
+blca_iatlas_imvigor210_2017	Bladder	bladder
+blca_iatlas_imvigor210_2017	Kidney	kidney
+blca_iatlas_imvigor210_2017	Lung	lung
+blca_iatlas_imvigor210_2017	Liver	liver
+brca_iatlas_anders_2022	Breast	breast
+brca_iatlas_anders_2022	Skin	skin
+brca_iatlas_anders_2022	Lymph Node	lymph_node
+brca_iatlas_anders_2022	Pleura	pleura
+brca_iatlas_anders_2022	Lung	lung
+brca_iatlas_anders_2022	Thyroid	thyroid
+brca_iatlas_anders_2022	Liver	liver
+mel_dfci_2019	skin	skin
+mel_dfci_2019	lymph node	lymph_node
+mel_dfci_2019	brain	brain
+mel_dfci_2019	soft tissue	soft_tissue
+mel_dfci_2019	lung	lung
+mel_dfci_2019	adrenal gland	adrenal
+mel_dfci_2019	liver	liver
+mel_dfci_2019	nasal cavity	other
+mel_dfci_2019	stomach	stomach
+mel_dfci_2019	maxillary sinus, hard palate	other
+mel_dfci_2019	intestinal metastasis	other
+mel_dfci_2019	rectal/anal	other
+mel_dfci_2019	colon	colon_rectum
+mel_dfci_2019	pancreas	pancreas
+paad_iatlas_prince_2022	Liver	liver
+paad_iatlas_prince_2022	Lung	lung
+paad_iatlas_prince_2022	Abdomen	other
+paad_iatlas_prince_2022	Mesentery	other
+skcm_mskcc_2014	Met lymph node	lymph_node
+skcm_mskcc_2014	Met skin or soft tissue	other
+skcm_mskcc_2014	Met bone	bone
+skcm_mskcc_2014	Met GI	other
+skcm_mskcc_2014	Met CNS	brain
+skcm_mskcc_2014	Met lung	lung
+skcm_mskcc_2014	Met adrenal	adrenal
+skcm_mskcc_2014	Met spleen	other
+prad_su2c_2019	LN	lymph_node
+prad_su2c_2019	Bone	bone
+prad_su2c_2019	Liver	liver
+prad_su2c_2019	Other Soft tissue	soft_tissue
+prad_su2c_2019	Prostate	prostate
+prad_su2c_2019	Lung	lung
+prad_su2c_2019	Adrenal	adrenal
+prad_su2c_2019	Brain	brain
+GSE50760	primary colorectal cancer	colon_rectum
+GSE50760	metastatic colorectal cancer to the liver	liver
+GSE50760	normal-looking surrounding colonic epithelium	
+GSE209998	Breast	breast
+GSE209998	Liver	liver
+GSE209998	Lymph node	lymph_node
+GSE209998	Brain	brain
+GSE209998	Lung	lung
+GSE209998	Chest	other
+GSE209998	Soft tissue	soft_tissue
+GSE209998	Adrenal	adrenal
+GSE209998	Pleura	pleura
+GSE209998	Skin	skin
+GSE209998	Ovary	ovary
+GSE209998	Bone	bone
+GSE14018	Lung	lung
+GSE14018	Liver	liver
+GSE14018	Brain	brain
+GSE14018	Bone	bone
+GSE41258	Primary Tumor	colon_rectum
+GSE41258	Liver Metastasis	liver
+GSE41258	Lung Metastasis	lung
+GSE41258	Normal Colon	
+GSE41258	Normal Liver	
+GSE41258	Normal Lung	
+GSE41258	Polyp	
+GSE41258	Polyp, high grade	
+GSE41258	Microadenoma	
+GSE41258	cell line	
+GSE71729	Pancreas_Primary	pancreas
+GSE71729	Liver_Metastasis	liver
+GSE71729	Lung_Metastasis	lung
+GSE71729	LymphNode_Metastasis	lymph_node
+GSE71729	Peritoneal_Metastasis	peritoneum
+GSE71729	AbWall_Metastasis	soft_tissue
+GSE71729	Fat_Metastasis	soft_tissue
+GSE71729	Colon_Metastasis	colon_rectum
+GSE71729	Diaphragm_Metastasis	other
+GSE71729	Duo_Metastasis	other
+GSE71729	CellLine	
+GSE71729	Pancreas_Normal	
+GSE71729	Liver_Normal	
+GSE71729	Lung_Normal	
+GSE71729	Spleen_Normal	
+GSE71729	LymphNode_Normal	
+GSE71729	Diaphragm_Normal	
+GSE71729	Fat_Normal	
+GSE71729	Peritoneal_Normal	
+GSE71729	PelvicWall_Normal	
+GSE71729	Vessel_Normal	
+GSE74685	LN	lymph_node
+GSE74685	LUNG	lung
+GSE74685	LIVER	liver
+GSE74685	ADRENAL	adrenal
+GSE74685	BONE	bone
+GSE74685	SKIN	skin
+GSE74685	PERITONEAL	peritoneum
+GSE74685	PERITONEUM	peritoneum
+GSE74685	RENAL	kidney
+GSE74685	KIDNEY	kidney
+GSE74685	RETROPERITONEAL	other
+GSE74685	SCROTUM	other
+GSE74685	SPLEEN	other
+GSE74685	APPENDIX	other
+prad_fhcrc	LN	lymph_node
+prad_fhcrc	LUNG	lung
+prad_fhcrc	LIVER	liver
+prad_fhcrc	BONE	bone
+prad_fhcrc	PROSTATE	prostate
+prad_fhcrc	BLADDER	bladder
+prad_fhcrc	ADRENAL	adrenal
+prad_fhcrc	SKIN	skin
+prad_fhcrc	PERITONEUM	peritoneum
+prad_fhcrc	PERITONEAL	peritoneum
+prad_fhcrc	KIDNEY	kidney
+prad_fhcrc	RENAL	kidney
+prad_fhcrc	BLADDER_NECK	other
+prad_fhcrc	PELVIC_MASS	other
+prad_fhcrc	RETROPERITONEAL	other
+prad_fhcrc	SPLEEN	other
+prad_fhcrc	SCROTUM	other
+prad_fhcrc	APPENDIX	other

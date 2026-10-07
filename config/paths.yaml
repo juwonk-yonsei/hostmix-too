@@ -1,0 +1,10 @@
+# Paths are relative to the project root (parent of config/).
+data_raw: data/raw
+data_processed: data/processed
+data_reference: data/reference
+results: results
+logs: logs
+config: config
+reports: reports
+seed: 20261001
+n_threads: 16

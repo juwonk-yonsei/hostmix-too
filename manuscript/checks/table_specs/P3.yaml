@@ -1,0 +1,24 @@
+id: P3
+doc: af1
+caption: Auxiliary confirmatory hypotheses
+which: 1
+key_cols:
+- 0
+row_id: '{h}'
+maps:
+  0:
+    AS1:
+      h: AS1
+    AS2:
+      h: AS2
+    AS3:
+      h: AS3
+columns:
+  1:
+    id: statement
+    t: '{*}'
+    rows: {}
+  2:
+    id: test
+    t: '{*}'
+    rows: {}

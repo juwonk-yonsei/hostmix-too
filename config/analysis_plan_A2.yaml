@@ -1,0 +1,157 @@
+# Analysis plan A2. Written before sections 5-7. Do not edit after those results exist.
+seed: 20261001
+n_threads: 16
+
+decisions_from_report_1:
+  1_met500_test_true: include
+  2_secr: unmapped
+  3_misc: unmapped
+  4_bootstrap_unit: sample_source
+  5_soft_tissue_pool: "Adipose - Subcutaneous and Muscle - Skeletal samples are one pool. Means use the unweighted mean of the pooled samples, then renormalize to sum 1e6."
+  6_sim_adipose_native_organ: [Sarcoma]
+  7_exclude_sample: TCGA-23-1023-01
+  8_met500_primary_analysis: cohort
+  8_met500_core: "drop HNSC rows with tissue == parotid"
+  9_to_11_pog_rules: deferred to stage 3. This stage writes metadata tables only.
+  12_unlisted_biopsy: other
+  13_skcm_field: tumor_tissue_site
+  14_library: capt_or_poly_token_in_Sample_id
+  15_b0_genes: stage-1 TCGA-train top 5000, reused
+  16_m1_zero_remainder: NA_counts_as_incorrect
+  17_toil_median: histogram
+  18_pog_terms: README terms. Acknowledgement text from the README is the one for papers.
+
+host_proxy:
+  hpa_file: data/raw/hpa/rna_tissue_consensus.tsv.zip
+  hpa_tissue_spelling: ["lymph node", "bone marrow"]
+  hpa_duplicate_gene_name: sum nTPM, then log2(sum + 1)
+  gtex_profile: mean of GTEx-ref log2(TPM + 1) after each sample is summed to 1e6 on G
+  candidates_in_tie_break_order:
+    - Spleen
+    - Whole Blood
+    - Cells - Ebv-Transformed Lymphocytes
+    - Small Intestine - Terminal Ileum
+  n_genes: 17539
+  ln_proxy: Spleen
+  bm_proxy: Whole Blood
+  spearman:
+    lymph_node:
+      Spleen: 0.8813875885578315
+      Whole Blood: 0.8424373159977525
+      Cells - Ebv-Transformed Lymphocytes: 0.8705113793189775
+      Small Intestine - Terminal Ileum: 0.8305221329877467
+    bone_marrow:
+      Spleen: 0.8199266753031522
+      Whole Blood: 0.8832743760976061
+      Cells - Ebv-Transformed Lymphocytes: 0.8325539228733679
+      Small Intestine - Terminal Ileum: 0.7461527036575726
+
+host_pool_sorted:
+  - Adipose - Subcutaneous
+  - Adipose - Visceral (Omentum)
+  - Adrenal Gland
+  - Brain - Cortex
+  - Liver
+  - Lung
+  - Muscle - Skeletal
+  - Skin - Not Sun Exposed (Suprapubic)
+  - Spleen
+  - Whole Blood
+
+site_models:
+  adrenal: ["Adrenal Gland"]
+  bone_marrow: ["Whole Blood"]
+  brain: ["Brain - Cortex"]
+  liver: ["Liver"]
+  lung: ["Lung"]
+  lymph_node: ["Spleen"]
+  omentum: ["Adipose - Visceral (Omentum)"]
+  skin: ["Skin - Not Sun Exposed (Suprapubic)"]
+  soft_tissue: ["Adipose - Subcutaneous", "Muscle - Skeletal"]
+  shared_names:
+    bone: bone_marrow
+    subcutaneous: skin
+    peritoneum: omentum
+  no_site_model_uses: SA
+
+augmentation:
+  pure_plus_mixes: 5
+  rho_distribution: "numpy Generator.uniform(0.15, 1.0), half-open on the right"
+  sa_host: uniform tissue from host_pool_sorted, then uniform GTEx-ref sample
+  site_host: uniform among pooled GTEx-ref samples of that site
+  label: tumor learning_label
+  seeds: "sorted model names, one Generator(20261001), each name takes one integers(0, 2**31-1)"
+  sample_source: GTEx-ref only
+
+features:
+  Z_base_genes: stage-1 B0 5000, rank-normal on all of G
+  K_sets: 8267 fast KS
+  scaler: StandardScaler fit on that model's own training rows. Inside each SA CV fold the scaler is fit on the fold's training rows only.
+  IF_Z: sensitivity on all G genes, drop floor(n*q), then variance top 5000 of the remainder on pure TCGA-train, ddof=1, ties to smaller gene index
+  IF_K: drop floor(n*q) sets. Ties in sensitivity break toward the smaller feature index.
+  sd_zero: sensitivity is +inf
+
+classifiers:
+  solver: lbfgs
+  max_iter: 5000
+  class_weight: balanced
+  C_grid_SA_only: [0.03, 0.1, 0.3]
+  C_cv: StratifiedGroupKFold n_splits=3 shuffle random_state=20261001, groups=patient, macro-F1 on the held-out fold including mixes, labels = classes present in that fold's y_true
+  C_tie_break: smaller C
+  other_new_models_C: the C chosen for the same representation's SA
+  BASE_C: {Z: 0.1, K: 0.1}
+  BASE_Z_scaler: none
+  BASE_K_scaler: fit on pure TCGA-train KS
+  NC_normal_class: "N_<GTEx tissue string>"
+  NC_zero_tumor_mass: NA, counted incorrect
+  V0: stage-1 formula and stage-1 SITE_NATIVE tissues. Proxy tissues are not added to V0. Empty tissue lists are not corrected.
+  LD:
+    mu: per learning label, mean of sum-1e6 TCGA-train profiles, then sum 1e6 again. Sorted label order. Expect 32 labels.
+    h: pooled GTEx-ref samples of the section-2.2 tissues, mean, then sum 1e6
+    nnls: drop genes whose symbol starts with MT-. weight 1/(mean_of_33_profiles + 1). Multiply rows by sqrt(weight).
+    beta: c_h / sum(c)
+    tumor_estimate: max(x - c_h*h, 0), then sum 1e6, then Z or K, then BASE
+    no_site_model: no correction, beta NA
+
+simulation:
+  tumors: same 1000 TCGA-test rows as stage 1 (stratified train_test_split, random_state 20261001, then sorted positions)
+  hosts_gtex_sim: ["Liver", "Lung", "Adipose - Subcutaneous", "Spleen", "Whole Blood"]
+  rho: [1.0, 0.8, 0.6, 0.4, 0.2]
+  rng: one Generator(20261001), tissue order above, rho order above, integers draw of one host index per tumor
+  shared_mixes: all methods
+  site_assignment:
+    Liver: liver
+    Lung: lung
+    Adipose - Subcutaneous: soft_tissue
+    Spleen: lymph_node
+    Whole Blood: bone_marrow
+  metrics: [organ_top1, host_pull_rate, native_truth_top1]
+  host_pull_denominator: truth organ outside that site's stage-1 native organ set
+  rho_meaning: RNA fraction, not cell fraction
+
+met500:
+  n_expected: 437
+  bootstrap: 2000
+  bootstrap_seed: 20261001
+  ci: percentile 2.5 and 97.5
+  macro_f1_labels: classes present in y_true
+  paired_comparisons: every non-BASE method against BASE-Z, and K methods also against BASE-K
+  mcnemar: exact two-sided binomial test on discordant pairs
+  site_table_methods: [BASE, LD, NC, SA, SC, SC+IF20]
+  site_table_levels: [liver, lymph_node, soft_tissue, bone_marrow, lung, skin, brain, other]
+  new_method_set_for_ranking: [SA, SC, SC+IF20, SC+IF40, IF20]
+  ranking: highest MET500 top-1, then lower host_rate, then method id alphabetical
+  representations: [Z, K]
+
+conformal:
+  methods: [BASE-Z, BASE-K, and the two ranked new methods]
+  score: "1 - organ probability of the true organ"
+  folds: 5
+  strata: [liver, lymph_node, other]
+  split: StratifiedKFold shuffle random_state 20261001
+  threshold: "ceil((n_cal+1)*(1-alpha))-th ascending score, 1-indexed. If the index exceeds n_cal, the threshold is +inf."
+  variants: [global, mondrian]
+  alpha: [0.1, 0.2]
+  set_rule: "include organ o when 1 - p(o) <= threshold"
+
+stage3_candidate_rule: "Among SA, SC, SC+IF20, SC+IF40, IF20 crossed with Z and K, the highest MET500 top-1. Ties break to the lower host_rate, then alphabetical method id. The researcher makes the final choice from report 2."

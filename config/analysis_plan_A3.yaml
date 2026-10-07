@@ -1,0 +1,60 @@
+# Locked before POG570 feature computation. Do not edit after predictions exist.
+stage: 3
+seed: 20261001
+fake_label_seed: 1
+n_boot: 2000
+alpha: 0.05
+primary: [SA-Z, BASE-Z]
+beta_cut: 0.0327
+beta_bins: ["0", "(0, 0.0327)", ">=0.0327", "NA", "negative"]
+tc_tertiles:
+  - tertile: T1
+    left: 16.999
+    right: 48.0
+    closed: right
+    n: 173
+  - tertile: T2
+    left: 48.0
+    right: 66.667
+    closed: right
+    n: 168
+  - tertile: T3
+    left: 66.667
+    right: 100.0
+    closed: right
+    n: 171
+set_sizes:
+  n_samples: 570
+  n_eval: 512
+  n_at_risk: 378
+  n_native_truth: 91
+  n_exclude: 58
+  n_NA: 0
+label_sha256: 5897cb0db827ca6f3d95504a6e44c84ed6f929ff5a2430c97d882a308dd6f4c2
+small_cell_rule: "casefold substring, except a match immediately preceded by non- or non space"
+net_search: false
+threads: 16
+conformal:
+  methods: [BASE-Z, SA-Z]
+  alphas: [0.1, 0.2]
+  variants: [global, mondrian]
+  mondrian_levels: [liver, lymph_node, other]
+site_groups: [liver, lymph_node, lung, soft_tissue, remainder]
+power:
+  n_sim: 10000
+  seed: 20261001
+  half_effect: p_favor halved, p_against unchanged
+  H1_full: 1.0
+  H1_half: 0.9959
+  H2_full: 0.8727
+  H2_half: 0.0985
+decisions:
+  hpa_duplicates: sum nTPM then log2(sum+1)
+  if_drop: floor
+  sa_host_draw: uniform tissue then uniform sample
+  v0: stage-1 rule without proxies
+  nc_zero_mass: NA and incorrect
+  conformal_k_gt_n: +inf
+  tie_break: top1, host_rate, method id alphabetical
+  beta_tertiles: stable rank split; POG bins use 0 and 0.0327
+  soft_tissue: pooled-sample mean for LD and augmentation; V0 keeps the two-mean rule

@@ -1,0 +1,31 @@
+{
+  "upload_type": "software",
+  "title": "HostMix-TOO: code, trained models and public-cohort predictions for host attraction in tissue-of-origin classification",
+  "description": "<p>Code, trained models and sample-level predictions for public cohorts accompanying the manuscript on host attraction in tissue-of-origin classification of metastatic biopsies and its reduction by host-tissue mixture augmentation (HostMix-TOO).</p><p>The archive is a snapshot of the project repository without its git history. Files that contain POG570 patient-level data are left out and listed with their SHA-256 in WITHHELD.tsv; the full history, which contains the internal preregistration commits, is available to editors and reviewers on request. No expression data are included.</p>",
+  "creators": [
+    {
+      "name": "Kang, Juwon",
+      "orcid": "0009-0009-2186-0038",
+      "affiliation": "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+    },
+    {
+      "name": "Choi, Junjeong",
+      "orcid": "0000-0003-1339-593X",
+      "affiliation": "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "Cancer of unknown primary",
+    "Tissue of origin",
+    "Metastasis",
+    "Host attraction",
+    "Data augmentation",
+    "Feature standardization",
+    "RNA sequencing",
+    "Gene expression classifier",
+    "Preregistration"
+  ],
+  "notes": "Licenses: code MIT; trained models, host-pool profiles and predictions for the public cohorts other than cBioPortal studies CC BY 4.0; predictions derived from cBioPortal studies ODbL 1.0 (see LICENSE-DATA.md)."
+}

@@ -1,0 +1,9 @@
+id: AF2_S3_esophagus_masking
+doc: af2
+sheet: S3_esophagus_masking
+header_row: 2
+builder: s3_masking
+origin: results (values at 10 significant digits); microarray rows from the A18 layer recount
+params:
+  source: results/stage8/diagnostics/esophagus_absorption.tsv
+  layer: results/stage10/derived/s3a_microarray_layer.tsv

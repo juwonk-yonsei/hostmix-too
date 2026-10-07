@@ -1,0 +1,13 @@
+figure	pdf_mb	png_mb	within_10mb	png_px_new	png_px_committed	differing_px	png_equal_to_committed
+Figure1	0.026	0.283	True	2007x1240	2007x1192	size differs	False
+Figure2	0.024	0.21	True	2007x1677	2007x1677	0	True
+Figure3	0.022	0.113	True	2007x755	2007x755	0	True
+Figure4	0.062	0.165	True	2007x885	2007x1299	size differs	False
+Figure5	0.019	0.089	True	2007x826	2007x826	0	True
+Figure6	0.031	0.276	True	2007x2574	2007x2574	7062	False
+FigureS1	0.039	0.303	True	2007x1299	2007x1299	6670	False
+FigureS2	0.021	0.116	True	2007x1299	2007x1299	0	True
+FigureS3	0.023	0.184	True	2007x1417	2007x1417	5767	False
+FigureS4	0.025	0.115	True	2007x1393	2007x1393	0	True
+FigureS5	0.024	0.122	True	2007x1157	2007x1157	10768	False
+FigureS6	0.025	0.186	True	2007x1322	2007x1322	2231	False

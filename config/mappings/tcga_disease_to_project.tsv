@@ -1,0 +1,34 @@
+disease	tcga_project	learning_label
+Breast Invasive Carcinoma	BRCA	BRCA
+Kidney Clear Cell Carcinoma	KIRC	KIRC
+Lung Adenocarcinoma	LUAD	LUAD
+Thyroid Carcinoma	THCA	THCA
+Head & Neck Squamous Cell Carcinoma	HNSC	HNSC
+Lung Squamous Cell Carcinoma	LUSC	LUSC
+Prostate Adenocarcinoma	PRAD	PRAD
+Brain Lower Grade Glioma	LGG	LGG
+Skin Cutaneous Melanoma	SKCM	SKCM
+Stomach Adenocarcinoma	STAD	STAD
+Ovarian Serous Cystadenocarcinoma	OV	OV
+Bladder Urothelial Carcinoma	BLCA	BLCA
+Liver Hepatocellular Carcinoma	LIHC	LIHC
+Colon Adenocarcinoma	COAD	COADREAD
+Kidney Papillary Cell Carcinoma	KIRP	KIRP
+Cervical & Endocervical Cancer	CESC	CESC
+Sarcoma	SARC	SARC
+Uterine Corpus Endometrioid Carcinoma	UCEC	UCEC
+Esophageal Carcinoma	ESCA	ESCA
+Pheochromocytoma & Paraganglioma	PCPG	PCPG
+Pancreatic Adenocarcinoma	PAAD	PAAD
+Acute Myeloid Leukemia	LAML	LAML
+Glioblastoma Multiforme	GBM	GBM
+Testicular Germ Cell Tumor	TGCT	TGCT
+Thymoma	THYM	THYM
+Rectum Adenocarcinoma	READ	COADREAD
+Kidney Chromophobe	KICH	KICH
+Mesothelioma	MESO	MESO
+Uveal Melanoma	UVM	UVM
+Adrenocortical Cancer	ACC	ACC
+Uterine Carcinosarcoma	UCS	UCS
+Diffuse Large B-Cell Lymphoma	DLBC	DLBC
+Cholangiocarcinoma	CHOL	CHOL

@@ -1,0 +1,320 @@
+figure	key	recorded_text	printed_text	x0_mm	y0_mm	x1_mm	y1_mm	position_ok	numbers	links	linked_ok
+Figure2	Fig2/c/Liver/n_at_risk	957	957	162.19	77.607	166.0	79.893	True	1	G:Figure2:Fig2_loho[Liver].n_at_risk	True
+Figure2	Fig2/c/Lung/n_at_risk	883	883	162.19	83.107	166.0	85.393	True	1	G:Figure2:Fig2_loho[Lung].n_at_risk	True
+Figure2	Fig2/c/Brain - Cortex/n_at_risk	929	929	162.19	88.607	166.0	90.893	True	1	G:Figure2:Fig2_loho[Brain - Cortex].n_at_risk	True
+Figure2	Fig2/c/Skin - Not Sun Exposed (Suprapubic)/n_at_risk	989	989	162.19	94.107	166.0	96.393	True	1	G:Figure2:Fig2_loho[Skin - Not Sun Exposed (Suprapubic)].n_at_risk	True
+Figure2	Fig2/c/Adrenal Gland/n_at_risk	973	973	162.19	99.607	166.0	101.893	True	1	G:Figure2:Fig2_loho[Adrenal Gland].n_at_risk	True
+Figure2	Fig2/c/Adipose - Subcutaneous/n_at_risk	972	972	162.19	105.107	166.0	107.393	True	1	G:Figure2:Fig2_loho[Adipose - Subcutaneous].n_at_risk	True
+Figure2	Fig2/c/Adipose - Visceral (Omentum)/n_at_risk	991	991	162.19	110.607	166.0	112.893	True	1	G:Figure2:Fig2_loho[Adipose - Visceral (Omentum)].n_at_risk	True
+Figure2	Fig2/c/Muscle - Skeletal/n_at_risk	972	972	162.19	116.107	166.0	118.393	True	1	G:Figure2:Fig2_loho[Muscle - Skeletal].n_at_risk	True
+Figure2	Fig2/c/Whole Blood/n_at_risk	976	976	162.19	121.607	166.0	123.893	True	1	G:Figure2:Fig2_loho[Whole Blood].n_at_risk	True
+Figure2	Fig2/c/Spleen/n_at_risk	995	995	162.19	127.107	166.0	129.393	True	1	G:Figure2:Fig2_loho[Spleen].n_at_risk	True
+Figure3	Fig3/a/H1/arms	0.228 → 0.024	0.228 → 0.024	123.0	15.041	139.192	17.327	True	2	G:Figure3:Fig3_differences[H1].baseline G:Figure3:Fig3_differences[H1].hostmix	True
+Figure3	Fig3/a/H1/n	378	378	162.904	15.041	167.0	17.327	True	1	G:Figure3:Fig3_differences[H1].n	True
+Figure3	Fig3/a/AH1/arms	0.204 → 0.056	0.204 → 0.056	123.0	19.53	139.192	21.816	True	2	G:Figure3:Fig3_differences[AH1].baseline G:Figure3:Fig3_differences[AH1].hostmix	True
+Figure3	Fig3/a/AH1/n	427	427	162.904	19.53	167.0	21.816	True	1	G:Figure3:Fig3_differences[AH1].n	True
+Figure3	Fig3/b/H2/arms	0.682 → 0.756	0.682 → 0.756	123.0	30.081	139.192	32.367	True	2	G:Figure3:Fig3_differences[H2].baseline G:Figure3:Fig3_differences[H2].hostmix	True
+Figure3	Fig3/b/H2/n	512	512	162.904	30.081	167.0	32.367	True	1	G:Figure3:Fig3_differences[H2].n	True
+Figure3	Fig3/b/AH2/arms	0.527 → 0.698	0.527 → 0.698	123.0	34.571	139.192	36.857	True	2	G:Figure3:Fig3_differences[AH2].baseline G:Figure3:Fig3_differences[AH2].hostmix	True
+Figure3	Fig3/b/AH2/n	729	729	162.904	34.571	167.0	36.857	True	1	G:Figure3:Fig3_differences[AH2].n	True
+Figure3	Fig3/c/H3/arms	0.868 → 0.802	0.868 → 0.802	123.0	45.122	139.192	47.408	True	2	G:Figure3:Fig3_differences[H3].baseline G:Figure3:Fig3_differences[H3].hostmix	True
+Figure3	Fig3/c/H3/n	91	91	164.269	45.122	167.0	47.408	True	1	G:Figure3:Fig3_differences[H3].n	True
+Figure3	Fig3/c/AH3/arms	0.473 → 0.730	0.473 → 0.730	123.0	49.612	139.192	51.898	True	2	G:Figure3:Fig3_differences[AH3].baseline G:Figure3:Fig3_differences[AH3].hostmix	True
+Figure3	Fig3/c/AH3/n	315	315	162.904	49.612	167.0	51.898	True	1	G:Figure3:Fig3_differences[AH3].n	True
+Figure4	Fig4/a/MET500/n_at_risk	MET500 (361)	MET500 (361)	4.0	14.594	19.684	16.88	True	1	G:Figure4:Fig4a_cohorts[MET500].n_at_risk	True
+Figure4	Fig4/a/POG570/n_at_risk	POG570 (378)	POG570 (378)	4.0	24.91	20.034	27.196	True	1	G:Figure4:Fig4a_cohorts[POG570].n_at_risk	True
+Figure4	Fig4/a/IMvigor210/n_at_risk	IMvigor210 (82)	IMvigor210 (82)	4.0	35.225	21.208	37.511	True	1	G:Figure4:Fig4a_cohorts[IMvigor210].n_at_risk	True
+Figure4	Fig4/a/Anders/n_at_risk	Anders (17)	Anders (17)	4.0	39.436	16.89	41.722	True	1	G:Figure4:Fig4a_cohorts[Anders].n_at_risk	True
+Figure4	Fig4/a/DFCI/n_at_risk	DFCI (35)	DFCI (35)	4.0	43.646	14.795	45.932	True	1	G:Figure4:Fig4a_cohorts[DFCI].n_at_risk	True
+Figure4	Fig4/a/PRINCE/n_at_risk	PRINCE (56)	PRINCE (56)	4.0	47.857	18.287	50.143	True	1	G:Figure4:Fig4a_cohorts[PRINCE].n_at_risk	True
+Figure4	Fig4/a/GSE50760/n_at_risk	GSE50760 (18)	GSE50760 (18)	4.0	52.068	21.113	54.354	True	1	G:Figure4:Fig4a_cohorts[GSE50760].n_at_risk	True
+Figure4	Fig4/a/SU2C/PCF/n_at_risk	SU2C/PCF (219)	SU2C/PCF (219)	4.0	56.278	22.605	58.564	True	1	G:Figure4:Fig4a_cohorts[SU2C/PCF].n_at_risk	True
+Figure4	Fig4/a/AURORA US/n_at_risk	AURORA US (64)	AURORA US (64)	4.0	66.594	23.653	68.88	True	1	G:Figure4:Fig4a_cohorts[AURORA US].n_at_risk	True
+Figure4	Fig4/a/GSE41258/n_at_risk	GSE41258 (58)	GSE41258 (58)	4.0	76.91	21.113	79.196	True	1	G:Figure4:Fig4a_cohorts[GSE41258].n_at_risk	True
+Figure4	Fig4/a/GSE14018/n_at_risk	GSE14018 (36)	GSE14018 (36)	4.0	81.12	21.113	83.406	True	1	G:Figure4:Fig4a_cohorts[GSE14018].n_at_risk	True
+Figure4	Fig4/a/GSE71729/n_at_risk	GSE71729 (56)	GSE71729 (56)	4.0	85.331	21.113	87.617	True	1	G:Figure4:Fig4a_cohorts[GSE71729].n_at_risk	True
+Figure4	Fig4/a/GSE74685/n_at_risk	GSE74685 (49)	GSE74685 (49)	4.0	89.541	21.113	91.827	True	1	G:Figure4:Fig4a_cohorts[GSE74685].n_at_risk	True
+Figure4	Fig4/a/FHCRC/n_at_risk	FHCRC (8)	FHCRC (8)	4.0	93.752	16.319	96.038	True	1	G:Figure4:Fig4a_cohorts[FHCRC].n_at_risk	True
+Figure4	Fig4/b/site/lymph_node/BASE-Z/zero	0	0	46.965	147.291	48.235	149.577	True	1	G:Figure4:Fig4b_site[lymph_node/BASE-Z].host_rate_zero_mark	True
+Figure4	Fig4/b/site/lung/SA-Z/zero	0	0	37.647	147.291	38.917	149.577	True	1	G:Figure4:Fig4b_site[lung/SA-Z].host_rate_zero_mark	True
+Figure4	Fig4/b/site/lymph_node/SA-Z/zero	0	0	51.765	147.291	53.035	149.577	True	1	G:Figure4:Fig4b_site[lymph_node/SA-Z].host_rate_zero_mark	True
+Figure4	Fig4/b/site/remainder/SA-Z/zero	0	0	80.0	147.291	81.27	149.577	True	1	G:Figure4:Fig4b_site[remainder/SA-Z].host_rate_zero_mark	True
+Figure4	Fig4/b/site/liver/n	Liver (n = 175)	Liver (n = 175)	16.796	150.706	26.734	155.633	True	1	G:Figure4:Fig4b_site[liver].n_at_risk	True
+Figure4	Fig4/b/site/lung/n	Lung (n = 30)	Lung (n = 30)	31.596	150.706	40.169	155.633	True	1	G:Figure4:Fig4b_site[lung].n_at_risk	True
+Figure4	Fig4/b/site/lymph_node/n	Lymph node (n = 89)	Lymph node (n = 89)	43.269	150.706	56.731	155.633	True	1	G:Figure4:Fig4b_site[lymph_node].n_at_risk	True
+Figure4	Fig4/b/site/soft_tissue/n	Soft tissue (n = 39)	Soft tissue (n = 39)	58.339	150.706	69.896	155.633	True	1	G:Figure4:Fig4b_site[soft_tissue].n_at_risk	True
+Figure4	Fig4/b/site/remainder/n	Other (n = 45)	Other (n = 45)	73.949	150.706	82.522	155.633	True	1	G:Figure4:Fig4b_site[remainder].n_at_risk	True
+Figure4	Fig4/b/tc/T1/n	Low (n = 128)	Low (n = 128)	110.031	150.706	119.969	155.633	True	1	G:Figure4:Fig4b_tc[T1].n_at_risk	True
+Figure4	Fig4/b/tc/T2/n	Mid (n = 124)	Mid (n = 124)	130.031	150.706	139.969	155.633	True	1	G:Figure4:Fig4b_tc[T2].n_at_risk	True
+Figure4	Fig4/b/tc/T3/n	High (n = 126)	High (n = 126)	150.031	150.706	159.969	155.633	True	1	G:Figure4:Fig4b_tc[T3].n_at_risk	True
+Figure4	Fig4/c/blca_iatlas_imvigor210_2017/n	IMvigor210 (n = 276)	IMvigor210 (n = 276)	16.591	206.706	28.72	211.633	True	1	G:Figure4:Fig4c_aux_top1[blca_iatlas_imvigor210_2017].n	True
+Figure4	Fig4/c/brca_iatlas_anders_2022/n	Anders (n = 30)	Anders (n = 30)	34.107	206.706	42.68	211.633	True	1	G:Figure4:Fig4c_aux_top1[brca_iatlas_anders_2022].n	True
+Figure4	Fig4/c/mel_dfci_2019/n	DFCI (n = 121)	DFCI (n = 121)	49.162	206.706	59.1	211.633	True	1	G:Figure4:Fig4c_aux_top1[mel_dfci_2019].n	True
+Figure4	Fig4/c/paad_iatlas_prince_2022/n	PRINCE (n = 58)	PRINCE (n = 58)	65.265	206.706	74.473	211.633	True	1	G:Figure4:Fig4c_aux_top1[paad_iatlas_prince_2022].n	True
+Figure4	Fig4/c/GSE50760/n	GSE50760 (n = 18)	GSE50760 (n = 18)	79.59	206.706	91.623	211.633	True	1	G:Figure4:Fig4c_aux_top1[GSE50760].n	True
+Figure4	Fig4/c/prad_su2c_2019/n	SU2C/PCF (n = 226)	SU2C/PCF (n = 226)	95.264	206.706	107.424	211.633	True	1	G:Figure4:Fig4c_aux_top1[prad_su2c_2019].n	True
+Figure4	Fig4/d/MET500/correct	19	19	133.063	201.176	135.603	203.462	True	1	G:Figure4:Fig4d_removed[MET500].correct	True
+Figure4	Fig4/d/MET500/other	15	15	133.063	194.588	135.603	196.874	True	1	G:Figure4:Fig4d_removed[MET500].other	True
+Figure4	Fig4/d/POG570/correct	53	53	145.73	194.588	148.27	196.874	True	1	G:Figure4:Fig4d_removed[POG570].correct	True
+Figure4	Fig4/d/POG570/other	24	24	145.73	179.67	148.27	181.956	True	1	G:Figure4:Fig4d_removed[POG570].other	True
+Figure4	Fig4/d/aux_rnaseq/correct	20	20	158.397	200.982	160.937	203.268	True	1	G:Figure4:Fig4d_removed[aux_rnaseq].correct	True
+Figure4	Fig4/d/aux_rnaseq/other	45	45	158.397	188.388	160.937	190.674	True	1	G:Figure4:Fig4d_removed[aux_rnaseq].other	True
+Figure4	Fig4/d/MET500/n	MET500 (n = 34)	MET500 (n = 34)	129.714	206.706	138.953	211.633	True	1	G:Figure4:Fig4d_removed[MET500].n	True
+Figure4	Fig4/d/POG570/n	POG570 (n = 77)	POG570 (n = 77)	142.206	206.706	151.794	211.633	True	1	G:Figure4:Fig4d_removed[POG570].n	True
+Figure4	Fig4/d/aux_rnaseq/n	Auxiliary RNA-seq (n = 65)	Auxiliary RNA-seq (n = 65)	154.682	206.706	164.651	214.275	True	1	G:Figure4:Fig4d_removed[aux_rnaseq].n	True
+Figure5	Fig5/a/MET500/n	MET500 (n = 361)	MET500 (n = 361)	14.104	61.706	23.311	66.633	True	1	G:Figure5:Fig5_ablation[a/MET500].n	True
+Figure5	Fig5/a/POG570/n	POG570 (n = 378)	POG570 (n = 378)	26.299	61.706	35.506	66.633	True	1	G:Figure5:Fig5_ablation[a/POG570].n	True
+Figure5	Fig5/a/aux_rnaseq/n	Auxiliary RNA-seq (n = 427)	Auxiliary RNA-seq (n = 427)	38.43	61.706	47.765	69.275	True	1	G:Figure5:Fig5_ablation[a/aux_rnaseq].n	True
+Figure5	Fig5/a/microarray/n	Microarray (n = 207)	Microarray (n = 207)	49.879	61.706	60.706	66.633	True	1	G:Figure5:Fig5_ablation[a/microarray].n	True
+Figure5	Fig5/b/MET500/n	MET500 (n = 437)	MET500 (n = 437)	75.104	61.706	84.311	66.633	True	1	G:Figure5:Fig5_ablation[b/MET500].n	True
+Figure5	Fig5/b/POG570/n	POG570 (n = 512)	POG570 (n = 512)	87.299	61.706	96.506	66.633	True	1	G:Figure5:Fig5_ablation[b/POG570].n	True
+Figure5	Fig5/b/aux_rnaseq/n	Auxiliary RNA-seq (n = 729)	Auxiliary RNA-seq (n = 729)	99.43	61.706	108.765	69.275	True	1	G:Figure5:Fig5_ablation[b/aux_rnaseq].n	True
+Figure5	Fig5/b/microarray/n	Microarray (n = 536)	Microarray (n = 536)	110.879	61.706	121.706	66.633	True	1	G:Figure5:Fig5_ablation[b/microarray].n	True
+Figure5	Fig5/c/MET500/BASE-Z	0.006	0.006	140.286	51.7	142.572	57.415	True	1	G:Figure5:Fig5_ablation[c/MET500/BASE-Z].value	True
+Figure5	Fig5/c/POG570/BASE-Z	0.006	0.006	154.571	51.622	156.857	57.337	True	1	G:Figure5:Fig5_ablation[c/POG570/BASE-Z].value	True
+Figure5	Fig5/c/MET500/PURE-Zs	0.031	0.031	142.5	39.647	144.786	45.362	True	1	G:Figure5:Fig5_ablation[c/MET500/PURE-Zs].value	True
+Figure5	Fig5/c/POG570/PURE-Zs	0.067	0.067	156.786	22.073	159.072	27.788	True	1	G:Figure5:Fig5_ablation[c/POG570/PURE-Zs].value	True
+Figure5	Fig5/c/MET500/PURE-Zs-w	0.039	0.039	144.714	35.89	147.0	41.605	True	1	G:Figure5:Fig5_ablation[c/MET500/PURE-Zs-w].value	True
+Figure5	Fig5/c/POG570/PURE-Zs-w	0.059	0.059	159.0	25.997	161.286	31.712	True	1	G:Figure5:Fig5_ablation[c/POG570/PURE-Zs-w].value	True
+Figure5	Fig5/c/MET500/MIX-Z0	0.007	0.007	146.928	51.112	149.214	56.827	True	1	G:Figure5:Fig5_ablation[c/MET500/MIX-Z0].value	True
+Figure5	Fig5/c/POG570/MIX-Z0	0.004	0.004	161.214	52.89	163.5	58.605	True	1	G:Figure5:Fig5_ablation[c/POG570/MIX-Z0].value	True
+Figure5	Fig5/c/MET500/SA-Z	0.030	0.030	149.143	40.207	151.429	45.922	True	1	G:Figure5:Fig5_ablation[c/MET500/SA-Z].value	True
+Figure5	Fig5/c/POG570/SA-Z	0.033	0.033	163.428	38.797	165.714	44.512	True	1	G:Figure5:Fig5_ablation[c/POG570/SA-Z].value	True
+Figure6	Fig6/a/MET500/n	MET500 (n = 437)	MET500 (n = 437)	20.918	58.706	30.856	63.633	True	1	G:Figure6:Fig6_published[MET500].n	True
+Figure6	Fig6/a/POG570/n	POG570 (n = 512)	POG570 (n = 512)	42.531	58.706	52.469	63.633	True	1	G:Figure6:Fig6_published[POG570].n	True
+Figure6	Fig6/a/aux_rnaseq/n	Auxiliary RNA-seq (n = 729)	Auxiliary RNA-seq (n = 729)	59.128	58.706	79.098	63.633	True	1	G:Figure6:Fig6_published[aux_rnaseq].n	True
+Figure6	Fig6/b/MET500/BASE-Z	0.136	0.136	103.584	36.146	105.87	41.861	True	1	G:Figure6:Fig6_published[MET500/BASE-Z].host_rate	True
+Figure6	Fig6/b/POG570/BASE-Z	0.228	0.228	125.197	25.592	127.483	31.307	True	1	G:Figure6:Fig6_published[POG570/BASE-Z].host_rate	True
+Figure6	Fig6/b/aux_rnaseq/BASE-Z	0.204	0.204	146.81	28.325	149.096	34.04	True	1	G:Figure6:Fig6_published[aux_rnaseq/BASE-Z].host_rate	True
+Figure6	Fig6/b/MET500/SA-Z	0.044	0.044	107.691	46.659	109.977	52.374	True	1	G:Figure6:Fig6_published[MET500/SA-Z].host_rate	True
+Figure6	Fig6/b/POG570/SA-Z	0.024	0.024	129.304	49.018	131.59	54.733	True	1	G:Figure6:Fig6_published[POG570/SA-Z].host_rate	True
+Figure6	Fig6/b/aux_rnaseq/SA-Z	0.056	0.056	150.917	45.292	153.203	51.007	True	1	G:Figure6:Fig6_published[aux_rnaseq/SA-Z].host_rate	True
+Figure6	Fig6/b/MET500/SCOPE	0.122	0.122	111.797	37.739	114.083	43.454	True	1	G:Figure6:Fig6_published[MET500/SCOPE].host_rate	True
+Figure6	Fig6/b/POG570/SCOPE	0.159	0.159	133.41	33.502	135.696	39.217	True	1	G:Figure6:Fig6_published[POG570/SCOPE].host_rate	True
+Figure6	Fig6/b/aux_rnaseq/SCOPE	0.157	0.157	155.023	33.711	157.309	39.426	True	1	G:Figure6:Fig6_published[aux_rnaseq/SCOPE].host_rate	True
+Figure6	Fig6/b/MET500/CUP-AI-Dx	0.180	0.180	115.904	31.049	118.19	36.764	True	1	G:Figure6:Fig6_published[MET500/CUP-AI-Dx].host_rate	True
+Figure6	Fig6/b/POG570/CUP-AI-Dx	0.304	0.304	137.517	16.769	139.803	22.484	True	1	G:Figure6:Fig6_published[POG570/CUP-AI-Dx].host_rate	True
+Figure6	Fig6/b/aux_rnaseq/CUP-AI-Dx	0.272	0.272	159.13	20.515	161.416	26.23	True	1	G:Figure6:Fig6_published[aux_rnaseq/CUP-AI-Dx].host_rate	True
+Figure6	Fig6/b/MET500/n	MET500 (n = 361)	MET500 (n = 361)	105.918	58.706	115.856	63.633	True	1	G:Figure6:Fig6_published[MET500].n_at_risk	True
+Figure6	Fig6/b/POG570/n	POG570 (n = 378)	POG570 (n = 378)	127.531	58.706	137.469	63.633	True	1	G:Figure6:Fig6_published[POG570].n_at_risk	True
+Figure6	Fig6/b/aux_rnaseq/n	Auxiliary RNA-seq (n = 427)	Auxiliary RNA-seq (n = 427)	144.128	58.706	164.098	63.633	True	1	G:Figure6:Fig6_published[aux_rnaseq].n_at_risk	True
+FigureS1	FigS1/a/MET500/BASE-Z	0.689	0.689	53.892	11.524	59.607	13.81	True	1	G:FigureS1:S1_heatmap[MET500/BASE-Z].top1	True
+FigureS1	FigS1/a/POG570/BASE-Z	0.682	0.682	67.392	11.524	73.108	13.81	True	1	G:FigureS1:S1_heatmap[POG570/BASE-Z].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/BASE-Z	0.527	0.527	80.892	11.524	86.608	13.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/BASE-Z].top1	True
+FigureS1	FigS1/a/Microarray/BASE-Z	0.724	0.724	94.393	11.524	100.108	13.81	True	1	G:FigureS1:S1_heatmap[Microarray/BASE-Z].top1	True
+FigureS1	FigS1/a/MET500/SA-Z	0.728	0.728	53.892	16.857	59.607	19.143	True	1	G:FigureS1:S1_heatmap[MET500/SA-Z].top1	True
+FigureS1	FigS1/a/POG570/SA-Z	0.756	0.756	67.392	16.857	73.108	19.143	True	1	G:FigureS1:S1_heatmap[POG570/SA-Z].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/SA-Z	0.698	0.698	80.892	16.857	86.608	19.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-Z].top1	True
+FigureS1	FigS1/a/Microarray/SA-Z	0.455	0.455	94.393	16.857	100.108	19.143	True	1	G:FigureS1:S1_heatmap[Microarray/SA-Z].top1	True
+FigureS1	FigS1/a/MET500/SC-Z	0.714	0.714	53.892	22.19	59.607	24.476	True	1	G:FigureS1:S1_heatmap[MET500/SC-Z].top1	True
+FigureS1	FigS1/a/POG570/SC-Z	0.758	0.758	67.392	22.19	73.108	24.476	True	1	G:FigureS1:S1_heatmap[POG570/SC-Z].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/SC-Z	0.690	0.690	80.892	22.19	86.608	24.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SC-Z].top1	True
+FigureS1	FigS1/a/Microarray/SC-Z	0.435	0.435	94.393	22.19	100.108	24.476	True	1	G:FigureS1:S1_heatmap[Microarray/SC-Z].top1	True
+FigureS1	FigS1/a/MET500/NC-Z	0.675	0.675	53.892	27.524	59.607	29.81	True	1	G:FigureS1:S1_heatmap[MET500/NC-Z].top1	True
+FigureS1	FigS1/a/POG570/NC-Z	0.709	0.709	67.392	27.524	73.108	29.81	True	1	G:FigureS1:S1_heatmap[POG570/NC-Z].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/NC-Z	0.487	0.487	80.892	27.524	86.608	29.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/NC-Z].top1	True
+FigureS1	FigS1/a/Microarray/NC-Z	0.397	0.397	94.393	27.524	100.108	29.81	True	1	G:FigureS1:S1_heatmap[Microarray/NC-Z].top1	True
+FigureS1	FigS1/a/MET500/LD-Z	0.709	0.709	53.892	32.857	59.607	35.143	True	1	G:FigureS1:S1_heatmap[MET500/LD-Z].top1	True
+FigureS1	FigS1/a/POG570/LD-Z	0.723	0.723	67.392	32.857	73.108	35.143	True	1	G:FigureS1:S1_heatmap[POG570/LD-Z].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/LD-Z	0.536	0.536	80.892	32.857	86.608	35.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/LD-Z].top1	True
+FigureS1	FigS1/a/Microarray/LD-Z	0.812	0.812	94.393	32.857	100.108	35.143	True	1	G:FigureS1:S1_heatmap[Microarray/LD-Z].top1	True
+FigureS1	FigS1/a/MET500/M1-Z	0.600	0.600	53.892	38.19	59.607	40.476	True	1	G:FigureS1:S1_heatmap[MET500/M1-Z].top1	True
+FigureS1	FigS1/a/POG570/M1-Z	0.637	0.637	67.392	38.19	73.108	40.476	True	1	G:FigureS1:S1_heatmap[POG570/M1-Z].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/M1-Z	0.347	0.347	80.892	38.19	86.608	40.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/M1-Z].top1	True
+FigureS1	FigS1/a/Microarray/M1-Z	0.209	0.209	94.393	38.19	100.108	40.476	True	1	G:FigureS1:S1_heatmap[Microarray/M1-Z].top1	True
+FigureS1	FigS1/a/MET500/IF20-Z	0.677	0.677	53.892	43.524	59.607	45.81	True	1	G:FigureS1:S1_heatmap[MET500/IF20-Z].top1	True
+FigureS1	FigS1/a/MET500/SC+IF20-Z	0.709	0.709	53.892	48.857	59.607	51.143	True	1	G:FigureS1:S1_heatmap[MET500/SC+IF20-Z].top1	True
+FigureS1	FigS1/a/MET500/SC+IF40-Z	0.705	0.705	53.892	54.19	59.607	56.476	True	1	G:FigureS1:S1_heatmap[MET500/SC+IF40-Z].top1	True
+FigureS1	FigS1/a/MET500/BASE-K	0.568	0.568	53.892	59.524	59.607	61.81	True	1	G:FigureS1:S1_heatmap[MET500/BASE-K].top1	True
+FigureS1	FigS1/a/POG570/BASE-K	0.596	0.596	67.392	59.524	73.108	61.81	True	1	G:FigureS1:S1_heatmap[POG570/BASE-K].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/BASE-K	0.302	0.302	80.892	59.524	86.608	61.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/BASE-K].top1	True
+FigureS1	FigS1/a/Microarray/BASE-K	0.060	0.060	94.393	59.524	100.108	61.81	True	1	G:FigureS1:S1_heatmap[Microarray/BASE-K].top1	True
+FigureS1	FigS1/a/MET500/SA-K	0.670	0.670	53.892	64.857	59.607	67.143	True	1	G:FigureS1:S1_heatmap[MET500/SA-K].top1	True
+FigureS1	FigS1/a/POG570/SA-K	0.727	0.727	67.392	64.857	73.108	67.143	True	1	G:FigureS1:S1_heatmap[POG570/SA-K].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/SA-K	0.505	0.505	80.892	64.857	86.608	67.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-K].top1	True
+FigureS1	FigS1/a/Microarray/SA-K	0.229	0.229	94.393	64.857	100.108	67.143	True	1	G:FigureS1:S1_heatmap[Microarray/SA-K].top1	True
+FigureS1	FigS1/a/MET500/V0-K	0.579	0.579	53.892	70.19	59.607	72.476	True	1	G:FigureS1:S1_heatmap[MET500/V0-K].top1	True
+FigureS1	FigS1/a/POG570/V0-K	0.678	0.678	67.392	70.19	73.108	72.476	True	1	G:FigureS1:S1_heatmap[POG570/V0-K].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/V0-K	0.295	0.295	80.892	70.19	86.608	72.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/V0-K].top1	True
+FigureS1	FigS1/a/Microarray/V0-K	0.013	0.013	94.393	70.19	100.108	72.476	True	1	G:FigureS1:S1_heatmap[Microarray/V0-K].top1	True
+FigureS1	FigS1/a/MET500/SA-G	0.735	0.735	53.892	75.524	59.607	77.81	True	1	G:FigureS1:S1_heatmap[MET500/SA-G].top1	True
+FigureS1	FigS1/a/POG570/SA-G	0.775	0.775	67.392	75.524	73.108	77.81	True	1	G:FigureS1:S1_heatmap[POG570/SA-G].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/SA-G	0.550	0.550	80.892	75.524	86.608	77.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-G].top1	True
+FigureS1	FigS1/a/Microarray/SA-G	0.683	0.683	94.393	75.524	100.108	77.81	True	1	G:FigureS1:S1_heatmap[Microarray/SA-G].top1	True
+FigureS1	FigS1/a/MET500/SA-pool22	0.705	0.705	53.892	80.857	59.607	83.143	True	1	G:FigureS1:S1_heatmap[MET500/SA-pool22].top1	True
+FigureS1	FigS1/a/POG570/SA-pool22	0.746	0.746	67.392	80.857	73.108	83.143	True	1	G:FigureS1:S1_heatmap[POG570/SA-pool22].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/SA-pool22	0.534	0.534	80.892	80.857	86.608	83.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-pool22].top1	True
+FigureS1	FigS1/a/Microarray/SA-pool22	0.539	0.539	94.393	80.857	100.108	83.143	True	1	G:FigureS1:S1_heatmap[Microarray/SA-pool22].top1	True
+FigureS1	FigS1/a/MET500/SA-MLP	0.696	0.696	53.892	86.19	59.607	88.476	True	1	G:FigureS1:S1_heatmap[MET500/SA-MLP].top1	True
+FigureS1	FigS1/a/POG570/SA-MLP	0.750	0.750	67.392	86.19	73.108	88.476	True	1	G:FigureS1:S1_heatmap[POG570/SA-MLP].top1	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/SA-MLP	0.520	0.520	80.892	86.19	86.608	88.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-MLP].top1	True
+FigureS1	FigS1/a/Microarray/SA-MLP	0.535	0.535	94.393	86.19	100.108	88.476	True	1	G:FigureS1:S1_heatmap[Microarray/SA-MLP].top1	True
+FigureS1	FigS1/a/MET500/n	MET500 (n = 437)	MET500 (n = 437)	51.781	90.706	61.719	95.633	True	1	G:FigureS1:S1_n[a/MET500].n	True
+FigureS1	FigS1/a/POG570/n	POG570 (n = 512)	POG570 (n = 512)	65.281	90.706	75.219	95.633	True	1	G:FigureS1:S1_n[a/POG570].n	True
+FigureS1	FigS1/a/Auxiliary RNA-seq/n	Auxiliary RNA-seq (n = 729)	Auxiliary RNA-seq (n = 729)	78.765	90.706	88.735	98.275	True	1	G:FigureS1:S1_n[a/Auxiliary RNA-seq].n	True
+FigureS1	FigS1/a/Microarray/n	Microarray (n = 536)	Microarray (n = 536)	91.44	90.706	103.06	95.633	True	1	G:FigureS1:S1_n[a/Microarray].n	True
+FigureS1	FigS1/b/MET500/BASE-Z	0.136	0.136	115.892	11.524	121.607	13.81	True	1	G:FigureS1:S1_heatmap[MET500/BASE-Z].host_rate	True
+FigureS1	FigS1/b/POG570/BASE-Z	0.228	0.228	129.392	11.524	135.108	13.81	True	1	G:FigureS1:S1_heatmap[POG570/BASE-Z].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/BASE-Z	0.204	0.204	142.892	11.524	148.608	13.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/BASE-Z].host_rate	True
+FigureS1	FigS1/b/Microarray/BASE-Z	0.256	0.256	156.392	11.524	162.108	13.81	True	1	G:FigureS1:S1_heatmap[Microarray/BASE-Z].host_rate	True
+FigureS1	FigS1/b/MET500/SA-Z	0.044	0.044	115.892	16.857	121.607	19.143	True	1	G:FigureS1:S1_heatmap[MET500/SA-Z].host_rate	True
+FigureS1	FigS1/b/POG570/SA-Z	0.024	0.024	129.392	16.857	135.108	19.143	True	1	G:FigureS1:S1_heatmap[POG570/SA-Z].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/SA-Z	0.056	0.056	142.892	16.857	148.608	19.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-Z].host_rate	True
+FigureS1	FigS1/b/Microarray/SA-Z	0.101	0.101	156.392	16.857	162.108	19.143	True	1	G:FigureS1:S1_heatmap[Microarray/SA-Z].host_rate	True
+FigureS1	FigS1/b/MET500/SC-Z	0.030	0.030	115.892	22.19	121.607	24.476	True	1	G:FigureS1:S1_heatmap[MET500/SC-Z].host_rate	True
+FigureS1	FigS1/b/POG570/SC-Z	0.024	0.024	129.392	22.19	135.108	24.476	True	1	G:FigureS1:S1_heatmap[POG570/SC-Z].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/SC-Z	0.049	0.049	142.892	22.19	148.608	24.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SC-Z].host_rate	True
+FigureS1	FigS1/b/Microarray/SC-Z	0.111	0.111	156.551	22.19	161.949	24.476	True	1	G:FigureS1:S1_heatmap[Microarray/SC-Z].host_rate	True
+FigureS1	FigS1/b/MET500/NC-Z	0.119	0.119	115.972	27.524	121.528	29.81	True	1	G:FigureS1:S1_heatmap[MET500/NC-Z].host_rate	True
+FigureS1	FigS1/b/POG570/NC-Z	0.180	0.180	129.392	27.524	135.108	29.81	True	1	G:FigureS1:S1_heatmap[POG570/NC-Z].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/NC-Z	0.171	0.171	142.892	27.524	148.608	29.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/NC-Z].host_rate	True
+FigureS1	FigS1/b/Microarray/NC-Z	0.203	0.203	156.392	27.524	162.108	29.81	True	1	G:FigureS1:S1_heatmap[Microarray/NC-Z].host_rate	True
+FigureS1	FigS1/b/MET500/LD-Z	0.089	0.089	115.892	32.857	121.607	35.143	True	1	G:FigureS1:S1_heatmap[MET500/LD-Z].host_rate	True
+FigureS1	FigS1/b/POG570/LD-Z	0.143	0.143	129.392	32.857	135.108	35.143	True	1	G:FigureS1:S1_heatmap[POG570/LD-Z].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/LD-Z	0.145	0.145	142.892	32.857	148.608	35.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/LD-Z].host_rate	True
+FigureS1	FigS1/b/Microarray/LD-Z	0.010	0.010	156.392	32.857	162.108	35.143	True	1	G:FigureS1:S1_heatmap[Microarray/LD-Z].host_rate	True
+FigureS1	FigS1/b/MET500/M1-Z	0.000	0.000	115.892	38.19	121.607	40.476	True	1	G:FigureS1:S1_heatmap[MET500/M1-Z].host_rate	True
+FigureS1	FigS1/b/POG570/M1-Z	0.000	0.000	129.392	38.19	135.108	40.476	True	1	G:FigureS1:S1_heatmap[POG570/M1-Z].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/M1-Z	0.000	0.000	142.892	38.19	148.608	40.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/M1-Z].host_rate	True
+FigureS1	FigS1/b/Microarray/M1-Z	0.000	0.000	156.392	38.19	162.108	40.476	True	1	G:FigureS1:S1_heatmap[Microarray/M1-Z].host_rate	True
+FigureS1	FigS1/b/MET500/IF20-Z	0.119	0.119	115.972	43.524	121.528	45.81	True	1	G:FigureS1:S1_heatmap[MET500/IF20-Z].host_rate	True
+FigureS1	FigS1/b/MET500/SC+IF20-Z	0.030	0.030	115.892	48.857	121.607	51.143	True	1	G:FigureS1:S1_heatmap[MET500/SC+IF20-Z].host_rate	True
+FigureS1	FigS1/b/MET500/SC+IF40-Z	0.028	0.028	115.892	54.19	121.607	56.476	True	1	G:FigureS1:S1_heatmap[MET500/SC+IF40-Z].host_rate	True
+FigureS1	FigS1/b/MET500/BASE-K	0.141	0.141	115.892	59.524	121.607	61.81	True	1	G:FigureS1:S1_heatmap[MET500/BASE-K].host_rate	True
+FigureS1	FigS1/b/POG570/BASE-K	0.246	0.246	129.392	59.524	135.108	61.81	True	1	G:FigureS1:S1_heatmap[POG570/BASE-K].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/BASE-K	0.152	0.152	142.892	59.524	148.608	61.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/BASE-K].host_rate	True
+FigureS1	FigS1/b/Microarray/BASE-K	0.048	0.048	156.392	59.524	162.108	61.81	True	1	G:FigureS1:S1_heatmap[Microarray/BASE-K].host_rate	True
+FigureS1	FigS1/b/MET500/SA-K	0.044	0.044	115.892	64.857	121.607	67.143	True	1	G:FigureS1:S1_heatmap[MET500/SA-K].host_rate	True
+FigureS1	FigS1/b/POG570/SA-K	0.037	0.037	129.392	64.857	135.108	67.143	True	1	G:FigureS1:S1_heatmap[POG570/SA-K].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/SA-K	0.061	0.061	142.892	64.857	148.608	67.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-K].host_rate	True
+FigureS1	FigS1/b/Microarray/SA-K	0.087	0.087	156.392	64.857	162.108	67.143	True	1	G:FigureS1:S1_heatmap[Microarray/SA-K].host_rate	True
+FigureS1	FigS1/b/MET500/V0-K	0.053	0.053	115.892	70.19	121.607	72.476	True	1	G:FigureS1:S1_heatmap[MET500/V0-K].host_rate	True
+FigureS1	FigS1/b/POG570/V0-K	0.074	0.074	129.392	70.19	135.108	72.476	True	1	G:FigureS1:S1_heatmap[POG570/V0-K].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/V0-K	0.094	0.094	142.892	70.19	148.608	72.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/V0-K].host_rate	True
+FigureS1	FigS1/b/Microarray/V0-K	0.005	0.005	156.392	70.19	162.108	72.476	True	1	G:FigureS1:S1_heatmap[Microarray/V0-K].host_rate	True
+FigureS1	FigS1/b/MET500/SA-G	0.053	0.053	115.892	75.524	121.607	77.81	True	1	G:FigureS1:S1_heatmap[MET500/SA-G].host_rate	True
+FigureS1	FigS1/b/POG570/SA-G	0.042	0.042	129.392	75.524	135.108	77.81	True	1	G:FigureS1:S1_heatmap[POG570/SA-G].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/SA-G	0.061	0.061	142.892	75.524	148.608	77.81	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-G].host_rate	True
+FigureS1	FigS1/b/Microarray/SA-G	0.097	0.097	156.392	75.524	162.108	77.81	True	1	G:FigureS1:S1_heatmap[Microarray/SA-G].host_rate	True
+FigureS1	FigS1/b/MET500/SA-pool22	0.047	0.047	115.892	80.857	121.607	83.143	True	1	G:FigureS1:S1_heatmap[MET500/SA-pool22].host_rate	True
+FigureS1	FigS1/b/POG570/SA-pool22	0.048	0.048	129.392	80.857	135.108	83.143	True	1	G:FigureS1:S1_heatmap[POG570/SA-pool22].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/SA-pool22	0.056	0.056	142.892	80.857	148.608	83.143	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-pool22].host_rate	True
+FigureS1	FigS1/b/Microarray/SA-pool22	0.188	0.188	156.392	80.857	162.108	83.143	True	1	G:FigureS1:S1_heatmap[Microarray/SA-pool22].host_rate	True
+FigureS1	FigS1/b/MET500/SA-MLP	0.030	0.030	115.892	86.19	121.607	88.476	True	1	G:FigureS1:S1_heatmap[MET500/SA-MLP].host_rate	True
+FigureS1	FigS1/b/POG570/SA-MLP	0.024	0.024	129.392	86.19	135.108	88.476	True	1	G:FigureS1:S1_heatmap[POG570/SA-MLP].host_rate	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/SA-MLP	0.044	0.044	142.892	86.19	148.608	88.476	True	1	G:FigureS1:S1_heatmap[Auxiliary RNA-seq/SA-MLP].host_rate	True
+FigureS1	FigS1/b/Microarray/SA-MLP	0.053	0.053	156.392	86.19	162.108	88.476	True	1	G:FigureS1:S1_heatmap[Microarray/SA-MLP].host_rate	True
+FigureS1	FigS1/b/MET500/n	MET500 (n = 361)	MET500 (n = 361)	113.781	90.706	123.719	95.633	True	1	G:FigureS1:S1_n[b/MET500].n	True
+FigureS1	FigS1/b/POG570/n	POG570 (n = 378)	POG570 (n = 378)	127.281	90.706	137.219	95.633	True	1	G:FigureS1:S1_n[b/POG570].n	True
+FigureS1	FigS1/b/Auxiliary RNA-seq/n	Auxiliary RNA-seq (n = 427)	Auxiliary RNA-seq (n = 427)	140.765	90.706	150.735	98.275	True	1	G:FigureS1:S1_n[b/Auxiliary RNA-seq].n	True
+FigureS1	FigS1/b/Microarray/n	Microarray (n = 207)	Microarray (n = 207)	153.44	90.706	165.06	95.633	True	1	G:FigureS1:S1_n[b/Microarray].n	True
+FigureS2	FigS2/a/native_truth/top1/MET500/n	MET500 (n = 76)	MET500 (n = 76)	17.779	45.706	26.415	50.633	True	1	G:FigureS2:S2_sets[native_truth/top1/MET500].n	True
+FigureS2	FigS2/a/native_truth/top1/POG570/n	POG570 (n = 91)	POG570 (n = 91)	30.555	45.706	39.445	50.633	True	1	G:FigureS2:S2_sets[native_truth/top1/POG570].n	True
+FigureS2	FigS2/a/native_truth/top1/aux_rnaseq/n	Auxiliary RNA-seq (n = 315)	Auxiliary RNA-seq (n = 315)	43.236	45.706	52.57	53.275	True	1	G:FigureS2:S2_sets[native_truth/top1/aux_rnaseq].n	True
+FigureS2	FigS2/a/native_truth/host_rate/aux_rnaseq/BASE-Z/zero	0	0	43.591	92.291	44.861	94.577	True	1	G:FigureS2:S2_sets[native_truth/aux_rnaseq/BASE-Z].host_rate_zero_mark	True
+FigureS2	FigS2/a/native_truth/host_rate/MET500/SA-Z/zero	0	0	20.236	92.291	21.506	94.577	True	1	G:FigureS2:S2_sets[native_truth/MET500/SA-Z].host_rate_zero_mark	True
+FigureS2	FigS2/a/native_truth/host_rate/aux_rnaseq/SA-Z/zero	0	0	46.042	92.291	47.312	94.577	True	1	G:FigureS2:S2_sets[native_truth/aux_rnaseq/SA-Z].host_rate_zero_mark	True
+FigureS2	FigS2/a/native_truth/host_rate/aux_rnaseq/SCOPE/zero	0	0	48.494	92.291	49.764	94.577	True	1	G:FigureS2:S2_sets[native_truth/aux_rnaseq/SCOPE].host_rate_zero_mark	True
+FigureS2	FigS2/a/native_truth/host_rate/aux_rnaseq/CUP-AI-Dx/zero	0	0	50.946	92.291	52.216	94.577	True	1	G:FigureS2:S2_sets[native_truth/aux_rnaseq/CUP-AI-Dx].host_rate_zero_mark	True
+FigureS2	FigS2/a/native_truth/host_rate/MET500/n	MET500 (n = 76)	MET500 (n = 76)	17.779	95.706	26.415	100.633	True	1	G:FigureS2:S2_sets[native_truth/host_rate/MET500].n	True
+FigureS2	FigS2/a/native_truth/host_rate/POG570/n	POG570 (n = 91)	POG570 (n = 91)	30.555	95.706	39.445	100.633	True	1	G:FigureS2:S2_sets[native_truth/host_rate/POG570].n	True
+FigureS2	FigS2/a/native_truth/host_rate/aux_rnaseq/n	Auxiliary RNA-seq (n = 315)	Auxiliary RNA-seq (n = 315)	43.236	95.706	52.57	103.275	True	1	G:FigureS2:S2_sets[native_truth/host_rate/aux_rnaseq].n	True
+FigureS2	FigS2/b/risk/top1/MET500/n	MET500 (n = 361)	MET500 (n = 361)	73.493	45.706	82.701	50.633	True	1	G:FigureS2:S2_sets[risk/top1/MET500].n	True
+FigureS2	FigS2/b/risk/top1/POG570/n	POG570 (n = 378)	POG570 (n = 378)	86.396	45.706	95.604	50.633	True	1	G:FigureS2:S2_sets[risk/top1/POG570].n	True
+FigureS2	FigS2/b/risk/top1/aux_rnaseq/n	Auxiliary RNA-seq (n = 427)	Auxiliary RNA-seq (n = 427)	99.236	45.706	108.57	53.275	True	1	G:FigureS2:S2_sets[risk/top1/aux_rnaseq].n	True
+FigureS2	FigS2/b/risk/host_rate/MET500/n	MET500 (n = 361)	MET500 (n = 361)	73.493	95.706	82.701	100.633	True	1	G:FigureS2:S2_sets[risk/host_rate/MET500].n	True
+FigureS2	FigS2/b/risk/host_rate/POG570/n	POG570 (n = 378)	POG570 (n = 378)	86.396	95.706	95.604	100.633	True	1	G:FigureS2:S2_sets[risk/host_rate/POG570].n	True
+FigureS2	FigS2/b/risk/host_rate/aux_rnaseq/n	Auxiliary RNA-seq (n = 427)	Auxiliary RNA-seq (n = 427)	99.236	95.706	108.57	103.275	True	1	G:FigureS2:S2_sets[risk/host_rate/aux_rnaseq].n	True
+FigureS2	FigS2/c/pool_out_risk/top1/MET500/n	MET500 (n = 9)	MET500 (n = 9)	129.779	45.706	138.415	50.633	True	1	G:FigureS2:S2_sets[pool_out_risk/top1/MET500].n	True
+FigureS2	FigS2/c/pool_out_risk/top1/POG570/n	POG570 (n = 10)	POG570 (n = 10)	142.555	45.706	151.445	50.633	True	1	G:FigureS2:S2_sets[pool_out_risk/top1/POG570].n	True
+FigureS2	FigS2/c/pool_out_risk/top1/aux_rnaseq/n	Auxiliary RNA-seq (n = 71)	Auxiliary RNA-seq (n = 71)	155.236	45.706	164.57	53.275	True	1	G:FigureS2:S2_sets[pool_out_risk/top1/aux_rnaseq].n	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/MET500/BASE-Z/zero	0	0	129.784	92.291	131.054	94.577	True	1	G:FigureS2:S2_sets[pool_out_risk/MET500/BASE-Z].host_rate_zero_mark	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/POG570/BASE-Z/zero	0	0	142.688	92.291	143.958	94.577	True	1	G:FigureS2:S2_sets[pool_out_risk/POG570/BASE-Z].host_rate_zero_mark	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/aux_rnaseq/BASE-Z/zero	0	0	155.591	92.291	156.861	94.577	True	1	G:FigureS2:S2_sets[pool_out_risk/aux_rnaseq/BASE-Z].host_rate_zero_mark	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/MET500/SA-Z/zero	0	0	132.236	92.291	133.506	94.577	True	1	G:FigureS2:S2_sets[pool_out_risk/MET500/SA-Z].host_rate_zero_mark	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/POG570/SA-Z/zero	0	0	145.139	92.291	146.409	94.577	True	1	G:FigureS2:S2_sets[pool_out_risk/POG570/SA-Z].host_rate_zero_mark	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/MET500/SCOPE/zero	0	0	134.688	92.291	135.958	94.577	True	1	G:FigureS2:S2_sets[pool_out_risk/MET500/SCOPE].host_rate_zero_mark	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/POG570/SCOPE/zero	0	0	147.591	92.291	148.861	94.577	True	1	G:FigureS2:S2_sets[pool_out_risk/POG570/SCOPE].host_rate_zero_mark	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/MET500/n	MET500 (n = 9)	MET500 (n = 9)	129.779	95.706	138.415	100.633	True	1	G:FigureS2:S2_sets[pool_out_risk/host_rate/MET500].n	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/POG570/n	POG570 (n = 10)	POG570 (n = 10)	142.555	95.706	151.445	100.633	True	1	G:FigureS2:S2_sets[pool_out_risk/host_rate/POG570].n	True
+FigureS2	FigS2/c/pool_out_risk/host_rate/aux_rnaseq/n	Auxiliary RNA-seq (n = 71)	Auxiliary RNA-seq (n = 71)	155.236	95.706	164.57	103.275	True	1	G:FigureS2:S2_sets[pool_out_risk/host_rate/aux_rnaseq].n	True
+FigureS3	FigS3/a/MET500/n	MET500 (n = 425)	MET500 (n = 425)	19.153	52.706	29.091	57.633	True	1	G:FigureS3:S3_esophagus_fraction[MET500].n_truth_not_esophagus	True
+FigureS3	FigS3/a/POG570/n	POG570 (n = 501)	POG570 (n = 501)	35.738	52.706	45.676	57.633	True	1	G:FigureS3:S3_esophagus_fraction[POG570].n_truth_not_esophagus	True
+FigureS3	FigS3/a/aux_rnaseq/n	Auxiliary RNA-seq (n = 729)	Auxiliary RNA-seq (n = 729)	52.308	52.706	62.277	60.275	True	1	G:FigureS3:S3_esophagus_fraction[aux_rnaseq].n_truth_not_esophagus	True
+FigureS3	FigS3/a/microarray/n	Microarray (n = 536)	Microarray (n = 536)	68.068	52.706	79.688	57.633	True	1	G:FigureS3:S3_esophagus_fraction[microarray].n_truth_not_esophagus	True
+FigureS3	FigS3/b/Esophagus/n	102	102	157.229	13.714	161.039	16.0	True	1	G:FigureS3:S3_gse41258[Esophagus].n	True
+FigureS3	FigS3/b/Colorectal/n	73	73	142.246	19.428	144.786	21.714	True	1	G:FigureS3:S3_gse41258[Colorectal].n	True
+FigureS3	FigS3/b/Stomach/n	4	4	106.596	25.143	107.866	27.429	True	1	G:FigureS3:S3_gse41258[Stomach].n	True
+FigureS3	FigS3/b/Bladder/n	1	1	105.046	30.857	106.316	33.143	True	1	G:FigureS3:S3_gse41258[Bladder].n	True
+FigureS3	FigS3/b/Ovary/n	1	1	105.046	36.571	106.316	38.857	True	1	G:FigureS3:S3_gse41258[Ovary].n	True
+FigureS3	FigS3/b/Lung/n	1	1	105.046	42.286	106.316	44.572	True	1	G:FigureS3:S3_gse41258[Lung].n	True
+FigureS3	FigS3/b/Liver/n	1	1	105.046	48.0	106.316	50.286	True	1	G:FigureS3:S3_gse41258[Liver].n	True
+FigureS3	FigS3/b/title/n	HostMix-TOO, GSE41258 native truth (n = 183)	HostMix-TOO, GSE41258 native truth (n = 183)	107.124	8.91	162.876	11.45	True	1	G:FigureS3:S3_gse41258[SA-Z].n_slice	True
+FigureS3	FigS3/c/POG570/baseline/n	POG570 (n = 512), baseline	POG570 (n = 512), baseline	124.503	75.147	153.11	77.433	True	1	G:FigureS3:S3_platform[POG570/baseline].n	True
+FigureS3	FigS3/c/POG570/HostMix-TOO/n	POG570 (n = 512), HostMix-TOO	POG570 (n = 512), HostMix-TOO	124.503	78.694	158.444	80.98	True	1	G:FigureS3:S3_platform[POG570/HostMix-TOO].n	True
+FigureS3	FigS3/c/MET500/baseline/n	MET500 (n = 437), baseline	MET500 (n = 437), baseline	124.503	82.241	152.856	84.527	True	1	G:FigureS3:S3_platform[MET500/baseline].n	True
+FigureS3	FigS3/c/MET500/HostMix-TOO/n	MET500 (n = 437), HostMix-TOO	MET500 (n = 437), HostMix-TOO	124.503	85.788	158.19	88.074	True	1	G:FigureS3:S3_platform[MET500/HostMix-TOO].n	True
+FigureS4	FigS4/a/BASE-Z/n	Baseline (n = 145)	Baseline (n = 145)	40.205	7.91	61.795	10.45	True	1	G:FigureS4:S4_contributions[BASE-Z].n_samples	True
+FigureS4	FigS4/b/SA-Z/n	HostMix-TOO (n = 65)	HostMix-TOO (n = 65)	122.951	7.91	149.049	10.45	True	1	G:FigureS4:S4_contributions[SA-Z].n_samples	True
+FigureS5	FigS5/a/IMvigor210/BASE-Z/n	n = 214	n = 214	57.916	19.195	65.599	21.481	True	1	G:FigureS5:S5_reconciliation[IMvigor210/Baseline].n	True
+FigureS5	FigS5/a/Anders/BASE-Z/n	n = 17	n = 17	29.022	23.781	35.436	26.067	True	1	G:FigureS5:S5_reconciliation[Anders/Baseline].n	True
+FigureS5	FigS5/a/DFCI/BASE-Z/n	n = 2	n = 2	26.822	28.367	31.966	30.653	True	1	G:FigureS5:S5_reconciliation[DFCI/Baseline].n	True
+FigureS5	FigS5/a/PRINCE/BASE-Z/n	n = 9	n = 9	27.849	32.953	32.993	35.239	True	1	G:FigureS5:S5_reconciliation[PRINCE/Baseline].n	True
+FigureS5	FigS5/a/GSE50760/BASE-Z/n	n = 0	n = 0	26.529	37.539	31.673	39.825	True	1	G:FigureS5:S5_reconciliation[GSE50760/Baseline].n	True
+FigureS5	FigS5/a/SU2C/PCF/BASE-Z/n	n = 1	n = 1	26.676	42.125	31.819	44.411	True	1	G:FigureS5:S5_reconciliation[SU2C/PCF/Baseline].n	True
+FigureS5	FigS5/a/AURORA US/BASE-Z/n	n = 8	n = 8	27.702	52.672	32.846	54.958	True	1	G:FigureS5:S5_reconciliation[AURORA US/Baseline].n	True
+FigureS5	FigS5/a/GSE41258/BASE-Z/n	n = 29	n = 29	30.782	63.22	37.196	65.506	True	1	G:FigureS5:S5_reconciliation[GSE41258/Baseline].n	True
+FigureS5	FigS5/a/GSE14018/BASE-Z/n	n = 0	n = 0	26.529	67.806	31.673	70.092	True	1	G:FigureS5:S5_reconciliation[GSE14018/Baseline].n	True
+FigureS5	FigS5/a/GSE71729/BASE-Z/n	n = 1	n = 1	26.676	72.392	31.819	74.678	True	1	G:FigureS5:S5_reconciliation[GSE71729/Baseline].n	True
+FigureS5	FigS5/a/GSE74685/BASE-Z/n	n = 0	n = 0	26.529	76.978	31.673	79.264	True	1	G:FigureS5:S5_reconciliation[GSE74685/Baseline].n	True
+FigureS5	FigS5/a/FHCRC/BASE-Z/n	n = 0	n = 0	26.529	81.564	31.673	83.85	True	1	G:FigureS5:S5_reconciliation[FHCRC/Baseline].n	True
+FigureS5	FigS5/b/IMvigor210/SA-Z/n	n = 105	n = 105	89.929	19.195	97.613	21.481	True	1	G:FigureS5:S5_reconciliation[IMvigor210/HostMix-TOO].n	True
+FigureS5	FigS5/b/Anders/SA-Z/n	n = 18	n = 18	77.169	23.781	83.583	26.067	True	1	G:FigureS5:S5_reconciliation[Anders/HostMix-TOO].n	True
+FigureS5	FigS5/b/DFCI/SA-Z/n	n = 0	n = 0	74.529	28.367	79.673	30.653	True	1	G:FigureS5:S5_reconciliation[DFCI/HostMix-TOO].n	True
+FigureS5	FigS5/b/PRINCE/SA-Z/n	n = 47	n = 47	81.422	32.953	87.836	35.239	True	1	G:FigureS5:S5_reconciliation[PRINCE/HostMix-TOO].n	True
+FigureS5	FigS5/b/GSE50760/SA-Z/n	n = 0	n = 0	74.529	37.539	79.673	39.825	True	1	G:FigureS5:S5_reconciliation[GSE50760/HostMix-TOO].n	True
+FigureS5	FigS5/b/SU2C/PCF/SA-Z/n	n = 2	n = 2	74.822	42.125	79.966	44.411	True	1	G:FigureS5:S5_reconciliation[SU2C/PCF/HostMix-TOO].n	True
+FigureS5	FigS5/b/AURORA US/SA-Z/n	n = 11	n = 11	76.142	52.672	82.397	54.958	True	1	G:FigureS5:S5_reconciliation[AURORA US/HostMix-TOO].n	True
+FigureS5	FigS5/b/GSE41258/SA-Z/n	n = 147	n = 147	96.089	63.22	103.773	65.506	True	1	G:FigureS5:S5_reconciliation[GSE41258/HostMix-TOO].n	True
+FigureS5	FigS5/b/GSE14018/SA-Z/n	n = 0	n = 0	74.529	67.806	79.673	70.092	True	1	G:FigureS5:S5_reconciliation[GSE14018/HostMix-TOO].n	True
+FigureS5	FigS5/b/GSE71729/SA-Z/n	n = 0	n = 0	74.529	72.392	79.673	74.678	True	1	G:FigureS5:S5_reconciliation[GSE71729/HostMix-TOO].n	True
+FigureS5	FigS5/b/GSE74685/SA-Z/n	n = 0	n = 0	74.529	76.978	79.673	79.264	True	1	G:FigureS5:S5_reconciliation[GSE74685/HostMix-TOO].n	True
+FigureS5	FigS5/b/FHCRC/SA-Z/n	n = 0	n = 0	74.529	81.564	79.673	83.85	True	1	G:FigureS5:S5_reconciliation[FHCRC/HostMix-TOO].n	True
+FigureS5	FigS5/c/IMvigor210/LD-Z/n	n = 218	n = 218	154.502	19.195	162.186	21.481	True	1	G:FigureS5:S5_reconciliation[IMvigor210/Linear deconvolution].n	True
+FigureS5	FigS5/c/Anders/LD-Z/n	n = 18	n = 18	125.169	23.781	131.583	26.067	True	1	G:FigureS5:S5_reconciliation[Anders/Linear deconvolution].n	True
+FigureS5	FigS5/c/DFCI/LD-Z/n	n = 3	n = 3	122.969	28.367	128.113	30.653	True	1	G:FigureS5:S5_reconciliation[DFCI/Linear deconvolution].n	True
+FigureS5	FigS5/c/PRINCE/LD-Z/n	n = 19	n = 19	125.316	32.953	131.729	35.239	True	1	G:FigureS5:S5_reconciliation[PRINCE/Linear deconvolution].n	True
+FigureS5	FigS5/c/GSE50760/LD-Z/n	n = 0	n = 0	122.529	37.539	127.673	39.825	True	1	G:FigureS5:S5_reconciliation[GSE50760/Linear deconvolution].n	True
+FigureS5	FigS5/c/SU2C/PCF/LD-Z/n	n = 3	n = 3	122.969	42.125	128.113	44.411	True	1	G:FigureS5:S5_reconciliation[SU2C/PCF/Linear deconvolution].n	True
+FigureS5	FigS5/c/AURORA US/LD-Z/n	n = 11	n = 11	124.142	52.672	130.397	54.958	True	1	G:FigureS5:S5_reconciliation[AURORA US/Linear deconvolution].n	True
+FigureS5	FigS5/c/GSE41258/LD-Z/n	n = 16	n = 16	124.876	63.22	131.289	65.506	True	1	G:FigureS5:S5_reconciliation[GSE41258/Linear deconvolution].n	True
+FigureS5	FigS5/c/GSE14018/LD-Z/n	n = 4	n = 4	123.116	67.806	128.259	70.092	True	1	G:FigureS5:S5_reconciliation[GSE14018/Linear deconvolution].n	True
+FigureS5	FigS5/c/GSE71729/LD-Z/n	n = 1	n = 1	122.676	72.392	127.819	74.678	True	1	G:FigureS5:S5_reconciliation[GSE71729/Linear deconvolution].n	True
+FigureS5	FigS5/c/GSE74685/LD-Z/n	n = 0	n = 0	122.529	76.978	127.673	79.264	True	1	G:FigureS5:S5_reconciliation[GSE74685/Linear deconvolution].n	True
+FigureS5	FigS5/c/FHCRC/LD-Z/n	n = 0	n = 0	122.529	81.564	127.673	83.85	True	1	G:FigureS5:S5_reconciliation[FHCRC/Linear deconvolution].n	True
+FigureS6	FigS6/IMvigor210/n_at_risk	IMvigor210 (82)	IMvigor210 (82)	4.0	19.678	21.209	21.964	True	1	G:FigureS6:S6_meta[IMvigor210].n_at_risk	True
+FigureS6	FigS6/IMvigor210/interval	−0.012 [−0.066 to 0.041]	−0.012 [−0.066 to 0.041]	120.0	19.678	146.924	21.964	True	3	G:FigureS6:S6_meta[IMvigor210].difference G:FigureS6:S6_meta[IMvigor210].ci_low G:FigureS6:S6_meta[IMvigor210].ci_high	True
+FigureS6	FigS6/Anders/n_at_risk	Anders (17)	Anders (17)	4.0	25.19	16.891	27.476	True	1	G:FigureS6:S6_meta[Anders].n_at_risk	True
+FigureS6	FigS6/Anders/interval	−0.059 [−0.219 to 0.102]	−0.059 [−0.219 to 0.102]	120.0	25.19	146.924	27.476	True	3	G:FigureS6:S6_meta[Anders].difference G:FigureS6:S6_meta[Anders].ci_low G:FigureS6:S6_meta[Anders].ci_high	True
+FigureS6	FigS6/DFCI/n_at_risk	DFCI (35)	DFCI (35)	4.0	30.703	14.795	32.989	True	1	G:FigureS6:S6_meta[DFCI].n_at_risk	True
+FigureS6	FigS6/DFCI/interval	−0.143 [−0.272 to −0.014]	−0.143 [−0.272 to −0.014]	120.0	30.703	148.353	32.989	True	3	G:FigureS6:S6_meta[DFCI].difference G:FigureS6:S6_meta[DFCI].ci_low G:FigureS6:S6_meta[DFCI].ci_high	True
+FigureS6	FigS6/PRINCE/n_at_risk	PRINCE (56)	PRINCE (56)	4.0	36.216	18.288	38.502	True	1	G:FigureS6:S6_meta[PRINCE].n_at_risk	True
+FigureS6	FigS6/PRINCE/interval	−0.661 [−0.790 to −0.532]	−0.661 [−0.790 to −0.532]	120.0	36.216	148.353	38.502	True	3	G:FigureS6:S6_meta[PRINCE].difference G:FigureS6:S6_meta[PRINCE].ci_low G:FigureS6:S6_meta[PRINCE].ci_high	True
+FigureS6	FigS6/GSE50760/n_at_risk	GSE50760 (18)	GSE50760 (18)	4.0	41.729	21.113	44.015	True	1	G:FigureS6:S6_meta[GSE50760].n_at_risk	True
+FigureS6	FigS6/GSE50760/interval	−0.333 [−0.577 to −0.090]	−0.333 [−0.577 to −0.090]	120.0	41.729	148.353	44.015	True	3	G:FigureS6:S6_meta[GSE50760].difference G:FigureS6:S6_meta[GSE50760].ci_low G:FigureS6:S6_meta[GSE50760].ci_high	True
+FigureS6	FigS6/AURORA US/n_at_risk	AURORA US (64)	AURORA US (64)	4.0	47.242	23.653	49.528	True	1	G:FigureS6:S6_meta[AURORA US].n_at_risk	True
+FigureS6	FigS6/AURORA US/interval	−0.094 [−0.171 to −0.016]	−0.094 [−0.171 to −0.016]	120.0	47.242	148.353	49.528	True	3	G:FigureS6:S6_meta[AURORA US].difference G:FigureS6:S6_meta[AURORA US].ci_low G:FigureS6:S6_meta[AURORA US].ci_high	True
+FigureS6	FigS6/SU2C/PCF/n_at_risk	SU2C/PCF (219)	SU2C/PCF (219)	4.0	52.754	22.606	55.04	True	1	G:FigureS6:S6_meta[SU2C/PCF].n_at_risk	True
+FigureS6	FigS6/SU2C/PCF/interval	−0.059 [−0.092 to −0.027]	−0.059 [−0.092 to −0.027]	120.0	52.754	148.353	55.04	True	3	G:FigureS6:S6_meta[SU2C/PCF].difference G:FigureS6:S6_meta[SU2C/PCF].ci_low G:FigureS6:S6_meta[SU2C/PCF].ci_high	True
+FigureS6	FigS6/RNA-seq/pooled/interval	−0.181 [−0.301 to −0.061]	−0.181 [−0.301 to −0.061]	120.0	58.267	148.765	60.553	True	3	G:FigureS6:S6_meta[RNA-seq/pooled].difference G:FigureS6:S6_meta[RNA-seq/pooled].ci_low G:FigureS6:S6_meta[RNA-seq/pooled].ci_high	True
+FigureS6	FigS6/RNA-seq/pooled/I2	93.4	93.4	162.206	58.267	167.0	60.553	True	1	G:FigureS6:S6_meta[RNA-seq/pooled].I2_percent	True
+FigureS6	FigS6/GSE41258/n_at_risk	GSE41258 (58)	GSE41258 (58)	4.0	72.049	21.113	74.335	True	1	G:FigureS6:S6_meta[GSE41258].n_at_risk	True
+FigureS6	FigS6/GSE41258/interval	−0.207 [−0.331 to −0.083]	−0.207 [−0.331 to −0.083]	120.0	72.049	148.353	74.335	True	3	G:FigureS6:S6_meta[GSE41258].difference G:FigureS6:S6_meta[GSE41258].ci_low G:FigureS6:S6_meta[GSE41258].ci_high	True
+FigureS6	FigS6/GSE14018/n_at_risk	GSE14018 (36)	GSE14018 (36)	4.0	77.562	21.113	79.848	True	1	G:FigureS6:S6_meta[GSE14018].n_at_risk	True
+FigureS6	FigS6/GSE14018/interval	0.028 [−0.116 to 0.172]	0.028 [−0.116 to 0.172]	120.0	77.562	145.305	79.848	True	3	G:FigureS6:S6_meta[GSE14018].difference G:FigureS6:S6_meta[GSE14018].ci_low G:FigureS6:S6_meta[GSE14018].ci_high	True
+FigureS6	FigS6/GSE71729/n_at_risk	GSE71729 (56)	GSE71729 (56)	4.0	83.075	21.113	85.361	True	1	G:FigureS6:S6_meta[GSE71729].n_at_risk	True
+FigureS6	FigS6/GSE71729/interval	−0.375 [−0.507 to −0.243]	−0.375 [−0.507 to −0.243]	120.0	83.075	148.353	85.361	True	3	G:FigureS6:S6_meta[GSE71729].difference G:FigureS6:S6_meta[GSE71729].ci_low G:FigureS6:S6_meta[GSE71729].ci_high	True
+FigureS6	FigS6/GSE74685/n_at_risk	GSE74685 (57)	GSE74685 (57)	4.0	88.588	21.113	90.874	True	1	G:FigureS6:S6_meta[GSE74685].n_at_risk	True
+FigureS6	FigS6/GSE74685/interval	−0.018 [−0.066 to 0.031]	−0.018 [−0.066 to 0.031]	120.0	88.588	146.924	90.874	True	3	G:FigureS6:S6_meta[GSE74685].difference G:FigureS6:S6_meta[GSE74685].ci_low G:FigureS6:S6_meta[GSE74685].ci_high	True
+FigureS6	FigS6/Microarray/pooled/interval	−0.140 [−0.311 to 0.031]	−0.140 [−0.311 to 0.031]	120.0	94.101	147.21	96.387	True	3	G:FigureS6:S6_meta[Microarray/pooled].difference G:FigureS6:S6_meta[Microarray/pooled].ci_low G:FigureS6:S6_meta[Microarray/pooled].ci_high	True
+FigureS6	FigS6/Microarray/pooled/I2	90.5	90.5	162.206	94.101	167.0	96.387	True	1	G:FigureS6:S6_meta[Microarray/pooled].I2_percent	True

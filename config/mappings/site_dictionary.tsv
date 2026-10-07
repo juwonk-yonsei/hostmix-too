@@ -1,0 +1,72 @@
+source	raw_value	standard_site
+met500_biopsy_tissue	liver	liver
+met500_biopsy_tissue	lymph_node	lymph_node
+met500_biopsy_tissue	soft_tissue	soft_tissue
+met500_biopsy_tissue	lung	lung
+met500_biopsy_tissue	bone_marrow	bone_marrow
+met500_biopsy_tissue	skin	skin
+met500_biopsy_tissue	brain	brain
+met500_biopsy_tissue	oral	head_neck
+met500_biopsy_tissue	bladder	bladder
+met500_biopsy_tissue	breast	breast
+met500_biopsy_tissue	thyroid	thyroid
+met500_biopsy_tissue	adrenal	adrenal
+met500_biopsy_tissue	colon	colon_rectum
+met500_biopsy_tissue	cervix	cervix
+met500_biopsy_tissue	prostate	prostate
+met500_biopsy_tissue	pancreas	pancreas
+pog570_biopsy_site	Liver	liver
+pog570_biopsy_site	Liver 	liver
+pog570_biopsy_site	Lung	lung
+pog570_biopsy_site	lung	lung
+pog570_biopsy_site	Bronchus	lung
+pog570_biopsy_site	Trachea	lung
+pog570_biopsy_site	Lymph Node	lymph_node
+pog570_biopsy_site	Brain	brain
+pog570_biopsy_site	Intracranial tumor	brain
+pog570_biopsy_site	Pleura	pleura
+pog570_biopsy_site	Omentum	omentum
+pog570_biopsy_site	Omental Mass	omentum
+pog570_biopsy_site	Peritoneum	peritoneum
+pog570_biopsy_site	Peritoneal Mass	peritoneum
+pog570_biopsy_site	Peritoneal Fluid	peritoneum
+pog570_biopsy_site	Skin	skin
+pog570_biopsy_site	Scalp	skin
+pog570_biopsy_site	Breast	breast
+pog570_biopsy_site	Colon	colon_rectum
+pog570_biopsy_site	Rectum	colon_rectum
+pog570_biopsy_site	Ovary	ovary
+pog570_biopsy_site	Pancreas	pancreas
+pog570_biopsy_site	Pancreatic Mass	pancreas
+pog570_biopsy_site	Stomach	stomach
+pog570_biopsy_site	Esophagus	esophagus
+pog570_biopsy_site	Cervix	cervix
+pog570_biopsy_site	Adrenal	adrenal
+pog570_biopsy_site	Bone Marrow	bone_marrow
+pog570_biopsy_site	Spine	bone
+pog570_biopsy_site	Rib	bone
+pog570_biopsy_site	Sacrum 	bone
+pog570_biopsy_site	Sternum	bone
+pog570_biopsy_site	Sternal	bone
+pog570_biopsy_site	Scapula Mass	bone
+pog570_biopsy_site	Oral Cavity	head_neck
+pog570_biopsy_site	Tongue	head_neck
+pog570_biopsy_site	Submandibular Gland	head_neck
+pog570_biopsy_site	Sinus	head_neck
+pog570_biopsy_site	Intranasal	head_neck
+pog570_biopsy_site	Maxilla	head_neck
+pog570_biopsy_site	Masticular Space 	head_neck
+pog570_biopsy_site	Chest wall	soft_tissue
+pog570_biopsy_site	Abdominal Wall	soft_tissue
+pog570_biopsy_site	Rectus Muscle	soft_tissue
+pog570_biopsy_site	Psoas Muscle	soft_tissue
+pog570_biopsy_site	Gluteus medius	soft_tissue
+pog570_biopsy_site	Arm	soft_tissue
+pog570_biopsy_site	Leg	soft_tissue
+pog570_biopsy_site	Calf	soft_tissue
+pog570_biopsy_site	Thigh Mass	soft_tissue
+pog570_biopsy_site	Buttock	soft_tissue
+pog570_biopsy_site	Flank Mass	soft_tissue
+pog570_biopsy_site	Upper Back Mass	soft_tissue
+pog570_biopsy_site	Lower Back	soft_tissue
+pog570_biopsy_site	Rectroperitoneum	soft_tissue

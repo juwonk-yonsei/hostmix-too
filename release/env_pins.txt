@@ -1,0 +1,21 @@
+# Pinned interpreters used for this project.
+# Recorded 2026-10-02. CUDA_VISIBLE_DEVICES was empty. No OMP/OPENBLAS/MKL/NUMEXPR/NUMBA caps.
+
+project .venv
+python: project .venv (see `proj_A_host_too/.venv`)
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.4.2
+matplotlib==3.8.4
+
+CUP-AI-Dx environment: results/stage7/external_tools/cup_env
+python==3.8.20
+tensorflow==2.10.1
+
+SCOPE environment: results/stage7/external_tools/scope_env
+python==3.8.20
+pandas==1.3.5
+tensorflow==2.10.1
+
+He 2023 environment exists at results/stage7/external_tools/he_env and was not used to score cohorts.

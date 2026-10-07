@@ -1,0 +1,9 @@
+id: AF2_Power
+doc: af2
+sheet: Power
+header_row: 2
+builder: power_git
+params:
+  source: results/stage6/power.tsv
+  record: config/prereg_A6.md
+origin: results; commit and time of the commit that added config/prereg_A6.md (git)

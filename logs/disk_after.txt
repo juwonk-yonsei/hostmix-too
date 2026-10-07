@@ -1,0 +1,2 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdf1       7.3T  6.1T  830G  89% /HDD8T3

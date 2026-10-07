@@ -1,0 +1,42 @@
+id: T2
+doc: main
+caption: "Table 2."
+header: ["Hypothesis", "Analysis set (n)", "Reference model", "Tested model", "Difference, tested − reference (95% CI)", "Decision rule", "Result"]
+key_cols: [0]
+row_id: "{h}"
+maps:
+  0:
+    "re:^H1 ": {h: H1, ref: pog_base_host, tst: pog_sa_host, lo: H1_ci_low, hi: H1_ci_high, res: H1_p}
+    "re:^H2 ": {h: H2, ref: pog_base_top1, tst: pog_sa_top1, lo: H2_ci_low, hi: H2_ci_high, res: H2_p}
+    "re:^H3 ": {h: H3, ref: pog_base_native, tst: pog_sa_native, lo: H3_ci_low, hi: H3_ci_high, res: H3_bound}
+    "re:^AH1 ": {h: AH1, ref: ext_aux_rnaseq_base_host, tst: ext_aux_rnaseq_sa_host, lo: AH1_low, hi: AH1_high, res: AH1_p}
+    "re:^AH2 ": {h: AH2, ref: ext_aux_rnaseq_base_top1, tst: ext_aux_rnaseq_sa_top1, lo: AH2_low, hi: AH2_high, res: AH2_p}
+    "re:^AH3 ": {h: AH3, ref: ext_aux_rnaseq_base_native, tst: ext_aux_rnaseq_sa_native, lo: AH3_low, hi: AH3_high, res: AH3_bound}
+    "re:^AS1 ": {h: AS1, ref: ext_aux_rnaseq_sa_native, tst: aux_gated_native, lo: AS1_low, hi: AS1_high, res: AS1_p}
+    "re:^AS2 ": {h: AS2, ref: aux_sa_pooloutrisk_host, tst: aux_pool22_pooloutrisk_host, lo: AS2_low, hi: AS2_high, res: AS2_p}
+    "re:^AS3 ": {h: AS3, ref: ext_aux_rnaseq_sa_top1, tst: aux_gated_top1, lo: AS3_low, hi: AS3_high, res: AS3_p}
+columns:
+  0:
+    id: hypothesis
+    t: "{*}"
+    rows:
+      H3: {t: "{*} {m}", f: {m: {const: ni_margin}}}
+      AH3: {t: "{*} {m}", f: {m: {const: ni_margin}}}
+  1: {id: set, t: "{*} ({n})", f: {n: {fact: "{h}_n"}}}
+  2: {id: reference, t: "{*} {v}", f: {v: {fact: "{ref}"}}}
+  3: {id: tested, t: "{*} {v}", f: {v: {fact: "{tst}"}}}
+  4: {id: difference, t: "{d} ({lo} to {hi})", f: {d: {fact: "{h}_diff"}, lo: {fact: "{lo}"}, hi: {fact: "{hi}"}}}
+  5:
+    id: rule
+    t: "{*}"
+    rows:
+      H1: {t: "{*}α = {a}", f: {a: {const: alpha}}}
+      H3: {t: "One-sided 95% lower bound > {b}; judged only if H2 met", f: {b: {const: ni_bound}}}
+      AS1: {t: "{*}α = {a}", f: {a: {const: alpha}}}
+  6:
+    id: result
+    t: "{*}p = {p}"
+    f: {p: {fact: "{res}"}}
+    rows:
+      H3: {t: "{*}bound {p}"}
+      AH3: {t: "{*}bound {p}"}

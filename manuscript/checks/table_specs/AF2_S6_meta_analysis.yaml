@@ -1,0 +1,9 @@
+id: AF2_S6_meta_analysis
+doc: af2
+sheet: S6_meta_analysis
+header_row: 2
+builder: s6_meta
+origin: results and figure_source (ci_low, ci_high of cohort rows)
+params:
+  meta: results/stage7/confirm/tables/meta_analysis.tsv
+  drawn: manuscript/bmc/figure_source/S6_meta.tsv

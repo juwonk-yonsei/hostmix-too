@@ -1,0 +1,28 @@
+{
+  "MET500": {
+    "BASE_Z": {
+      "n": 437,
+      "top1_matches": 437,
+      "max_abs_proba": 7.051309877104117e-07
+    },
+    "SA_Z": {
+      "n": 437,
+      "top1_matches": 437,
+      "max_abs_proba": 1.4452391673414056e-06
+    }
+  },
+  "brca_anders": {
+    "n_features": 31,
+    "z_max_abs": 0.00041174888610839844,
+    "BASE_Z": {
+      "n": 31,
+      "top1_matches": 31,
+      "max_abs_proba": 8.570561500498286e-07
+    },
+    "SA_Z": {
+      "n": 31,
+      "top1_matches": 31,
+      "max_abs_proba": 6.3282433397371385e-06
+    }
+  }
+}

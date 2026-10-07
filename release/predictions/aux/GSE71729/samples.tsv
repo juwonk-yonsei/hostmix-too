@@ -1,0 +1,358 @@
+sample_id	patient_id	raw_site	standard_site	organ	organ_rule	library	lcm	patient_note	in_eval	in_native	in_risk
+GSM1843893	GSM1843893	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843894	GSM1843894	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843895	GSM1843895	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843896	GSM1843896	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843897	GSM1843897	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843898	GSM1843898	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843899	GSM1843899	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843900	GSM1843900	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843901	GSM1843901	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843902	GSM1843902	Diaphragm_Metastasis	other	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	False
+GSM1843903	GSM1843903	Fat_Metastasis	soft_tissue	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843904	GSM1843904	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843905	GSM1843905	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843906	GSM1843906	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843907	GSM1843907	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843908	GSM1843908	Colon_Metastasis	colon_rectum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843909	GSM1843909	Peritoneal_Metastasis	peritoneum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843910	GSM1843910	AbWall_Metastasis	soft_tissue	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843911	GSM1843911	AbWall_Metastasis	soft_tissue	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843912	GSM1843912	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843913	GSM1843913	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843914	GSM1843914	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843915	GSM1843915	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843916	GSM1843916	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843917	GSM1843917	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843918	GSM1843918	Peritoneal_Metastasis	peritoneum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843919	GSM1843919	Fat_Metastasis	soft_tissue	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843920	GSM1843920	Colon_Metastasis	colon_rectum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843921	GSM1843921	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843922	GSM1843922	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843923	GSM1843923	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843924	GSM1843924	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843925	GSM1843925	Duo_Metastasis	other	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	False
+GSM1843926	GSM1843926	Peritoneal_Metastasis	peritoneum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843927	GSM1843927	Peritoneal_Metastasis	peritoneum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843928	GSM1843928	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843929	GSM1843929	Diaphragm_Metastasis	other	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	False
+GSM1843930	GSM1843930	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843931	GSM1843931	Diaphragm_Metastasis	other	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	False
+GSM1843932	GSM1843932	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843933	GSM1843933	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843934	GSM1843934	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843935	GSM1843935	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843936	GSM1843936	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843937	GSM1843937	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843938	GSM1843938	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843939	GSM1843939	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843940	GSM1843940	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843941	GSM1843941	Lung_Metastasis	lung	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843942	GSM1843942	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843943	GSM1843943	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843944	GSM1843944	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843945	GSM1843945	LymphNode_Metastasis	lymph_node	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843946	GSM1843946	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843947	GSM1843947	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843948	GSM1843948	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843949	GSM1843949	AbWall_Metastasis	soft_tissue	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843950	GSM1843950	Peritoneal_Metastasis	peritoneum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843951	GSM1843951	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843952	GSM1843952	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843953	GSM1843953	Duo_Metastasis	other	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	False
+GSM1843954	GSM1843954	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843955	GSM1843955	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843956	GSM1843956	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843957	GSM1843957	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843958	GSM1843958	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843959	GSM1843959	Liver_Metastasis	liver	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843960	GSM1843960	Peritoneal_Metastasis	peritoneum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843961	GSM1843961	Peritoneal_Metastasis	peritoneum	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	False	True
+GSM1843962	GSM1843962	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843963	GSM1843963	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843964	GSM1843964	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843965	GSM1843965	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843966	GSM1843966	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843967	GSM1843967	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843968	GSM1843968	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843969	GSM1843969	Fat_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843970	GSM1843970	Fat_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843971	GSM1843971	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843972	GSM1843972	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843973	GSM1843973	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843974	GSM1843974	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843975	GSM1843975	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843976	GSM1843976	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843977	GSM1843977	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843978	GSM1843978	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843979	GSM1843979	Peritoneal_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843980	GSM1843980	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843981	GSM1843981	Peritoneal_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843982	GSM1843982	PelvicWall_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843983	GSM1843983	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843984	GSM1843984	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843985	GSM1843985	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843986	GSM1843986	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843987	GSM1843987	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843988	GSM1843988	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843989	GSM1843989	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843990	GSM1843990	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843991	GSM1843991	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843992	GSM1843992	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843993	GSM1843993	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843994	GSM1843994	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843995	GSM1843995	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843996	GSM1843996	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843997	GSM1843997	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843998	GSM1843998	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1843999	GSM1843999	Fat_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844000	GSM1844000	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844001	GSM1844001	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844002	GSM1844002	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844003	GSM1844003	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844004	GSM1844004	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844005	GSM1844005	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844006	GSM1844006	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844007	GSM1844007	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844008	GSM1844008	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844009	GSM1844009	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844010	GSM1844010	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844011	GSM1844011	Vessel_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844012	GSM1844012	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844013	GSM1844013	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844014	GSM1844014	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844015	GSM1844015	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844016	GSM1844016	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844017	GSM1844017	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844018	GSM1844018	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844019	GSM1844019	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844020	GSM1844020	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844021	GSM1844021	Fat_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844022	GSM1844022	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844023	GSM1844023	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844024	GSM1844024	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844025	GSM1844025	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844026	GSM1844026	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844027	GSM1844027	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844028	GSM1844028	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844029	GSM1844029	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844030	GSM1844030	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844031	GSM1844031	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844032	GSM1844032	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844033	GSM1844033	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844034	GSM1844034	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844035	GSM1844035	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844036	GSM1844036	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844037	GSM1844037	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844038	GSM1844038	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844039	GSM1844039	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844040	GSM1844040	Fat_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844041	GSM1844041	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844042	GSM1844042	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844043	GSM1844043	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844044	GSM1844044	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844045	GSM1844045	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844046	GSM1844046	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844047	GSM1844047	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844049	GSM1844049	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844050	GSM1844050	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844051	GSM1844051	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844052	GSM1844052	Diaphragm_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844053	GSM1844053	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844054	GSM1844054	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844055	GSM1844055	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844056	GSM1844056	Fat_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844057	GSM1844057	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844058	GSM1844058	LymphNode_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844059	GSM1844059	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844060	GSM1844060	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844061	GSM1844061	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844062	GSM1844062	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844063	GSM1844063	Peritoneal_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844064	GSM1844064	Spleen_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844065	GSM1844065	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844066	GSM1844066	Lung_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844067	GSM1844067	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844068	GSM1844068	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844069	GSM1844069	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844070	GSM1844070	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844071	GSM1844071	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844072	GSM1844072	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844073	GSM1844073	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844074	GSM1844074	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844075	GSM1844075	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844076	GSM1844076	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844077	GSM1844077	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844078	GSM1844078	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844079	GSM1844079	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844080	GSM1844080	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844081	GSM1844081	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844082	GSM1844082	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844083	GSM1844083	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844084	GSM1844084	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844085	GSM1844085	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844086	GSM1844086	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844088	GSM1844088	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844089	GSM1844089	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844090	GSM1844090	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844091	GSM1844091	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844092	GSM1844092	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844093	GSM1844093	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844094	GSM1844094	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844095	GSM1844095	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844096	GSM1844096	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844097	GSM1844097	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844098	GSM1844098	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844099	GSM1844099	Pancreas_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844100	GSM1844100	Liver_Normal		exclude	8	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844101	GSM1844101	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844102	GSM1844102	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844103	GSM1844103	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844104	GSM1844104	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844105	GSM1844105	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844106	GSM1844106	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844107	GSM1844107	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844108	GSM1844108	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844109	GSM1844109	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844110	GSM1844110	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844111	GSM1844111	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844112	GSM1844112	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844113	GSM1844113	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844114	GSM1844114	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844115	GSM1844115	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844116	GSM1844116	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844117	GSM1844117	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844118	GSM1844118	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844119	GSM1844119	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844120	GSM1844120	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844121	GSM1844121	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844122	GSM1844122	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844123	GSM1844123	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844124	GSM1844124	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844125	GSM1844125	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844126	GSM1844126	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844127	GSM1844127	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844128	GSM1844128	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844129	GSM1844129	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844130	GSM1844130	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844131	GSM1844131	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844132	GSM1844132	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844133	GSM1844133	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844134	GSM1844134	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844135	GSM1844135	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844136	GSM1844136	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844137	GSM1844137	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844138	GSM1844138	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844139	GSM1844139	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844140	GSM1844140	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844141	GSM1844141	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844142	GSM1844142	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844143	GSM1844143	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844144	GSM1844144	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844145	GSM1844145	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844146	GSM1844146	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844147	GSM1844147	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844148	GSM1844148	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844149	GSM1844149	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844150	GSM1844150	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844151	GSM1844151	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844152	GSM1844152	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844153	GSM1844153	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844154	GSM1844154	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844155	GSM1844155	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844156	GSM1844156	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844157	GSM1844157	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844158	GSM1844158	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844159	GSM1844159	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844160	GSM1844160	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844161	GSM1844161	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844162	GSM1844162	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844163	GSM1844163	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844164	GSM1844164	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844165	GSM1844165	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844166	GSM1844166	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844167	GSM1844167	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844168	GSM1844168	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844169	GSM1844169	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844170	GSM1844170	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844171	GSM1844171	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844172	GSM1844172	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844173	GSM1844173	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844174	GSM1844174	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844175	GSM1844175	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844176	GSM1844176	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844177	GSM1844177	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844178	GSM1844178	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844179	GSM1844179	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844180	GSM1844180	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844181	GSM1844181	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844182	GSM1844182	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844183	GSM1844183	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844184	GSM1844184	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844185	GSM1844185	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844186	GSM1844186	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844187	GSM1844187	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844188	GSM1844188	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844189	GSM1844189	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844190	GSM1844190	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844191	GSM1844191	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844192	GSM1844192	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844193	GSM1844193	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844194	GSM1844194	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844195	GSM1844195	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844196	GSM1844196	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844197	GSM1844197	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844198	GSM1844198	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844199	GSM1844199	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844200	GSM1844200	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844201	GSM1844201	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844202	GSM1844202	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844203	GSM1844203	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844204	GSM1844204	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844205	GSM1844205	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844206	GSM1844206	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844207	GSM1844207	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844208	GSM1844208	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844209	GSM1844209	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844210	GSM1844210	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844211	GSM1844211	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844212	GSM1844212	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844213	GSM1844213	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844214	GSM1844214	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844215	GSM1844215	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844216	GSM1844216	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844217	GSM1844217	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844218	GSM1844218	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844219	GSM1844219	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844220	GSM1844220	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844221	GSM1844221	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844222	GSM1844222	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844223	GSM1844223	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844224	GSM1844224	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844225	GSM1844225	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844226	GSM1844226	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844227	GSM1844227	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844228	GSM1844228	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844229	GSM1844229	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844230	GSM1844230	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844231	GSM1844231	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844232	GSM1844232	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844233	GSM1844233	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844234	GSM1844234	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844235	GSM1844235	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844236	GSM1844236	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844237	GSM1844237	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844238	GSM1844238	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844239	GSM1844239	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844240	GSM1844240	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844241	GSM1844241	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844242	GSM1844242	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844243	GSM1844243	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844244	GSM1844244	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844245	GSM1844245	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844246	GSM1844246	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844247	GSM1844247	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844248	GSM1844248	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844249	GSM1844249	Pancreas_Primary	pancreas	Pancreas	cohort	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	True	True	False
+GSM1844250	GSM1844250	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False
+GSM1844251	GSM1844251	CellLine		exclude	2	GPL20769 CH2I_MEAN	False	no patient field in the series header; patient_id is the GSM	False	False	False

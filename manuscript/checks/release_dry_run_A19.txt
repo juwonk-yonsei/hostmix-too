@@ -1,0 +1,20 @@
+dry-run only; the package is not rewritten
+would include release/models/BASE_Z.joblib
+would include release/models/BASE_Z.npz
+would include release/models/BASE_Z.json
+would include release/models/SA_Z.joblib
+would include release/models/SA_Z.npz
+would include release/models/SA_Z.json
+would include release/models/MIX_Z0_posthoc.joblib
+would include release/models/MIX_Z0_posthoc.npz
+would include release/models/MIX_Z0_posthoc.json
+would include release/models/G_symbols.txt
+would include release/models/MODEL_CARD.md
+would set README and MODEL_CARD URL to https://example.invalid/dry-run
+would set README and MODEL_CARD DOI to 10.0000/dry-run
+the git history is not public: release/history.bundle stays out of the public snapshot
+would rewrite release/SHA256SUMS (scripts/87_public_snapshot_A19.py sums)
+would build the public snapshot (scripts/87_public_snapshot_A19.py build)
+no POG570-named file under release/
+sample-level POG570 predictions are not in release/predictions
+dry-run finished; nothing was written

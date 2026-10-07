@@ -1,0 +1,150 @@
+sample_id	patient_id	raw_site	standard_site	organ	organ_rule	ne_group	library	lcm	in_eval	in_native	in_risk
+GSM1616614	00-010	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616615	00-010	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616616	00-029	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616617	00-090	LUNG	lung	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616618	00-140	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616619	00-140	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616620	01-002	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616621	01-095	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616622	01-095	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616623	01-120	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616624	01-120	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616625	01-181	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616626	02-083	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616627	02-142	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616628	03-027	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616629	03-082	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616630	03-130	RETROPERITONEAL	other	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	False
+GSM1616631	03-139	RETROPERITONEAL	other	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	False
+GSM1616632	03-163	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616633	04-050	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616634	04-112	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616635	04-149	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616636	05-011	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616637	05-011	LUNG	lung	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616638	05-092	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616639	05-092	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616640	05-116	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616641	05-187	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616642	05-187	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616643	05-214	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616644	05-214	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616645	05-217	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616646	05-217	LUNG	lung	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616647	06-047	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616648	06-131	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616649	06-134	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616650	07-044	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616651	07-050	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616652	07-050	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616653	08-006	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616654	08-006	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616655	08-020	BONE	bone	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616656	08-020	KIDNEY	kidney	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616657	98-328	APPENDIX	other	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	False
+GSM1616658	98-328	PERITONEUM	peritoneum	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616659	98-362	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616660	98-362	LUNG	lung	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616661	98-372	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616662	99-064	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616663	99-091	LIVER	liver	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616664	99-091	LN	lymph_node	Prostate	cohort	CHGA negative group	GPL15659 gProcessedSignal	False	True	False	True
+GSM1616665	00-140	BONE	bone	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616666	05-116	LUNG	lung	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616667	05-148	LIVER	liver	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616668	05-165	LUNG	lung	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616669	05-165	LN	lymph_node	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616670	06-047	LN	lymph_node	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616671	06-081	LIVER	liver	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616672	06-081	LN	lymph_node	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616673	07-062	LUNG	lung	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616674	08-037	LIVER	liver	exclude	1	CHGA positive/ SYP negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616675	03-192	LIVER	liver	exclude	1	CHGA positive/ SYP positive/ AR negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616676	03-192	LN	lymph_node	exclude	1	CHGA positive/ SYP positive/ AR negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616677	05-144	LIVER	liver	exclude	1	CHGA positive/ SYP positive/ AR negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616678	05-144	BONE	bone	exclude	1	CHGA positive/ SYP positive/ AR negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616679	05-144	BONE	bone	exclude	1	CHGA positive/ SYP positive/ AR negative group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616680	01-087	BONE	bone	exclude	1	CHGA positive/ SYP positive/ AR positive group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616681	01-087	BONE	bone	exclude	1	CHGA positive/ SYP positive/ AR positive group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616682	04-101	LN	lymph_node	exclude	1	CHGA positive/ SYP positive/ AR positive group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616683	05-221	BONE	bone	exclude	1	CHGA positive/ SYP positive/ AR positive group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1616684	07-042	LN	lymph_node	exclude	1	CHGA positive/ SYP positive/ AR positive group	GPL15659 gProcessedSignal	False	False	False	False
+GSM1918978	00-029	LN	lymph_node	Prostate	cohort	NA	GPL15659 gProcessedSignal	False	True	False	True
+GSM1918979	07-042	BONE	bone	Prostate	cohort	NA	GPL15659 gProcessedSignal	False	True	False	True
+GSM1918980	99-069	PERITONEUM	peritoneum	Prostate	cohort	NA	GPL15659 gProcessedSignal	False	True	False	True
+GSM1930063	00-010	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930065	00-029	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930066	00-029	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930068	00-090	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930069	00-140	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930071	00-140	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930072	02-065	SKIN	skin	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930074	02-065	SCROTUM	other	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	False
+GSM1930075	02-083	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930076	03-027	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930077	03-081	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930078	03-082	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930079	03-082	BONE	bone	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930080	03-130	LIVER	liver	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930081	03-139	RETROPERITONEAL	other	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	False
+GSM1930082	03-192	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930083	03-192	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930084	03-192	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930086	04-050	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930089	04-050	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930090	04-050	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930091	04-050	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930093	04-101	PERITONEAL	peritoneum	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930094	04-101	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930095	04-101	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930096	04-112	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930097	04-112	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930101	05-092	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930102	05-092	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930104	05-123	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930105	05-144	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930106	05-144	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930107	05-144	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930108	05-144	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930109	05-144	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930111	05-144	ADRENAL	adrenal	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930112	05-144	ADRENAL	adrenal	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930113	05-144	SPLEEN	other	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	False
+GSM1930114	05-144	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930115	05-165	ADRENAL	adrenal	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930117	05-214	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930118	05-217	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930119	05-217	BONE	bone	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930121	06-081	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930122	06-081	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930123	06-081	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930124	06-081	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930125	06-127	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930127	08-020	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930128	08-093	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930129	09-006	RENAL	kidney	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930130	10-013	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930131	10-013	RETROPERITONEAL	other	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	False
+GSM1930132	10-013	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930133	10-039	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930134	11-028	ADRENAL	adrenal	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930135	11-028	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930136	12-005	LIVER	liver	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930137	12-005	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930139	12-011	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930141	12-021	LIVER	liver	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930142	97-159	LIVER	liver	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930143	97-201	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930146	97-201	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930147	97-201	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930148	97-201	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930149	98-328	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930150	98-328	LIVER	liver	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930152	99-064	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930153	99-069	LUNG	lung	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930155	99-090	LIVER	liver	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930156	99-091	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930157	99-091	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930158	99-091	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True
+GSM1930159	99-091	LN	lymph_node	Prostate	cohort		GPL15659 gProcessedSignal	False	True	False	True

@@ -1,0 +1,18 @@
+id: AF2_Fig5_ablation
+doc: af2
+sheet: Fig5_ablation
+header_row: 2
+builder: copy
+params:
+  source: manuscript/bmc/figure_source/Fig5_ablation.tsv
+  columns:
+  - panel
+  - cohort
+  - display
+  - method
+  - label
+  - metric
+  - value
+  - n
+  - source
+origin: figure_source

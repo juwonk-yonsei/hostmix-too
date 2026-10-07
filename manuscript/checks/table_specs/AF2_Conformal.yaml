@@ -1,0 +1,8 @@
+id: AF2_Conformal
+doc: af2
+sheet: Conformal
+header_row: 2
+builder: copy
+params:
+  source: results/stage4/confirm/conformal.tsv
+origin: results

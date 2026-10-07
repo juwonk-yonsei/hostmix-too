@@ -1,0 +1,4 @@
+# Release path config. This file has no n_threads key.
+project_root: /home/kangjw/WORK/Cisplatin/2026_NewProj/proj_A_host_too
+figure_dir: release/smoke_out
+disk_mount: /HDD8T3

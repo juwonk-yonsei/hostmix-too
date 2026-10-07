@@ -1,0 +1,276 @@
+id: S4
+doc: af1
+caption: Table S4.
+header:
+- Classifier
+- Top-1
+- Top-1 interval
+- Host-attraction rate
+- Host-rate interval
+- Native-truth top-1
+- Candidate rank
+key_cols:
+- 0
+row_id: '{mid}'
+maps:
+  0:
+    Baseline:
+      m: BASE
+      r: Z
+      mid: BASE-Z
+    Native-organ masking:
+      m: M1
+      r: Z
+      mid: M1-Z
+    Normal classes:
+      m: NC
+      r: Z
+      mid: NC-Z
+    Linear deconvolution:
+      m: LD
+      r: Z
+      mid: LD-Z
+    HostMix-TOO:
+      m: SA
+      r: Z
+      mid: SA-Z
+    Gene removal 20%:
+      m: IF20
+      r: Z
+      mid: IF20-Z
+    Site-specific mixtures:
+      m: SC
+      r: Z
+      mid: SC-Z
+    Site-specific + removal 20%:
+      m: SC+IF20
+      r: Z
+      mid: SC+IF20-Z
+    Site-specific + removal 40%:
+      m: SC+IF40
+      r: Z
+      mid: SC+IF40-Z
+    Gene sets:
+      m: BASE
+      r: K
+      mid: BASE-K
+    Gene-set form of Native-organ masking:
+      m: M1
+      r: K
+      mid: M1-K
+    Gene sets + host correction:
+      m: V0
+      r: K
+      mid: V0-K
+    Gene-set form of normal classes:
+      m: NC
+      r: K
+      mid: NC-K
+    Gene-set form of Linear deconvolution:
+      m: LD
+      r: K
+      mid: LD-K
+    Gene sets + mixtures:
+      m: SA
+      r: K
+      mid: SA-K
+    Gene-set form of Gene removal 20%:
+      m: IF20
+      r: K
+      mid: IF20-K
+    Gene-set form of Site-specific mixtures:
+      m: SC
+      r: K
+      mid: SC-K
+    Gene-set form of Site-specific + removal 20%:
+      m: SC+IF20
+      r: K
+      mid: SC+IF20-K
+    Gene-set form of Site-specific + removal 40%:
+      m: SC+IF40
+      r: K
+      mid: SC+IF40-K
+columns:
+  0:
+    id: classifier
+    t: '{*}'
+    rows:
+      IF20-Z:
+        t: Gene removal {q}%
+        f:
+          q:
+            const: if_q20
+      SC+IF20-Z:
+        t: Site-specific + removal {q}%
+        f:
+          q:
+            const: if_q20
+      SC+IF40-Z:
+        t: Site-specific + removal {q}%
+        f:
+          q:
+            const: if_q40
+      IF20-K:
+        t: Gene-set form of Gene removal {q}%
+        f:
+          q:
+            const: if_q20
+      SC+IF20-K:
+        t: Gene-set form of Site-specific + removal {q}%
+        f:
+          q:
+            const: if_q20
+      SC+IF40-K:
+        t: Gene-set form of Site-specific + removal {q}%
+        f:
+          q:
+            const: if_q40
+  1:
+    id: top1
+    t: '{v}'
+    f:
+      v:
+        src: results/stage2/met500_overall.tsv
+        sel: method == '{m}' and representation == '{r}'
+        col: top1
+        dec: 3
+  2:
+    id: top1_ci
+    t: '{lo} to {hi}'
+    f:
+      lo:
+        src: results/stage2/met500_overall.tsv
+        sel: method == '{m}' and representation == '{r}'
+        col: top1_ci[0]
+        dec: 3
+      hi:
+        src: results/stage2/met500_overall.tsv
+        sel: method == '{m}' and representation == '{r}'
+        col: top1_ci[1]
+        dec: 3
+  3:
+    id: host
+    t: '{v}'
+    f:
+      v:
+        src: results/stage2/met500_overall.tsv
+        sel: method == '{m}' and representation == '{r}'
+        col: host_rate
+        dec: 3
+  4:
+    id: host_ci
+    t: '{lo} to {hi}'
+    f:
+      lo:
+        src: results/stage2/met500_overall.tsv
+        sel: method == '{m}' and representation == '{r}'
+        col: host_rate_ci[0]
+        dec: 3
+      hi:
+        src: results/stage2/met500_overall.tsv
+        sel: method == '{m}' and representation == '{r}'
+        col: host_rate_ci[1]
+        dec: 3
+  5:
+    id: native
+    t: '{v}'
+    f:
+      v:
+        src: results/stage2/met500_overall.tsv
+        sel: method == '{m}' and representation == '{r}'
+        col: native_truth_top1
+        dec: 3
+  6:
+    id: rank
+    t: '{*}'
+    rows:
+      SA-Z:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      IF20-Z:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      SC-Z:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      SC+IF20-Z:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      SC+IF40-Z:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      SA-K:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      IF20-K:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      SC-K:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      SC+IF20-K:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)
+      SC+IF40-K:
+        t: '{v}'
+        f:
+          v:
+            src: results/stage2/candidate_rank.tsv
+            sel: method_id == '{mid}'
+            col: __row__
+            dec: 0
+            meaning: candidate rank (row order of the ranking file)

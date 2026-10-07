@@ -1,0 +1,27 @@
+standard_site	gtex_tissues	native_projects	native_organs
+liver	Liver	LIHC|CHOL	Liver|Biliary
+lung	Lung	LUAD|LUSC|MESO	Lung|Mesothelioma
+lymph_node		DLBC	Lymphoid
+bone_marrow		LAML|DLBC	Myeloid|Lymphoid
+bone		LAML|DLBC	Myeloid|Lymphoid
+brain	Brain - Cortex	GBM|LGG	Brain
+adrenal	Adrenal Gland	ACC|PCPG	Adrenal
+skin	Skin - Not Sun Exposed (Suprapubic)	SKCM	Melanoma
+subcutaneous	Skin - Not Sun Exposed (Suprapubic)	SKCM	Melanoma
+soft_tissue	Adipose - Subcutaneous|Muscle - Skeletal	SARC	Sarcoma
+kidney	Kidney - Cortex	KIRC|KIRP|KICH	Kidney
+pancreas	Pancreas	PAAD	Pancreas
+peritoneum	Adipose - Visceral (Omentum)	MESO	Mesothelioma
+omentum	Adipose - Visceral (Omentum)	MESO	Mesothelioma
+pleura		MESO	Mesothelioma
+bladder	Bladder	BLCA	Bladder
+thyroid	Thyroid	THCA	Thyroid
+ovary	Ovary	OV	Ovary
+breast	Breast - Mammary Tissue	BRCA	Breast
+stomach	Stomach	STAD	Stomach
+colon_rectum	Colon - Transverse	COADREAD	Colorectal
+prostate	Prostate	PRAD	Prostate
+esophagus	Esophagus - Mucosa	ESCA	Esophagus
+head_neck	Minor Salivary Gland	HNSC	HeadNeck
+cervix	Cervix - Ectocervix	CESC	Cervix
+other			

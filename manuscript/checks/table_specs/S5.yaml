@@ -1,0 +1,168 @@
+id: S5
+doc: af1
+caption: Table S5.
+header:
+- Variant
+- TCGA-test top-1
+- In-pool host rate at rho 0.6
+- Pool-out host rate at rho 0.6
+- MET500 top-1
+- MET500 host rate
+- POG570 top-1
+- POG570 host rate
+- POG570 native-truth top-1
+key_cols:
+- 0
+row_id: '{m}'
+maps:
+  0:
+    Baseline:
+      m: BASE-Z
+    HostMix-TOO:
+      m: SA-Z
+    Standardized, pure tumors:
+      m: SA-m0
+    One mixture per tumor:
+      m: SA-m1
+    Eight mixtures per tumor:
+      m: SA-m8
+    Mixture lower bound 0.3:
+      m: SA-r30
+    Mixture lower bound 0.5:
+      m: SA-r50
+    Mixtures, C = 0.01:
+      m: SA-C0.01
+    Mixtures, C = 0.1:
+      m: SA-C0.1
+    3-tissue model:
+      m: SA-pool3
+    22-tissue model:
+      m: SA-pool22
+    Perceptron:
+      m: BASE-MLP
+    Perceptron + mixtures:
+      m: SA-MLP
+header_cells:
+  2:
+    id: h_in
+    t: In-pool host rate at rho {v}
+    f:
+      v:
+        const: rho_display
+  3:
+    id: h_out
+    t: Pool-out host rate at rho {v}
+    f:
+      v:
+        const: rho_display
+columns:
+  0:
+    id: variant
+    note: "keys: the row label 'Eight mixtures per tumor' is the variant name; the Table S5 rows are named by their setting"
+    t: '{*}'
+    rows:
+      SA-r30:
+        t: Mixture lower bound {v}
+        f:
+          v:
+            const: rho_low_r30
+      SA-r50:
+        t: Mixture lower bound {v}
+        f:
+          v:
+            const: rho_low_r50
+      SA-C0.01:
+        t: Mixtures, C = {v}
+        f:
+          v:
+            src: results/stage5/variants/train_log.tsv
+            sel: model == 'SA-C0.01'
+            col: C
+            dec: 2
+      SA-C0.1:
+        t: Mixtures, C = {v}
+        f:
+          v:
+            src: results/stage5/variants/train_log.tsv
+            sel: model == 'SA-C0.1'
+            col: C
+            dec: 1
+      SA-m8:
+        t: '{v_w} mixtures per tumor'
+        f:
+          v_w:
+            fact: var_m8_nmix
+  1:
+    id: tcga_top1
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/tcga_test/variant_overall.tsv
+        sel: method == '{m}'
+        col: top1
+        dec: 3
+  2:
+    id: in_pool
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/sim_ext/full.tsv
+        sel: method == '{m}' and rho == 0.6 and tissue in @POOL
+        col: ''
+        dec: 3
+        tf: mean:host_rate
+  3:
+    id: pool_out
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/sim_ext/full.tsv
+        sel: method == '{m}' and rho == 0.6 and tissue in @OUT
+        col: ''
+        dec: 3
+        tf: mean:host_rate
+  4:
+    id: met_top1
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/posthoc/met500_overall.tsv
+        sel: method == '{m}'
+        col: top1
+        dec: 3
+  5:
+    id: met_host
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/posthoc/met500_overall.tsv
+        sel: method == '{m}'
+        col: host_rate
+        dec: 3
+  6:
+    id: pog_top1
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/posthoc/pog_overall.tsv
+        sel: method == '{m}'
+        col: top1
+        dec: 3
+  7:
+    id: pog_host
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/posthoc/pog_overall.tsv
+        sel: method == '{m}'
+        col: host_rate
+        dec: 3
+  8:
+    id: pog_native
+    t: '{v}'
+    f:
+      v:
+        src: results/stage5/posthoc/pog_overall.tsv
+        sel: method == '{m}'
+        col: native_truth_top1
+        dec: 3
